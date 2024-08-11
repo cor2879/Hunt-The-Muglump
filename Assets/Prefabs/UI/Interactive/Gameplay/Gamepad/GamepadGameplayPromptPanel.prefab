@@ -1,0 +1,310 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7877470991968551975
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8800332224468179, guid: cf9df461217e7754e9f8ad18c5269212, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1700225143, guid: 0b560054537f62a41be0521b4101d801,
+        type: 3}
+    - target: {fileID: 169208631953314631, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 243780518170029105, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_ControlPath
+      value: <XInputController>/buttonNorth
+      objectReference: {fileID: 0}
+    - target: {fileID: 347413976701883379, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -537078055, guid: 0b560054537f62a41be0521b4101d801,
+        type: 3}
+    - target: {fileID: 585292464226333572, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 2121957197, guid: 0b560054537f62a41be0521b4101d801,
+        type: 3}
+    - target: {fileID: 615196296603266168, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1997435174305372032, guid: 0b560054537f62a41be0521b4101d801,
+        type: 3}
+    - target: {fileID: 868382707698163293, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_ControlPath
+      value: <XInputController>/leftShoulder
+      objectReference: {fileID: 0}
+    - target: {fileID: 1157120714746003839, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_ControlPath
+      value: <XInputController>/buttonSouth
+      objectReference: {fileID: 0}
+    - target: {fileID: 1840509795333473717, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -956323480, guid: 0b560054537f62a41be0521b4101d801,
+        type: 3}
+    - target: {fileID: 2434734724999017648, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_Name
+      value: GamepadGameplayPromptPanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 2434734724999017649, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2434734724999017649, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2434734724999017649, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2434734724999017649, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2434734724999017649, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2434734724999017649, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2434734724999017649, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2434734724999017649, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 2434734724999017649, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 450
+      objectReference: {fileID: 0}
+    - target: {fileID: 2434734724999017649, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2434734724999017649, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2434734724999017649, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2434734724999017649, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2434734724999017649, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2434734724999017649, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2434734724999017649, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2434734724999017649, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 2434734724999017649, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -225
+      objectReference: {fileID: 0}
+    - target: {fileID: 2434734724999017649, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2434734724999017649, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2434734724999017649, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2472663500126626299, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_ControlPath
+      value: <XInputController>/start
+      objectReference: {fileID: 0}
+    - target: {fileID: 2753966960169941206, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 2984196150479487581, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_ControlPath
+      value: <XInputController>/select
+      objectReference: {fileID: 0}
+    - target: {fileID: 3030910890902757563, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1941245952, guid: 88b4516e648a5ab448b516455d9ac7a1,
+        type: 3}
+    - target: {fileID: 3236886878484600334, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -7435262547399931736, guid: 0b560054537f62a41be0521b4101d801,
+        type: 3}
+    - target: {fileID: 3950184796992589704, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 3959185526608059800, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_ControlPath
+      value: <XInputController>/buttonWest
+      objectReference: {fileID: 0}
+    - target: {fileID: 3983868426322442957, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -396489192, guid: 88b4516e648a5ab448b516455d9ac7a1,
+        type: 3}
+    - target: {fileID: 4302730672005609828, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 865022792, guid: 38916444169449849aaffb8d35b389a0,
+        type: 3}
+    - target: {fileID: 4339653080758605790, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_ControlPath
+      value: <Gamepad>/leftShoulder
+      objectReference: {fileID: 0}
+    - target: {fileID: 4776551251483185030, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_ControlPath
+      value: <Gamepad>/rightStickPress
+      objectReference: {fileID: 0}
+    - target: {fileID: 5143460268890095110, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1336723419, guid: 88b4516e648a5ab448b516455d9ac7a1,
+        type: 3}
+    - target: {fileID: 5560492667528388364, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_ControlPath
+      value: <XInputController>/buttonWest
+      objectReference: {fileID: 0}
+    - target: {fileID: 5857515984293028384, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_ControlPath
+      value: <XInputController>/rightShoulder
+      objectReference: {fileID: 0}
+    - target: {fileID: 6243990648989529594, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 4261071938878104207, guid: 0b560054537f62a41be0521b4101d801,
+        type: 3}
+    - target: {fileID: 6287041964467662817, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -357141752, guid: 38916444169449849aaffb8d35b389a0,
+        type: 3}
+    - target: {fileID: 6947294551499402913, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 8025588539935745382, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1951838376, guid: 88b4516e648a5ab448b516455d9ac7a1,
+        type: 3}
+    - target: {fileID: 8528318539620511387, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_ControlPath
+      value: <XInputController>/buttonEast
+      objectReference: {fileID: 0}
+    - target: {fileID: 8553989104194469763, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_ControlPath
+      value: <XInputController>/buttonNorth
+      objectReference: {fileID: 0}
+    - target: {fileID: 8554302734220585626, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 8713250396670070696, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 8918097543179539572, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_ControlPath
+      value: <Gamepad>/rightShoulder
+      objectReference: {fileID: 0}
+    - target: {fileID: 8963929746722477477, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1735417954, guid: 0b560054537f62a41be0521b4101d801,
+        type: 3}
+    - target: {fileID: 9154477741538795599, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_ControlPath
+      value: <XInputController>/select
+      objectReference: {fileID: 0}
+    - target: {fileID: 9178851647231659232, guid: cf9df461217e7754e9f8ad18c5269212,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1462202393, guid: 0b560054537f62a41be0521b4101d801,
+        type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cf9df461217e7754e9f8ad18c5269212, type: 3}

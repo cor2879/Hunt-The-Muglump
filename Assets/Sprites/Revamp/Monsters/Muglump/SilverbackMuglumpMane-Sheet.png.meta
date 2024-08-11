@@ -1,0 +1,1220 @@
+fileFormatVersion: 2
+guid: 52c44e887d336e44a81a8963a3824148
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SilverbackMuglumpMane-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: 15}
+        - {x: -14, y: 10}
+        - {x: -8, y: 4}
+        - {x: -13, y: -2}
+        - {x: -14, y: -12}
+        - {x: -9, y: -15}
+        - {x: 11, y: -15}
+        - {x: 14, y: -11}
+        - {x: 13, y: 9}
+        - {x: 10, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc469936f50d9824ca892353f34a015e
+      internalID: 202832883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverbackMuglumpMane-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: 15}
+        - {x: -14, y: 10}
+        - {x: -8, y: 4}
+        - {x: -13, y: -2}
+        - {x: -14, y: -12}
+        - {x: -9, y: -15}
+        - {x: 11, y: -15}
+        - {x: 14, y: -11}
+        - {x: 13, y: 9}
+        - {x: 10, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d5d35a269ed384b8cab6496a831640
+      internalID: 138747018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverbackMuglumpMane-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: 15}
+        - {x: -14, y: 10}
+        - {x: -8, y: 4}
+        - {x: -13, y: -2}
+        - {x: -14, y: -12}
+        - {x: -9, y: -15}
+        - {x: 11, y: -15}
+        - {x: 14, y: -11}
+        - {x: 13, y: 9}
+        - {x: 10, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba3bb38cc679a2341bbe50c9e3f2d2e7
+      internalID: 1344185696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverbackMuglumpMane-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: 15}
+        - {x: -14, y: 10}
+        - {x: -8, y: 4}
+        - {x: -13, y: -2}
+        - {x: -14, y: -12}
+        - {x: -9, y: -15}
+        - {x: 11, y: -15}
+        - {x: 14, y: -11}
+        - {x: 13, y: 9}
+        - {x: 10, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c322da17479cfbf4eacb2a3f489065e4
+      internalID: 839823290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverbackMuglumpMane-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: 15}
+        - {x: -14, y: 10}
+        - {x: -8, y: 4}
+        - {x: -13, y: -2}
+        - {x: -14, y: -12}
+        - {x: -9, y: -15}
+        - {x: 11, y: -15}
+        - {x: 14, y: -11}
+        - {x: 13, y: 9}
+        - {x: 10, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa80e693b7f7c0408858c0cee46a5c7
+      internalID: -25012961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverbackMuglumpMane-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: 15}
+        - {x: -14, y: 10}
+        - {x: -8, y: 4}
+        - {x: -13, y: -2}
+        - {x: -14, y: -12}
+        - {x: -9, y: -15}
+        - {x: 11, y: -15}
+        - {x: 14, y: -11}
+        - {x: 13, y: 9}
+        - {x: 10, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fffab4a1780528f46bdf8a6d4e2d71b9
+      internalID: 1553673294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverbackMuglumpMane-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: 15}
+        - {x: -14, y: 10}
+        - {x: -8, y: 4}
+        - {x: -13, y: -2}
+        - {x: -14, y: -12}
+        - {x: -9, y: -15}
+        - {x: 11, y: -15}
+        - {x: 14, y: -11}
+        - {x: 13, y: 9}
+        - {x: 10, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb9220201d9a6b446873065d047b5505
+      internalID: -1261175600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverbackMuglumpMane-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: 15}
+        - {x: -14, y: 10}
+        - {x: -8, y: 4}
+        - {x: -13, y: -2}
+        - {x: -14, y: -12}
+        - {x: -9, y: -15}
+        - {x: 11, y: -15}
+        - {x: 14, y: -11}
+        - {x: 13, y: 9}
+        - {x: 10, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fecec4b7e67d73e4b8172ffca776c7cc
+      internalID: -537187968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverbackMuglumpMane-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: 15}
+        - {x: -14, y: 10}
+        - {x: -8, y: 4}
+        - {x: -13, y: -2}
+        - {x: -14, y: -12}
+        - {x: -9, y: -15}
+        - {x: 11, y: -15}
+        - {x: 14, y: -11}
+        - {x: 13, y: 9}
+        - {x: 10, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 207d9b054bb2f344e8301308dd6eacff
+      internalID: -375236699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverbackMuglumpMane-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: 15}
+        - {x: -14, y: 10}
+        - {x: -8, y: 4}
+        - {x: -13, y: -2}
+        - {x: -14, y: -12}
+        - {x: -9, y: -15}
+        - {x: 11, y: -15}
+        - {x: 14, y: -11}
+        - {x: 13, y: 9}
+        - {x: 10, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e74352d52fa6c4fb37b260017ad1b5
+      internalID: -950035878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverbackMuglumpMane-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: 15}
+        - {x: -14, y: 10}
+        - {x: -8, y: 4}
+        - {x: -13, y: -2}
+        - {x: -14, y: -12}
+        - {x: -9, y: -15}
+        - {x: 11, y: -15}
+        - {x: 14, y: -11}
+        - {x: 13, y: 9}
+        - {x: 10, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a56839fb2181134f9c7b1c3d8a11b94
+      internalID: 1293303056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverbackMuglumpMane-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: 15}
+        - {x: -14, y: 10}
+        - {x: -8, y: 4}
+        - {x: -13, y: -2}
+        - {x: -14, y: -12}
+        - {x: -9, y: -15}
+        - {x: 11, y: -15}
+        - {x: 14, y: -11}
+        - {x: 13, y: 9}
+        - {x: 10, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c068c6340f4c446ba44f4b2052c172
+      internalID: 1885212489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverbackMuglumpMane-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: 15}
+        - {x: -14, y: 10}
+        - {x: -8, y: 4}
+        - {x: -13, y: -2}
+        - {x: -14, y: -12}
+        - {x: -9, y: -15}
+        - {x: 11, y: -15}
+        - {x: 14, y: -11}
+        - {x: 13, y: 9}
+        - {x: 10, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610b7455ac309654492b6f5ad4942536
+      internalID: -2091618723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverbackMuglumpMane-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: 15}
+        - {x: -14, y: 10}
+        - {x: -8, y: 4}
+        - {x: -13, y: -2}
+        - {x: -14, y: -12}
+        - {x: -9, y: -15}
+        - {x: 11, y: -15}
+        - {x: 14, y: -11}
+        - {x: 13, y: 9}
+        - {x: 10, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72da0e70052252c4fb54b74b179f7a40
+      internalID: -1392064095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverbackMuglumpMane-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: 15}
+        - {x: -14, y: 10}
+        - {x: -8, y: 4}
+        - {x: -7, y: -1}
+        - {x: -8, y: -11}
+        - {x: -6, y: -15}
+        - {x: 6, y: -15}
+        - {x: 9, y: -10}
+        - {x: 7, y: 6}
+        - {x: 3, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1294d772dc87bb44933e75bf7a2006e
+      internalID: 1459028838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverbackMuglumpMane-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: 15}
+        - {x: -14, y: 10}
+        - {x: -8, y: 4}
+        - {x: -7, y: -1}
+        - {x: -8, y: -11}
+        - {x: -6, y: -15}
+        - {x: 6, y: -15}
+        - {x: 9, y: -10}
+        - {x: 7, y: 6}
+        - {x: 3, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71e7ae72570204a4597be779c162fb5a
+      internalID: -200376533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverbackMuglumpMane-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: 15}
+        - {x: -14, y: 10}
+        - {x: -8, y: 4}
+        - {x: -7, y: -1}
+        - {x: -8, y: -11}
+        - {x: -6, y: -15}
+        - {x: 6, y: -15}
+        - {x: 9, y: -10}
+        - {x: 7, y: 6}
+        - {x: 3, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb619b866d790354880d781f5c131157
+      internalID: -2090981424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverbackMuglumpMane-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: 15}
+        - {x: -14, y: 10}
+        - {x: -8, y: 4}
+        - {x: -7, y: -1}
+        - {x: -8, y: -11}
+        - {x: -6, y: -15}
+        - {x: 6, y: -15}
+        - {x: 9, y: -10}
+        - {x: 7, y: 6}
+        - {x: 3, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3907b2a1ab6c69148b71aa4a8776e2c2
+      internalID: -1919422363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverbackMuglumpMane-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: 15}
+        - {x: -6, y: 9}
+        - {x: -8, y: 4}
+        - {x: -7, y: -1}
+        - {x: -8, y: -11}
+        - {x: -6, y: -15}
+        - {x: 6, y: -15}
+        - {x: 9, y: -10}
+        - {x: 6, y: 2}
+        - {x: 13, y: 7}
+        - {x: 11, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ebfa2b0fa40af4fb503c84e74c5fef
+      internalID: 1185167802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverbackMuglumpMane-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 15}
+        - {x: -7, y: 8}
+        - {x: -5, y: 0}
+        - {x: -8, y: -9}
+        - {x: -7, y: -15}
+        - {x: 5, y: -15}
+        - {x: 8, y: -2}
+        - {x: 13, y: 9}
+        - {x: 10, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171420df157928049b130f45e5d1ebd3
+      internalID: 1027977695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverbackMuglumpMane-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 15}
+        - {x: -7, y: 8}
+        - {x: -5, y: 0}
+        - {x: -8, y: -9}
+        - {x: -7, y: -15}
+        - {x: 5, y: -15}
+        - {x: 8, y: -2}
+        - {x: 13, y: 9}
+        - {x: 10, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce24dcc0d0c22e047a2686812c7ae4d1
+      internalID: -1096003184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverbackMuglumpMane-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 15}
+        - {x: -7, y: 8}
+        - {x: -5, y: 0}
+        - {x: -8, y: -9}
+        - {x: -7, y: -15}
+        - {x: 5, y: -15}
+        - {x: 8, y: -2}
+        - {x: 13, y: 9}
+        - {x: 10, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a7c06e666dcbd4bbf52de8033f2ece
+      internalID: 1650489329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverbackMuglumpMane-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: 15}
+        - {x: -14, y: 10}
+        - {x: -8, y: 4}
+        - {x: -13, y: -2}
+        - {x: -14, y: -12}
+        - {x: -9, y: -15}
+        - {x: 11, y: -15}
+        - {x: 14, y: -11}
+        - {x: 13, y: 9}
+        - {x: 10, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941f65fc45176d244ad9ed6e206d4dec
+      internalID: -1713844809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverbackMuglumpMane-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: 15}
+        - {x: -14, y: 10}
+        - {x: -8, y: 4}
+        - {x: -13, y: -2}
+        - {x: -14, y: -12}
+        - {x: -9, y: -15}
+        - {x: 11, y: -15}
+        - {x: 14, y: -11}
+        - {x: 13, y: 9}
+        - {x: 10, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 744d88f2ac837564f8cb53183f1de2bd
+      internalID: -119290471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverbackMuglumpMane-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: 15}
+        - {x: -14, y: 10}
+        - {x: -8, y: 4}
+        - {x: -13, y: -2}
+        - {x: -14, y: -12}
+        - {x: -9, y: -15}
+        - {x: 11, y: -15}
+        - {x: 14, y: -11}
+        - {x: 13, y: 9}
+        - {x: 10, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a3e7b3ed2f52142a184ba4baeba149
+      internalID: 1132851999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverbackMuglumpMane-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: 15}
+        - {x: -14, y: 10}
+        - {x: -8, y: 4}
+        - {x: -13, y: -2}
+        - {x: -14, y: -12}
+        - {x: -9, y: -15}
+        - {x: 11, y: -15}
+        - {x: 14, y: -11}
+        - {x: 13, y: 9}
+        - {x: 10, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f436e84c5854ba48b7b633305d61e06
+      internalID: -1776356278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverbackMuglumpMane-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: 15}
+        - {x: -14, y: 10}
+        - {x: -8, y: 4}
+        - {x: -13, y: -2}
+        - {x: -14, y: -12}
+        - {x: -9, y: -15}
+        - {x: 11, y: -15}
+        - {x: 14, y: -11}
+        - {x: 13, y: 9}
+        - {x: 10, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56918fcb781b7124a86ba9a523d61078
+      internalID: -1361999322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverbackMuglumpMane-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: 15}
+        - {x: -14, y: 10}
+        - {x: -8, y: 4}
+        - {x: -10, y: -2}
+        - {x: -7, y: -11}
+        - {x: 8, y: -10}
+        - {x: 13, y: 9}
+        - {x: 10, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae4c0b387578014993f5e074804d8c3
+      internalID: 1888089894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverbackMuglumpMane-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: 15}
+        - {x: -14, y: 10}
+        - {x: -8, y: 4}
+        - {x: -10, y: -2}
+        - {x: -5, y: -6}
+        - {x: 7, y: -8}
+        - {x: 13, y: 9}
+        - {x: 10, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d8720de21e477c4c85723529710b3f9
+      internalID: 984905712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverbackMuglumpMane-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: 15}
+        - {x: -14, y: 10}
+        - {x: -8, y: 4}
+        - {x: -7, y: -1}
+        - {x: 9, y: 0}
+        - {x: 13, y: 9}
+        - {x: 10, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7912cb915fef8d49981ef7e9d007433
+      internalID: -1727356833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverbackMuglumpMane-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b93f83556bf994dadd1bf9dd31c3fc
+      internalID: 389876913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverbackMuglumpMane-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467e2df6e96c3dc41ba8422a8697d784
+      internalID: -320591617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverbackMuglumpMane-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de194fce81d8a746ae7b2e596bf2881
+      internalID: 787477236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverbackMuglumpMane-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb726f75e6d47714c9352b8a787dc0e6
+      internalID: 996058409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverbackMuglumpMane-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1210b66304fa0ae4585ece508dd2731f
+      internalID: 1298613188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SilverbackMuglumpMane-Sheet_0: 202832883
+      SilverbackMuglumpMane-Sheet_1: 138747018
+      SilverbackMuglumpMane-Sheet_10: 1293303056
+      SilverbackMuglumpMane-Sheet_11: 1885212489
+      SilverbackMuglumpMane-Sheet_12: -2091618723
+      SilverbackMuglumpMane-Sheet_13: -1392064095
+      SilverbackMuglumpMane-Sheet_14: 1459028838
+      SilverbackMuglumpMane-Sheet_15: -200376533
+      SilverbackMuglumpMane-Sheet_16: -2090981424
+      SilverbackMuglumpMane-Sheet_17: -1919422363
+      SilverbackMuglumpMane-Sheet_18: 1185167802
+      SilverbackMuglumpMane-Sheet_19: 1027977695
+      SilverbackMuglumpMane-Sheet_2: 1344185696
+      SilverbackMuglumpMane-Sheet_20: -1096003184
+      SilverbackMuglumpMane-Sheet_21: 1650489329
+      SilverbackMuglumpMane-Sheet_22: -1713844809
+      SilverbackMuglumpMane-Sheet_23: -119290471
+      SilverbackMuglumpMane-Sheet_24: 1132851999
+      SilverbackMuglumpMane-Sheet_25: -1776356278
+      SilverbackMuglumpMane-Sheet_26: -1361999322
+      SilverbackMuglumpMane-Sheet_27: 1888089894
+      SilverbackMuglumpMane-Sheet_28: 984905712
+      SilverbackMuglumpMane-Sheet_29: -1727356833
+      SilverbackMuglumpMane-Sheet_3: 839823290
+      SilverbackMuglumpMane-Sheet_30: 389876913
+      SilverbackMuglumpMane-Sheet_31: -320591617
+      SilverbackMuglumpMane-Sheet_32: 787477236
+      SilverbackMuglumpMane-Sheet_33: 996058409
+      SilverbackMuglumpMane-Sheet_34: 1298613188
+      SilverbackMuglumpMane-Sheet_4: -25012961
+      SilverbackMuglumpMane-Sheet_5: 1553673294
+      SilverbackMuglumpMane-Sheet_6: -1261175600
+      SilverbackMuglumpMane-Sheet_7: -537187968
+      SilverbackMuglumpMane-Sheet_8: -375236699
+      SilverbackMuglumpMane-Sheet_9: -950035878
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

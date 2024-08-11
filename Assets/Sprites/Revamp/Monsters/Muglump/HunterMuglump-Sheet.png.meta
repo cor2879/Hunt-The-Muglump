@@ -1,0 +1,1224 @@
+fileFormatVersion: 2
+guid: 6b8f16001de496b43ad479e44d3aae48
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HunterMuglump-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -13, y: 0}
+        - {x: -14, y: -11}
+        - {x: -11, y: -15}
+        - {x: 10, y: -15}
+        - {x: 15, y: -12}
+        - {x: 14, y: -2}
+        - {x: 11, y: 1}
+        - {x: 6, y: 3}
+        - {x: 6, y: 9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f64be7eecd4f98a43a2fb57f9121c077
+      internalID: -1172858487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HunterMuglump-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -13, y: 0}
+        - {x: -14, y: -11}
+        - {x: -11, y: -15}
+        - {x: 10, y: -15}
+        - {x: 15, y: -12}
+        - {x: 14, y: -2}
+        - {x: 11, y: 1}
+        - {x: 6, y: 3}
+        - {x: 6, y: 9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7445449c418f2346989b9f1347c571c
+      internalID: -1134635102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HunterMuglump-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -13, y: 0}
+        - {x: -14, y: -11}
+        - {x: -11, y: -15}
+        - {x: 10, y: -15}
+        - {x: 15, y: -12}
+        - {x: 14, y: -2}
+        - {x: 11, y: 1}
+        - {x: 6, y: 3}
+        - {x: 6, y: 9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5460c40ea03a3854b94a57304991a3ed
+      internalID: 507943184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HunterMuglump-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -13, y: 0}
+        - {x: -14, y: -11}
+        - {x: -11, y: -15}
+        - {x: 10, y: -15}
+        - {x: 15, y: -12}
+        - {x: 14, y: -2}
+        - {x: 11, y: 1}
+        - {x: 6, y: 3}
+        - {x: 6, y: 9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9223903a3992a145a6d5329d1f979c4
+      internalID: -921306462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HunterMuglump-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -13, y: 0}
+        - {x: -14, y: -11}
+        - {x: -11, y: -15}
+        - {x: 10, y: -15}
+        - {x: 15, y: -12}
+        - {x: 14, y: -2}
+        - {x: 11, y: 1}
+        - {x: 6, y: 3}
+        - {x: 6, y: 9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b2474bb116a0c419322e77f9ea477f
+      internalID: 1877585521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HunterMuglump-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -13, y: 0}
+        - {x: -14, y: -11}
+        - {x: -11, y: -15}
+        - {x: 10, y: -15}
+        - {x: 15, y: -12}
+        - {x: 14, y: -2}
+        - {x: 11, y: 1}
+        - {x: 6, y: 3}
+        - {x: 6, y: 9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a356fcc4f4ad1c849acf7387b927b2c4
+      internalID: -545847445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HunterMuglump-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -13, y: 0}
+        - {x: -14, y: -11}
+        - {x: -11, y: -15}
+        - {x: 10, y: -15}
+        - {x: 15, y: -12}
+        - {x: 14, y: -2}
+        - {x: 11, y: 1}
+        - {x: 6, y: 3}
+        - {x: 6, y: 9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05b643d3af5f2346b0f529ce8a02d9d
+      internalID: 694895440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HunterMuglump-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -13, y: 0}
+        - {x: -14, y: -11}
+        - {x: -11, y: -15}
+        - {x: 10, y: -15}
+        - {x: 15, y: -12}
+        - {x: 14, y: -2}
+        - {x: 11, y: 1}
+        - {x: 6, y: 3}
+        - {x: 6, y: 9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8955ff6f8c84464bb60c90f15b9c83f
+      internalID: 1240997773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HunterMuglump-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -13, y: 0}
+        - {x: -14, y: -11}
+        - {x: -11, y: -15}
+        - {x: 10, y: -15}
+        - {x: 15, y: -12}
+        - {x: 14, y: -2}
+        - {x: 11, y: 1}
+        - {x: 6, y: 3}
+        - {x: 6, y: 9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 361c8a8d868a85246b923af393d723e5
+      internalID: -854290264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HunterMuglump-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -13, y: 0}
+        - {x: -14, y: -11}
+        - {x: -11, y: -15}
+        - {x: 10, y: -15}
+        - {x: 15, y: -12}
+        - {x: 14, y: -2}
+        - {x: 11, y: 1}
+        - {x: 6, y: 3}
+        - {x: 6, y: 9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: de062c4c97d17254fbffa13c0b818c2b
+      internalID: -1793305997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HunterMuglump-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -13, y: 0}
+        - {x: -14, y: -11}
+        - {x: -11, y: -15}
+        - {x: 10, y: -15}
+        - {x: 15, y: -12}
+        - {x: 14, y: -2}
+        - {x: 11, y: 1}
+        - {x: 6, y: 3}
+        - {x: 6, y: 9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88f4d61ece8d974d85386f3b0820f07
+      internalID: -1950064821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HunterMuglump-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -13, y: 0}
+        - {x: -14, y: -11}
+        - {x: -11, y: -15}
+        - {x: 10, y: -15}
+        - {x: 15, y: -12}
+        - {x: 14, y: -2}
+        - {x: 11, y: 1}
+        - {x: 6, y: 3}
+        - {x: 6, y: 9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d59ff0a5fb04174889e017db76c3e18
+      internalID: 1142382318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HunterMuglump-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -13, y: 0}
+        - {x: -14, y: -11}
+        - {x: -11, y: -15}
+        - {x: 10, y: -15}
+        - {x: 15, y: -12}
+        - {x: 14, y: -2}
+        - {x: 11, y: 1}
+        - {x: 6, y: 3}
+        - {x: 6, y: 9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4359d0b903409214a96e1c79e01f010a
+      internalID: -2014511224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HunterMuglump-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -13, y: 0}
+        - {x: -14, y: -11}
+        - {x: -11, y: -15}
+        - {x: 10, y: -15}
+        - {x: 15, y: -12}
+        - {x: 14, y: -2}
+        - {x: 11, y: 1}
+        - {x: 6, y: 3}
+        - {x: 6, y: 9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f96b14a851e8f4f45b7c218bd7ab41a1
+      internalID: 546453186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HunterMuglump-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -6, y: 8}
+        - {x: -7, y: -3}
+        - {x: -6, y: -14}
+        - {x: 0, y: -15}
+        - {x: 8, y: -14}
+        - {x: 6, y: 3}
+        - {x: 6, y: 9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2164e1fdf399b8f45b771300ece1fcf6
+      internalID: -968666022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HunterMuglump-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -6, y: 8}
+        - {x: -7, y: -3}
+        - {x: -6, y: -14}
+        - {x: 0, y: -15}
+        - {x: 8, y: -14}
+        - {x: 6, y: 3}
+        - {x: 6, y: 9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16960be05ebc8894eb34ef8776ed742f
+      internalID: -1963992007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HunterMuglump-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -6, y: 8}
+        - {x: -7, y: -3}
+        - {x: -6, y: -14}
+        - {x: 0, y: -15}
+        - {x: 8, y: -16}
+        - {x: 6, y: 3}
+        - {x: 6, y: 9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a004f467838e6940bf9460797038283
+      internalID: 2050982069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HunterMuglump-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -6, y: 8}
+        - {x: -9, y: -3}
+        - {x: -9, y: -12}
+        - {x: 0, y: -15}
+        - {x: 8, y: -14}
+        - {x: 6, y: 3}
+        - {x: 6, y: 9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c799abc0ea8da6d4cb210c4f1096dc39
+      internalID: -543711985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HunterMuglump-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -6, y: 8}
+        - {x: -7, y: -3}
+        - {x: -6, y: -14}
+        - {x: 0, y: -15}
+        - {x: 8, y: -14}
+        - {x: 6, y: 3}
+        - {x: 6, y: 9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991d85be48e9e264aa4b9601750c17bc
+      internalID: 574522732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HunterMuglump-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -6, y: 8}
+        - {x: -7, y: -3}
+        - {x: -6, y: -14}
+        - {x: 0, y: -15}
+        - {x: 8, y: -14}
+        - {x: 6, y: 3}
+        - {x: 6, y: 9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35479c6a53e9ebe4da050f13f3be5f09
+      internalID: 1000599412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HunterMuglump-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -6, y: 8}
+        - {x: -7, y: -3}
+        - {x: -8, y: -15}
+        - {x: 0, y: -15}
+        - {x: 5, y: -12}
+        - {x: 6, y: 3}
+        - {x: 6, y: 9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f60ebf2ba52a2844914178c390306e9
+      internalID: 1307387817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HunterMuglump-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -6, y: 8}
+        - {x: -7, y: -3}
+        - {x: -6, y: -14}
+        - {x: 0, y: -15}
+        - {x: 8, y: -14}
+        - {x: 6, y: 3}
+        - {x: 6, y: 9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e1d11e60e94424f931e3d45f9e0bf4
+      internalID: -1852852433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HunterMuglump-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -13, y: 0}
+        - {x: -14, y: -11}
+        - {x: -11, y: -15}
+        - {x: 10, y: -15}
+        - {x: 15, y: -12}
+        - {x: 14, y: -2}
+        - {x: 11, y: 1}
+        - {x: 6, y: 3}
+        - {x: 6, y: 9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e902d2bef70ecda4ca460238cc1572a7
+      internalID: 1089201209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HunterMuglump-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -13, y: 0}
+        - {x: -14, y: -11}
+        - {x: -11, y: -15}
+        - {x: 10, y: -15}
+        - {x: 15, y: -12}
+        - {x: 14, y: -2}
+        - {x: 11, y: 1}
+        - {x: 6, y: 3}
+        - {x: 6, y: 9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db39d25b5dca8742be7fcede02f2d36
+      internalID: 1211939799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HunterMuglump-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -9, y: 0}
+        - {x: -11, y: -15}
+        - {x: 10, y: -15}
+        - {x: 11, y: 1}
+        - {x: 6, y: 3}
+        - {x: 6, y: 9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b158313bebbf4d429ce7d6b227b7cf7
+      internalID: 1135606225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HunterMuglump-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -9, y: 0}
+        - {x: -11, y: -15}
+        - {x: 10, y: -15}
+        - {x: 11, y: 1}
+        - {x: 6, y: 3}
+        - {x: 6, y: 9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f7e72ef75284464eb2b3109d1cf8ef8
+      internalID: 1561122052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HunterMuglump-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -9, y: 0}
+        - {x: -11, y: -15}
+        - {x: 10, y: -15}
+        - {x: 11, y: 1}
+        - {x: 6, y: 3}
+        - {x: 6, y: 9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f9031e4e6ea66042b9ef27e9e9007de
+      internalID: -1910705511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HunterMuglump-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -9, y: 0}
+        - {x: -7, y: -11}
+        - {x: 8, y: -10}
+        - {x: 11, y: 1}
+        - {x: 6, y: 3}
+        - {x: 6, y: 9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b401585f2788e4f48ab9ef38111b8adc
+      internalID: -1871590932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HunterMuglump-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -9, y: 0}
+        - {x: -6, y: -7}
+        - {x: 7, y: -7}
+        - {x: 11, y: 1}
+        - {x: 6, y: 3}
+        - {x: 6, y: 9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267c04f88521f474ba5265034b61633e
+      internalID: -792227735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HunterMuglump-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -9, y: 0}
+        - {x: 0, y: -2}
+        - {x: 11, y: 1}
+        - {x: 6, y: 3}
+        - {x: 6, y: 9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b560882f9664cf4e8c455b79830e4e1
+      internalID: 1813129408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HunterMuglump-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bff6b9e6252e564e8d015ae41210bc1
+      internalID: 1060161168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HunterMuglump-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83aeda170b1c4b1489a68e419d8fb23e
+      internalID: 977667657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HunterMuglump-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7936bbc0d93023d4ca3c48b4e4d9a256
+      internalID: -1350844380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HunterMuglump-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cfc69c01302d6a4faadffcec6f8511c
+      internalID: -1863612865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HunterMuglump-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2040a2037f97f4d872313326bdc47c
+      internalID: -128475760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      HunterMuglump-Sheet_0: -1172858487
+      HunterMuglump-Sheet_1: -1134635102
+      HunterMuglump-Sheet_10: -1950064821
+      HunterMuglump-Sheet_11: 1142382318
+      HunterMuglump-Sheet_12: -2014511224
+      HunterMuglump-Sheet_13: 546453186
+      HunterMuglump-Sheet_14: -968666022
+      HunterMuglump-Sheet_15: -1963992007
+      HunterMuglump-Sheet_16: 2050982069
+      HunterMuglump-Sheet_17: -543711985
+      HunterMuglump-Sheet_18: 574522732
+      HunterMuglump-Sheet_19: 1000599412
+      HunterMuglump-Sheet_2: 507943184
+      HunterMuglump-Sheet_20: 1307387817
+      HunterMuglump-Sheet_21: -1852852433
+      HunterMuglump-Sheet_22: 1089201209
+      HunterMuglump-Sheet_23: 1211939799
+      HunterMuglump-Sheet_24: 1135606225
+      HunterMuglump-Sheet_25: 1561122052
+      HunterMuglump-Sheet_26: -1910705511
+      HunterMuglump-Sheet_27: -1871590932
+      HunterMuglump-Sheet_28: -792227735
+      HunterMuglump-Sheet_29: 1813129408
+      HunterMuglump-Sheet_3: -921306462
+      HunterMuglump-Sheet_30: 1060161168
+      HunterMuglump-Sheet_31: 977667657
+      HunterMuglump-Sheet_32: -1350844380
+      HunterMuglump-Sheet_33: -1863612865
+      HunterMuglump-Sheet_34: -128475760
+      HunterMuglump-Sheet_4: 1877585521
+      HunterMuglump-Sheet_5: -545847445
+      HunterMuglump-Sheet_6: 694895440
+      HunterMuglump-Sheet_7: 1240997773
+      HunterMuglump-Sheet_8: -854290264
+      HunterMuglump-Sheet_9: -1793305997
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

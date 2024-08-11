@@ -1,0 +1,1566 @@
+fileFormatVersion: 2
+guid: 9cf1f05a97fcb334aadc3fe92dea2d81
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DefeaultCharacter-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 15}
+        - {x: -11, y: 9}
+        - {x: -6, y: -14}
+        - {x: 6, y: -14}
+        - {x: 7, y: -9}
+        - {x: 14, y: -6}
+        - {x: 11, y: 2}
+        - {x: 4, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ec63274657f834998ed8a9295da88e
+      internalID: 841289284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefeaultCharacter-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 15}
+        - {x: -11, y: 9}
+        - {x: -6, y: -14}
+        - {x: 6, y: -14}
+        - {x: 7, y: -9}
+        - {x: 14, y: -6}
+        - {x: 11, y: 2}
+        - {x: 4, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815d798319ca29e4aaba14452747f8a9
+      internalID: 748079937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefeaultCharacter-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 15}
+        - {x: -11, y: 9}
+        - {x: -6, y: -14}
+        - {x: 6, y: -14}
+        - {x: 7, y: -9}
+        - {x: 14, y: -6}
+        - {x: 11, y: 2}
+        - {x: 4, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d471235d6ed7094089b537c7d91710f
+      internalID: -191648345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefeaultCharacter-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 15}
+        - {x: -11, y: 9}
+        - {x: -6, y: -14}
+        - {x: 6, y: -14}
+        - {x: 7, y: -9}
+        - {x: 14, y: -6}
+        - {x: 11, y: 2}
+        - {x: 4, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e22be02f91e754bb072eb126b2c06b
+      internalID: -853117219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefeaultCharacter-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 15}
+        - {x: -11, y: 9}
+        - {x: -6, y: -14}
+        - {x: 6, y: -14}
+        - {x: 7, y: -9}
+        - {x: 14, y: -6}
+        - {x: 11, y: 2}
+        - {x: 4, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36da1b867d411e34399b1969f84cef28
+      internalID: -598575448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefeaultCharacter-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 15}
+        - {x: -11, y: 9}
+        - {x: -6, y: -14}
+        - {x: 6, y: -14}
+        - {x: 7, y: -9}
+        - {x: 14, y: -6}
+        - {x: 11, y: 2}
+        - {x: 4, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b901e54709cee4e92d05d4783b975f
+      internalID: -576496168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefeaultCharacter-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 15}
+        - {x: -9, y: 9}
+        - {x: -9, y: -12}
+        - {x: 6, y: -14}
+        - {x: 7, y: -9}
+        - {x: 5, y: 0}
+        - {x: 9, y: 5}
+        - {x: 4, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa4a6a426d44a7488a17dfff57ada88
+      internalID: -654026358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefeaultCharacter-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 15}
+        - {x: -8, y: 7}
+        - {x: -8, y: -13}
+        - {x: 6, y: -14}
+        - {x: 7, y: -9}
+        - {x: 5, y: -1}
+        - {x: 11, y: 2}
+        - {x: 4, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 997d6840621e93a44ae855d97e0446b6
+      internalID: -2136922464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefeaultCharacter-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 15}
+        - {x: -11, y: 9}
+        - {x: -6, y: -14}
+        - {x: 6, y: -14}
+        - {x: 7, y: -9}
+        - {x: 14, y: -6}
+        - {x: 11, y: 2}
+        - {x: 4, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd6660f57d1c8324e8d3dc23db65fb1c
+      internalID: -342190715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefeaultCharacter-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 15}
+        - {x: -11, y: 9}
+        - {x: -6, y: -14}
+        - {x: 6, y: -14}
+        - {x: 7, y: -9}
+        - {x: 14, y: -6}
+        - {x: 11, y: 2}
+        - {x: 4, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fefbcd420e8d86418acb0d7ce019cdf
+      internalID: -97385860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefeaultCharacter-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 15}
+        - {x: -11, y: 9}
+        - {x: -6, y: -14}
+        - {x: 6, y: -14}
+        - {x: 7, y: -9}
+        - {x: 14, y: -6}
+        - {x: 11, y: 2}
+        - {x: 4, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38fd2dce710a4d47b63f23419252244
+      internalID: 2136731326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefeaultCharacter-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 15}
+        - {x: -11, y: 9}
+        - {x: -6, y: -14}
+        - {x: 6, y: -14}
+        - {x: 7, y: -9}
+        - {x: 14, y: -6}
+        - {x: 11, y: 2}
+        - {x: 4, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33dba554f6d965146845b657c389b356
+      internalID: 1654517818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefeaultCharacter-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 15}
+        - {x: -11, y: 9}
+        - {x: -6, y: -14}
+        - {x: 6, y: -14}
+        - {x: 7, y: -9}
+        - {x: 14, y: -6}
+        - {x: 11, y: 2}
+        - {x: 4, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97e29e0dc0222a4b9d2a302c6d40f71
+      internalID: -384976299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefeaultCharacter-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 15}
+        - {x: -11, y: 9}
+        - {x: -6, y: -14}
+        - {x: 6, y: -14}
+        - {x: 7, y: -9}
+        - {x: 14, y: -6}
+        - {x: 11, y: 2}
+        - {x: 4, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77011ab7b57bdfa4ea93fcb4ecddef79
+      internalID: -915643928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefeaultCharacter-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 15}
+        - {x: -6, y: -14}
+        - {x: 6, y: -14}
+        - {x: 7, y: -9}
+        - {x: 7, y: 2}
+        - {x: 4, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d496af4df5d9504ea6ebfa8a98a3e0f
+      internalID: -340895793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefeaultCharacter-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 15}
+        - {x: -6, y: -14}
+        - {x: 6, y: -14}
+        - {x: 7, y: -9}
+        - {x: 7, y: 2}
+        - {x: 4, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9358b4f4494a9304cbc77977da3a4404
+      internalID: 2016634912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefeaultCharacter-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 15}
+        - {x: -10, y: 5}
+        - {x: -6, y: -14}
+        - {x: 6, y: -14}
+        - {x: 7, y: -9}
+        - {x: 7, y: 2}
+        - {x: 4, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20642ad1baf080149a1d86d0248e8e1e
+      internalID: -396094074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefeaultCharacter-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 15}
+        - {x: -10, y: 5}
+        - {x: -6, y: -14}
+        - {x: 6, y: -14}
+        - {x: 7, y: -9}
+        - {x: 7, y: 2}
+        - {x: 4, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403990dad2e25184db933f74bc952091
+      internalID: -654272557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefeaultCharacter-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 15}
+        - {x: -10, y: 5}
+        - {x: -5, y: -10}
+        - {x: 6, y: -14}
+        - {x: 7, y: -9}
+        - {x: 7, y: 2}
+        - {x: 4, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18987bb3e00252442874107c8f537af1
+      internalID: -918839655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefeaultCharacter-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 15}
+        - {x: -10, y: 5}
+        - {x: -6, y: -14}
+        - {x: 6, y: -14}
+        - {x: 7, y: -9}
+        - {x: 7, y: 2}
+        - {x: 4, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5baa2efba92be57468128420c1193bb0
+      internalID: 154427273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefeaultCharacter-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 15}
+        - {x: -10, y: 5}
+        - {x: -6, y: -14}
+        - {x: 6, y: -14}
+        - {x: 7, y: -9}
+        - {x: 15, y: 2}
+        - {x: 4, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c7a0ef6ebfbf3c428d71bc3f55c7fd6
+      internalID: 1577648472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefeaultCharacter-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 15}
+        - {x: -10, y: 5}
+        - {x: -6, y: -14}
+        - {x: 6, y: -14}
+        - {x: 7, y: -9}
+        - {x: 15, y: 2}
+        - {x: 13, y: 11}
+        - {x: 4, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21973726e5775924191626075cca9d6e
+      internalID: 75797364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefeaultCharacter-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 15}
+        - {x: -10, y: 5}
+        - {x: -6, y: -14}
+        - {x: 6, y: -14}
+        - {x: 7, y: -9}
+        - {x: 15, y: 2}
+        - {x: 13, y: 11}
+        - {x: 4, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6611d1b33ca004c8015ad9a539dbc3
+      internalID: 1650600831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefeaultCharacter-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 15}
+        - {x: -8, y: 5}
+        - {x: -6, y: -14}
+        - {x: 6, y: -14}
+        - {x: 7, y: -9}
+        - {x: 10, y: 3}
+        - {x: 4, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 838cfed2cf89a7c458e51f1d2c8963ce
+      internalID: -1442651041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefeaultCharacter-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 15}
+        - {x: -8, y: 5}
+        - {x: -6, y: -14}
+        - {x: 6, y: -14}
+        - {x: 7, y: -9}
+        - {x: 10, y: 3}
+        - {x: 4, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7931fc5791e0544a0d105460d6c9d6
+      internalID: 893143588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefeaultCharacter-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 15}
+        - {x: -10, y: 1}
+        - {x: -6, y: -14}
+        - {x: 7, y: -9}
+        - {x: 10, y: 3}
+        - {x: 4, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8de5b6804fddd64a92e50548e5a3746
+      internalID: -840570127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefeaultCharacter-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 15}
+        - {x: -7, y: 0}
+        - {x: -6, y: -14}
+        - {x: 7, y: -9}
+        - {x: 10, y: 3}
+        - {x: 4, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf2398bb6f73de41af09808f066032f
+      internalID: 953607473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefeaultCharacter-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 15}
+        - {x: -11, y: 10}
+        - {x: -15, y: 3}
+        - {x: -9, y: -13}
+        - {x: 5, y: -14}
+        - {x: 10, y: 3}
+        - {x: 4, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51280dca161f174b9b5654cd07f13ff
+      internalID: 484543521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefeaultCharacter-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 15}
+        - {x: -11, y: 10}
+        - {x: -15, y: 3}
+        - {x: -9, y: -13}
+        - {x: 5, y: -14}
+        - {x: 10, y: 3}
+        - {x: 4, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d91dd67e0e12a41950842285aa04c3
+      internalID: 2012370632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefeaultCharacter-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 15}
+        - {x: -11, y: 10}
+        - {x: -15, y: 3}
+        - {x: -9, y: -13}
+        - {x: 5, y: -14}
+        - {x: 10, y: 3}
+        - {x: 4, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046d231de9ac83e45b3625b97d0d6403
+      internalID: 1763507200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefeaultCharacter-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 15}
+        - {x: -8, y: 5}
+        - {x: -6, y: -14}
+        - {x: 6, y: -14}
+        - {x: 7, y: -9}
+        - {x: 10, y: 3}
+        - {x: 4, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab688f2c2127fd4181d99d08bfa467f
+      internalID: 521878180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefeaultCharacter-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 15}
+        - {x: -8, y: 5}
+        - {x: -6, y: -14}
+        - {x: 6, y: -14}
+        - {x: 7, y: -9}
+        - {x: 10, y: 3}
+        - {x: 4, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08eadc0580da0ee449d7b3670cb6bb8f
+      internalID: -154426996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefeaultCharacter-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 12}
+        - {x: -14, y: 9}
+        - {x: -14, y: 2}
+        - {x: -5, y: -5}
+        - {x: 11, y: -10}
+        - {x: 14, y: -3}
+        - {x: 10, y: 3}
+        - {x: 2, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c3e0b95c2471d4783e3cf414021653
+      internalID: -914547040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefeaultCharacter-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: -1}
+        - {x: -14, y: -4}
+        - {x: -13, y: -14}
+        - {x: -4, y: -15}
+        - {x: 15, y: -11}
+        - {x: 15, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835a7c6e9ad20ab41b35724f91f1b779
+      internalID: 506993669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefeaultCharacter-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: -1}
+        - {x: -14, y: -4}
+        - {x: -13, y: -14}
+        - {x: -4, y: -15}
+        - {x: 15, y: -11}
+        - {x: 15, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d6f930622414dd4d86a50f5b98f4785
+      internalID: -601662019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefeaultCharacter-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: -1}
+        - {x: -6, y: 0}
+        - {x: -14, y: -4}
+        - {x: -13, y: -14}
+        - {x: -4, y: -15}
+        - {x: 15, y: -11}
+        - {x: 15, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c3cd06649fc2943867c434a259f448
+      internalID: -897166571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefeaultCharacter-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: -1}
+        - {x: -6, y: 7}
+        - {x: -14, y: -4}
+        - {x: -13, y: -14}
+        - {x: -4, y: -15}
+        - {x: 15, y: -11}
+        - {x: 15, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72eacd19435d50744a577c61c43cc776
+      internalID: 1040506679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefeaultCharacter-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 15}
+        - {x: -8, y: 5}
+        - {x: -6, y: -14}
+        - {x: 6, y: -14}
+        - {x: 7, y: -9}
+        - {x: 10, y: 3}
+        - {x: 4, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f8a1a5ee173d44db33f80c9a6025af
+      internalID: -918679888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefeaultCharacter-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 15}
+        - {x: -8, y: 5}
+        - {x: -6, y: -14}
+        - {x: 6, y: -14}
+        - {x: 7, y: -9}
+        - {x: 10, y: 3}
+        - {x: 4, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a3b6e9d2375794283cfb854303105f
+      internalID: -1775283775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefeaultCharacter-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1, y: 10}
+        - {x: -14, y: -2}
+        - {x: -11, y: -10}
+        - {x: -4, y: -6}
+        - {x: 9, y: -2}
+        - {x: 14, y: 4}
+        - {x: 12, y: 11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1d87284bf05ed44a7f44c2b4ee9790
+      internalID: -428581792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefeaultCharacter-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: -1}
+        - {x: -10, y: -1}
+        - {x: -14, y: -4}
+        - {x: -15, y: -11}
+        - {x: -5, y: -12}
+        - {x: 5, y: -15}
+        - {x: 15, y: -11}
+        - {x: 15, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d720f61f0b6739744a5541e86d3b6426
+      internalID: -1770330389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefeaultCharacter-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: -1}
+        - {x: -10, y: -1}
+        - {x: -14, y: -4}
+        - {x: -15, y: -11}
+        - {x: -5, y: -12}
+        - {x: 5, y: -15}
+        - {x: 15, y: -11}
+        - {x: 15, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31c9f1e0e832e3e4f998581e8c1e836c
+      internalID: -2138961734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefeaultCharacter-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: -1}
+        - {x: -10, y: -1}
+        - {x: -14, y: -4}
+        - {x: -15, y: -11}
+        - {x: -5, y: -12}
+        - {x: 5, y: -15}
+        - {x: 15, y: -11}
+        - {x: 15, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2690b8411f8c7e349ade60cda1f7c333
+      internalID: 975648372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefeaultCharacter-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 7}
+        - {x: -1, y: -1}
+        - {x: -10, y: -1}
+        - {x: -14, y: -4}
+        - {x: -15, y: -11}
+        - {x: -5, y: -12}
+        - {x: 5, y: -15}
+        - {x: 15, y: -11}
+        - {x: 15, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e3b3a7056d19b46baed91dd8f86ce3
+      internalID: -605041336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefeaultCharacter-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 15}
+        - {x: -11, y: 9}
+        - {x: -6, y: -14}
+        - {x: 6, y: -14}
+        - {x: 7, y: -9}
+        - {x: 14, y: -6}
+        - {x: 11, y: 2}
+        - {x: 4, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ecf0c78e9daf248bde724d6373e4d5
+      internalID: 1731507122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefeaultCharacter-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 15}
+        - {x: -11, y: 9}
+        - {x: -6, y: -14}
+        - {x: 6, y: -14}
+        - {x: 7, y: -9}
+        - {x: 14, y: -6}
+        - {x: 11, y: 2}
+        - {x: 4, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b273a4560dc253646aa8389dc9020822
+      internalID: 105964109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefeaultCharacter-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 15}
+        - {x: -11, y: 9}
+        - {x: -10, y: -3}
+        - {x: 6, y: -4}
+        - {x: 14, y: -6}
+        - {x: 11, y: 2}
+        - {x: 4, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d582e90096fde9442b3b49bab385e679
+      internalID: -1538091263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefeaultCharacter-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 15}
+        - {x: -5, y: 7}
+        - {x: 5, y: 7}
+        - {x: 4, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f5e479d734b894fb4f36c363504d2f
+      internalID: 258128175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DefeaultCharacter-Sheet_0: 841289284
+      DefeaultCharacter-Sheet_1: 748079937
+      DefeaultCharacter-Sheet_10: 2136731326
+      DefeaultCharacter-Sheet_11: 1654517818
+      DefeaultCharacter-Sheet_12: -384976299
+      DefeaultCharacter-Sheet_13: -915643928
+      DefeaultCharacter-Sheet_14: -340895793
+      DefeaultCharacter-Sheet_15: 2016634912
+      DefeaultCharacter-Sheet_16: -396094074
+      DefeaultCharacter-Sheet_17: -654272557
+      DefeaultCharacter-Sheet_18: -918839655
+      DefeaultCharacter-Sheet_19: 154427273
+      DefeaultCharacter-Sheet_2: -191648345
+      DefeaultCharacter-Sheet_20: 1577648472
+      DefeaultCharacter-Sheet_21: 75797364
+      DefeaultCharacter-Sheet_22: 1650600831
+      DefeaultCharacter-Sheet_23: -1442651041
+      DefeaultCharacter-Sheet_24: 893143588
+      DefeaultCharacter-Sheet_25: -840570127
+      DefeaultCharacter-Sheet_26: 953607473
+      DefeaultCharacter-Sheet_27: 484543521
+      DefeaultCharacter-Sheet_28: 2012370632
+      DefeaultCharacter-Sheet_29: 1763507200
+      DefeaultCharacter-Sheet_3: -853117219
+      DefeaultCharacter-Sheet_30: 521878180
+      DefeaultCharacter-Sheet_31: -154426996
+      DefeaultCharacter-Sheet_32: -914547040
+      DefeaultCharacter-Sheet_33: 506993669
+      DefeaultCharacter-Sheet_34: -601662019
+      DefeaultCharacter-Sheet_35: -897166571
+      DefeaultCharacter-Sheet_36: 1040506679
+      DefeaultCharacter-Sheet_37: -918679888
+      DefeaultCharacter-Sheet_38: -1775283775
+      DefeaultCharacter-Sheet_39: -428581792
+      DefeaultCharacter-Sheet_4: -598575448
+      DefeaultCharacter-Sheet_40: -1770330389
+      DefeaultCharacter-Sheet_41: -2138961734
+      DefeaultCharacter-Sheet_42: 975648372
+      DefeaultCharacter-Sheet_43: -605041336
+      DefeaultCharacter-Sheet_44: 1731507122
+      DefeaultCharacter-Sheet_45: 105964109
+      DefeaultCharacter-Sheet_46: -1538091263
+      DefeaultCharacter-Sheet_47: 258128175
+      DefeaultCharacter-Sheet_5: -576496168
+      DefeaultCharacter-Sheet_6: -654026358
+      DefeaultCharacter-Sheet_7: -2136922464
+      DefeaultCharacter-Sheet_8: -342190715
+      DefeaultCharacter-Sheet_9: -97385860
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

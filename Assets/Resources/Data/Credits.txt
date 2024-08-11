@@ -1,0 +1,58 @@
+<t>Old School Games presents 
+<n>Hunt the Muglump
+<br>
+<divider>
+<br>
+<t>Game Design
+<n>David Cole
+<br>
+<divider>
+<br>
+<t>Software Development
+<n>David Cole
+<br>
+<divider>
+<br>
+<t>Graphical Assets
+<n>David Cole
+<n>Andrew Cole
+<br>
+<divider>
+<br>
+<t>Sound Effects
+<br>
+<t>"Impossible Mission 'Aaargh!'"
+<n>Obtained from www.polynomial.com
+<br>
+<n>Some sound effects obtained with license from Pond5.com
+<br>
+<t>All Other Sound Effects
+<n>Andrew Cole
+<br>
+<t>All Music composed by
+<n>Andrew Cole
+<br>
+<divider>
+<br>
+<t>Promotional/Cover Artwork
+<n>Kerri Tomlin
+<br>
+<divider>
+<br>
+<t>Play Testing
+<n>Steve Cole
+<n>Andrew Cole
+<br>
+<divider>
+<br>
+<t>Created with Unity
+<br>
+<divider>
+<br>
+<br>
+<br>
+<t>Old School Games will return
+<br>
+<br>
+<br>
+<br>

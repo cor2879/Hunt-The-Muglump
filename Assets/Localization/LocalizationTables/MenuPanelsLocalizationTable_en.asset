@@ -1,0 +1,227 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: MenuPanelsLocalizationTable_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 2e481bb00c7fa4a44897be9bdfb5f352, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 311996780544
+    m_Localized: BACK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 972901650432
+    m_Localized: SETTINGS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9577218510848
+    m_Localized: QUIT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11974942724096
+    m_Localized: YES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12714935390208
+    m_Localized: NO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15068564885504
+    m_Localized: Enable Sound
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20191626203136
+    m_Localized: Player Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20983082979328
+    m_Localized: Score
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21850259525632
+    m_Localized: Timestamp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26523389464576
+    m_Localized: BACK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30277941661696
+    m_Localized: Enable Vibration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34931949768704
+    m_Localized: SAVE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35546587271168
+    m_Localized: CANCEL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 313002275704832
+    m_Localized: QUICK START
+    m_Metadata:
+      m_Items: []
+  - m_Id: 313592506552320
+    m_Localized: NEW GAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 314154769780736
+    m_Localized: MORE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 314556491829248
+    m_Localized: QUIT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316698061508608
+    m_Localized: BACK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317546695036928
+    m_Localized: SETTINGS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 323842315980800
+    m_Localized: BADGES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 324551837028352
+    m_Localized: HIGH SCORES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 638174488760320
+    m_Localized: START GAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 765394272194560
+    m_Localized: Dungeon Size
+    m_Metadata:
+      m_Items: []
+  - m_Id: 766035275091968
+    m_Localized: Red Muglumps
+    m_Metadata:
+      m_Items: []
+  - m_Id: 766498066206720
+    m_Localized: Dark Muglumps
+    m_Metadata:
+      m_Items: []
+  - m_Id: 766925172183040
+    m_Localized: Blue Muglumps
+    m_Metadata:
+      m_Items: []
+  - m_Id: 767893544701952
+    m_Localized: Silverbacks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 772425100103680
+    m_Localized: Bats
+    m_Metadata:
+      m_Items: []
+  - m_Id: 773029763551232
+    m_Localized: PIts
+    m_Metadata:
+      m_Items: []
+  - m_Id: 773549718835200
+    m_Localized: Arrows
+    m_Metadata:
+      m_Items: []
+  - m_Id: 774063261028352
+    m_Localized: Flash Arrows
+    m_Metadata:
+      m_Items: []
+  - m_Id: 775273158348800
+    m_Localized: Net Arrows
+    m_Metadata:
+      m_Items: []
+  - m_Id: 777035802021888
+    m_Localized: Eau Du Muglump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 777867360538624
+    m_Localized: Bear Traps
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1778912169627648
+    m_Localized: Dungeon Type
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1779420250836992
+    m_Localized: Survival Mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1802863012810752
+    m_Localized: CYCLE ARROWS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1803471979614208
+    m_Localized: CYCLE ITEMS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1805049784504320
+    m_Localized: DIRECTION?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1806017188139008
+    m_Localized: MAP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1807210245328896
+    m_Localized: USE ITEM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4014775549104128
+    m_Localized: MOVE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4017459924635648
+    m_Localized: LOOK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4019256231792640
+    m_Localized: SHOOT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4020137278902272
+    m_Localized: PAUSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4020926625943552
+    m_Localized: STAIRS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4026035862835200
+    m_Localized: CLOSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4732246933442560
+    m_Localized: Music Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4732836715499520
+    m_Localized: Sound Effects
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6902014947954688
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6902063190839296
+    m_Localized: Background Music
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

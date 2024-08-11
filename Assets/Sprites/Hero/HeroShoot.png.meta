@@ -1,0 +1,601 @@
+fileFormatVersion: 2
+guid: 7d9c73d6eabd6d94eb201f590613d6c3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7802366444017177167
+    second: HeroShoot_0
+  - first:
+      213: -5803093006889309859
+    second: HeroShoot_1
+  - first:
+      213: 1835874173749940059
+    second: HeroShoot_2
+  - first:
+      213: -6076121974839211178
+    second: HeroShoot_3
+  - first:
+      213: 8419599229894221974
+    second: HeroShoot_4
+  - first:
+      213: 4436445929222367234
+    second: HeroShoot_5
+  - first:
+      213: 1524570023715568340
+    second: HeroShoot_6
+  - first:
+      213: -9030585433721973088
+    second: HeroShoot_7
+  - first:
+      213: -5662288352101018870
+    second: HeroShoot_8
+  - first:
+      213: 8601939107231403258
+    second: HeroShoot_9
+  - first:
+      213: 5355020743172509860
+    second: HeroShoot_10
+  - first:
+      213: -3893623750531036691
+    second: HeroShoot_11
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HeroShoot_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7, y: 16}
+        - {x: -10, y: 10}
+        - {x: -10, y: -2}
+        - {x: -9, y: -15}
+        - {x: 5, y: -16}
+        - {x: 10, y: -12}
+        - {x: 10, y: 7}
+        - {x: 0, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84dc6da8779a85449be70a80a49d736f
+      internalID: 7802366444017177167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroShoot_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7, y: 16}
+        - {x: -10, y: 10}
+        - {x: -11, y: -1}
+        - {x: -9, y: -15}
+        - {x: 3, y: -15}
+        - {x: 10, y: -10}
+        - {x: 10, y: 8}
+        - {x: -1, y: 16}
+      - - {x: 6, y: -7}
+        - {x: 5, y: -6}
+        - {x: 6, y: -9}
+      - - {x: 6, y: 6}
+        - {x: 5, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5f50ce09ab4324badf955c724a9476
+      internalID: -5803093006889309859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroShoot_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -6, y: 16}
+        - {x: -10, y: 12}
+        - {x: -10, y: 9}
+        - {x: -7, y: 5}
+        - {x: -14, y: -2}
+        - {x: -12, y: -4}
+        - {x: -9, y: -15}
+        - {x: 5, y: -15}
+        - {x: 10, y: -9}
+        - {x: 9, y: 7}
+        - {x: -2, y: 16}
+      - - {x: 4, y: -7}
+        - {x: 5, y: -7}
+        - {x: 5, y: -8}
+        - {x: 5, y: -7}
+      - - {x: 5, y: 6}
+        - {x: 5, y: 3}
+        - {x: 4, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81bd66b1e53c700479fd77ce1be8d29b
+      internalID: 1835874173749940059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroShoot_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 1, y: 16}
+        - {x: -10, y: 7}
+        - {x: -10, y: -11}
+        - {x: -5, y: -16}
+        - {x: 9, y: -16}
+        - {x: 10, y: 0}
+        - {x: 10, y: 11}
+        - {x: 7, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1a9b2faa58c6724b932a4cf28cf9880
+      internalID: -6076121974839211178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroShoot_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 1, y: 16}
+        - {x: -10, y: 8}
+        - {x: -10, y: -11}
+        - {x: -4, y: -15}
+        - {x: 9, y: -16}
+        - {x: 11, y: 0}
+        - {x: 7, y: 16}
+      - - {x: -5, y: -7}
+        - {x: -6, y: -9}
+        - {x: -5, y: -9}
+      - - {x: -6, y: 6}
+        - {x: -5, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae70b3c46e243184392ff950915cce3b
+      internalID: 8419599229894221974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroShoot_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 2, y: 16}
+        - {x: -10, y: 8}
+        - {x: -9, y: -9}
+        - {x: -4, y: -16}
+        - {x: 9, y: -16}
+        - {x: 7, y: -9}
+        - {x: 14, y: -2}
+        - {x: 7, y: 16}
+      - - {x: -5, y: -7}
+        - {x: -4, y: -7}
+        - {x: -5, y: -8}
+      - - {x: -5, y: 6}
+        - {x: -4, y: 3}
+        - {x: -5, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69fbff2e88087a14a904494cf188783b
+      internalID: 4436445929222367234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroShoot_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 16}
+        - {x: -11, y: 3}
+        - {x: -3, y: -1}
+        - {x: -5, y: -16}
+        - {x: 5, y: -14}
+        - {x: 2, y: -5}
+        - {x: 13, y: 4}
+        - {x: 3, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00f7186a7b160246b5e808afa2e96b8
+      internalID: 1524570023715568340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroShoot_7
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 16}
+        - {x: -10, y: 5}
+        - {x: -5, y: -15}
+        - {x: 5, y: -14}
+        - {x: 2, y: -5}
+        - {x: 14, y: 4}
+        - {x: 3, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5d0684ba36df24d8eb77f55824f577
+      internalID: -9030585433721973088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroShoot_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: 15}
+        - {x: -6, y: 10}
+        - {x: -9, y: 3}
+        - {x: -2, y: -1}
+        - {x: -5, y: -15}
+        - {x: 5, y: -14}
+        - {x: 6, y: -5}
+        - {x: 13, y: 4}
+        - {x: 3, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca0c0a987d298d4a8c47a001df424eb
+      internalID: -5662288352101018870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroShoot_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: 16}
+        - {x: -6, y: 10}
+        - {x: -14, y: -1}
+        - {x: -9, y: -7}
+        - {x: -5, y: -13}
+        - {x: 0, y: -16}
+        - {x: 5, y: -16}
+        - {x: 8, y: -2}
+        - {x: 7, y: 9}
+        - {x: 3, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951178c296f900f499d7163cb8691466
+      internalID: 8601939107231403258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroShoot_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: 16}
+        - {x: -6, y: 12}
+        - {x: -6, y: 7}
+        - {x: -13, y: -2}
+        - {x: -5, y: -13}
+        - {x: 5, y: -15}
+        - {x: 7, y: -2}
+        - {x: 6, y: 11}
+        - {x: 2, y: 16}
+      - - {x: -5, y: -3}
+        - {x: -8, y: -3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca254070c4d04024d87ee494dc223853
+      internalID: 5355020743172509860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroShoot_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 16}
+        - {x: -6, y: 11}
+        - {x: -13, y: -2}
+        - {x: -5, y: -13}
+        - {x: 5, y: -15}
+        - {x: 7, y: -2}
+        - {x: 6, y: 10}
+        - {x: 2, y: 16}
+      - - {x: -7, y: -3}
+        - {x: -5, y: -3}
+        - {x: -4, y: -2}
+        - {x: -5, y: -3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a12aeb03885f74f9a9d4c953d1b99d
+      internalID: -3893623750531036691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      HeroShoot_0: 7802366444017177167
+      HeroShoot_1: -5803093006889309859
+      HeroShoot_10: 5355020743172509860
+      HeroShoot_11: -3893623750531036691
+      HeroShoot_2: 1835874173749940059
+      HeroShoot_3: -6076121974839211178
+      HeroShoot_4: 8419599229894221974
+      HeroShoot_5: 4436445929222367234
+      HeroShoot_6: 1524570023715568340
+      HeroShoot_7: -9030585433721973088
+      HeroShoot_8: -5662288352101018870
+      HeroShoot_9: 8601939107231403258
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

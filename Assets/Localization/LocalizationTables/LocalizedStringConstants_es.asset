@@ -1,0 +1,540 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: LocalizedStringConstants_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 771f35505359ba645805aa371579d72f, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 2955195235773448252
+  m_TableData:
+  - m_Id: 662414102528
+    m_Localized: "Has eliminado todas las muglumps en esta mazmorra.  \xA1Vuelve
+      a la entrada!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12225468502016
+    m_Localized: "T\xFA metes la mano en tu carcaj para sacar una flecha, solo para
+      descubrir que est\xE1 vac\xEDo. Quiz\xE1s debiste traer m\xE1s."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13120197431296
+    m_Localized: "No tienes flechas luminosas. Qu\xE9 l\xE1stima..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14202847956992
+    m_Localized: No tienes flechas de red
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16455973539840
+    m_Localized: Tu deseo de oler como un muglump no se cumple. No hay Eau du Muglump.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16981595328512
+    m_Localized: "Este podr\xEDa ser un lugar fant\xE1stico para una trampa de osos,
+      si tuvieras una."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17913473208320
+    m_Localized: "Puedes escuchar el aleteo de alas desde una habitaci\xF3n cercana."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18773418774528
+    m_Localized: "\xA1Murci\xE9lagos gigantes te est\xE1n llevando!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19352429858816
+    m_Localized: "\xA1Una de tus trampas para osos fue activada!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20278003699712
+    m_Localized: "\xA1Encontraste al Muglump Negro! Ahora sigue su rastro y ac\xE1balo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21635410497536
+    m_Localized: "El rastro del Muglump Negro termina aqu\xED. Debe estar en una
+      de las habitaciones adyacentes. Elija sabiamente su objetivo..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22120796327936
+    m_Localized: "\xA1Ten cuidado! \xA1Un Muglump Azul ha captado tu olor!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22800302936064
+    m_Localized: "\xA1Cuidado! \xA1Un Muglump plateado ha detectado tu olor!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23277723783168
+    m_Localized: "\xA1Un Muglump azul casi te tiene atrapado!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23814233985024
+    m_Localized: "\xA1Un Muglump de espalda plateada te tiene casi en su agarre!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24269836062720
+    m_Localized: "\xA1Cuidado! \xA1Tu aroma de Muglump se ha desvanecido!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24841213513728
+    m_Localized: "\xBFEst\xE1s listo para salir del calabozo? Esto terminar\xE1 el
+      juego."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25402566578176
+    m_Localized: "\xBFEst\xE1s seguro? Esto dar\xE1 por terminado el juego."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25811498635264
+    m_Localized: Has encontrado una flecha utilizable.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26738175578112
+    m_Localized: "\xA1Qu\xE9 buena fortuna! \xA1Has adquirido una flecha flash!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27456844402688
+    m_Localized: "\xA1Una flecha de red! \xDAsala para cruzar trampas de foso de
+      manera segura."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27981405032448
+    m_Localized: "Una botella de Scent of Muglump. Te har\xE1 oler como un muglump
+      por unos cuantos turnos."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28829069676544
+    m_Localized: "\xA1Encontraste una trampa para osos! \xA1Tambi\xE9n funciona en
+      muglumps!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49123914223616
+    m_Localized: "\xA1La fortuna sonr\xEDe sobre ti, porque has encontrado la corona!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50651832061952
+    m_Localized: "\xA1Has sobrevivido al calabozo!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52295000985600
+    m_Localized: "\xA1Fuiste comido por un muglump!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53722792398848
+    m_Localized: "\xA1Has ca\xEDdo a tu perdici\xF3n!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55221111033856
+    m_Localized: "\xBFSe siente bien ser un abandonador?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56623841480704
+    m_Localized: Gamepad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57727933288448
+    m_Localized: Teclado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58453099089920
+    m_Localized: Tu coraje e inteligencia te han servido bien, porque has matado
+      a un muglump.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59154659348480
+    m_Localized: Felicitaciones, el Muglump Negro no fue rival para ti.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59782441799680
+    m_Localized: "\xBFQu\xE9 es esto!? \xBFUn Muglump Dorado!? \xA1Eres realmente
+      un gran cazador de Muglumps!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60312878649344
+    m_Localized: El cazador que fue cazado ahora ha vencido al cazador cazado.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60979173199872
+    m_Localized: El temible Muglump Silverback no fue rival para ti. Felicidades.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61447756648448
+    m_Localized: "Puedes escuchar una respiraci\xF3n pesada y laboriosa procedente
+      de una habitaci\xF3n cercana."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62030093815808
+    m_Localized: "Como tantos que han venido antes que t\xFA, ahora est\xE1s en el
+      vientre de un muglump."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63181488984064
+    m_Localized: "\xA1Un nuevo Muglump Silverback ha entrado en el calabozo!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63953584852992
+    m_Localized: No
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64493563744256
+    m_Localized: "Escuchas una corriente de aire que viene de una habitaci\xF3n adyacente."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 65209032314880
+    m_Localized: "Has ca\xEDdo a tu muerte. La pr\xF3xima vez, cuida tus pasos."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66163899174912
+    m_Localized: "S\xED"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68104700104704
+    m_Localized: Ninguno
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68348389167104
+    m_Localized: Uno
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68644779659264
+    m_Localized: Pocos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69446999019520
+    m_Localized: Algunos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69756081475584
+    m_Localized: Muchos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70573270306816
+    m_Localized: Una barbaridad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77244562477056
+    m_Localized: Principiante
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79441450831872
+    m_Localized: "F\xE1cil"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79795093573632
+    m_Localized: Normal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80296015106048
+    m_Localized: "Dif\xEDcil"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80816909914112
+    m_Localized: Experto
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81268686786560
+    m_Localized: Cazador y presa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81729686933504
+    m_Localized: Black Muglump Insanity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82456601759744
+    m_Localized: Black Muglump Test
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83524270231552
+    m_Localized: Blue Muglump Test
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83943583191040
+    m_Localized: "Vac\xEDo"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84183438659584
+    m_Localized: "Muchos murci\xE9lagos"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84610276200448
+    m_Localized: Modo personalizado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273444272148480
+    m_Localized: Los cobardes mueren muchas veces
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273782316273664
+    m_Localized: Escapa del calabozo con vida sin matar a un solo muglump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 275471832256512
+    m_Localized: '{0} Flechas de Destello'
+    m_Metadata:
+      m_Items:
+      - rid: 2955195235773448252
+  - m_Id: 286768934227968
+    m_Localized: '{0} Flechas'
+    m_Metadata:
+      m_Items:
+      - rid: 2955195235773448252
+  - m_Id: 286684666466304
+    m_Localized: Primera Sangre
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286729746845696
+    m_Localized: Mata tu primer muglump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288712113328128
+    m_Localized: '{0} Flechas de red'
+    m_Metadata:
+      m_Items:
+      - rid: 2955195235773448252
+  - m_Id: 288710188142592
+    m_Localized: Reluciente
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288711169609728
+    m_Localized: Encuentra la corona
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290138562564096
+    m_Localized: Autoestopista
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290140580024320
+    m_Localized: "Monta en murci\xE9lagos cinco veces en una sola partida sin morir."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 291405141708800
+    m_Localized: Asesino de Muglumps
+    m_Metadata:
+      m_Items: []
+  - m_Id: 291407243055104
+    m_Localized: Mata a 10 Muglumps
+    m_Metadata:
+      m_Items: []
+  - m_Id: 307157500497920
+    m_Localized: "Jinete de Murci\xE9lagos"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 307209207877632
+    m_Localized: "\u0421\u0434\u0435\u043B\u0430\u0439\u0442\u0435 \u0432 \u043E\u0431\u0449\u0435\u0439
+      \u0441\u043B\u043E\u0436\u043D\u043E\u0441\u0442\u0438 25 \u043F\u0435\u0440\u0435\u043B\u0435\u0442\u043E\u0432
+      \u043D\u0430 \u043B\u0435\u0442\u0443\u0447\u0438\u0445 \u043C\u044B\u0448\u0430\u0445.
+      \u0423\u0447\u0438\u0442\u044B\u0432\u0430\u044E\u0442\u0441\u044F \u0442\u043E\u043B\u044C\u043A\u043E
+      \u043F\u0435\u0440\u0435\u043B\u0435\u0442\u044B \u043D\u0430 \u043B\u0435\u0442\u0443\u0447\u0438\u0445
+      \u043C\u044B\u0448\u0430\u0445, \u043A\u043E\u0442\u043E\u0440\u044B\u0435
+      \u043D\u0435 \u0437\u0430\u043A\u0430\u043D\u0447\u0438\u0432\u0430\u044E\u0442\u0441\u044F
+      \u0441\u043C\u0435\u0440\u0442\u044C\u044E \u0438\u0433\u0440\u043E\u043A\u0430."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 308268202528768
+    m_Localized: Francotirador
+    m_Metadata:
+      m_Items: []
+  - m_Id: 308270094159872
+    m_Localized: Mata a todos los muglumps en una mazmorra sin fallar un solo disparo,
+      al menos en dificultad Normal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 310267925041152
+    m_Localized: Caza de Muglumps
+    m_Metadata:
+      m_Items: []
+  - m_Id: 310271158849536
+    m_Localized: Mata a todos los muglumps en una mazmorra y regresa a la entrada
+      con vida, al menos en dificultad Normal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 310897871753216
+    m_Localized: "{0} Duraci\xF3n del olor a Muglump"
+    m_Metadata:
+      m_Items:
+      - rid: 2955195235773448252
+  - m_Id: 313564811563008
+    m_Localized: Si sangra, se puede matar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 313566728359936
+    m_Localized: Mata al muglump oscuro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316033058803712
+    m_Localized: Apuesto a que los dorados hacen que el chocolate sepa terrible
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316036359720960
+    m_Localized: Mata al ultra-raro muglump dorado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 319125800161280
+    m_Localized: "{0} Probabilidad de aparici\xF3n de Muglump dorado"
+    m_Metadata:
+      m_Items:
+      - rid: 2955195235773448252
+  - m_Id: 319123757535232
+    m_Localized: Explorador
+    m_Metadata:
+      m_Items: []
+  - m_Id: 319124906774528
+    m_Localized: Explora 100 habitaciones
+    m_Metadata:
+      m_Items: []
+  - m_Id: 321827212955648
+    m_Localized: Explorador de mazmorras
+    m_Metadata:
+      m_Items: []
+  - m_Id: 321828462858240
+    m_Localized: Explora 1000 habitaciones
+    m_Metadata:
+      m_Items: []
+  - m_Id: 322869057097728
+    m_Localized: "Enci\xE9ndelo"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 322869929512960
+    m_Localized: "Usa flechas de destello para asustar a los murci\xE9lagos 5 veces"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 324547948908544
+    m_Localized: Caza al cazador
+    m_Metadata:
+      m_Items: []
+  - m_Id: 324550712954880
+    m_Localized: Mata un Muglump azul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 326015049338880
+    m_Localized: Soy especial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 326015917559808
+    m_Localized: "Mata a un Muglump cazador que est\xE1 atrapado en una red con una
+      flecha de destello mientras llevas Aroma de muglump"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 327641306828800
+    m_Localized: '{0} Trampas para osos'
+    m_Metadata:
+      m_Items:
+      - rid: 2955195235773448252
+  - m_Id: 327531910991872
+    m_Localized: Cazador Apex
+    m_Metadata:
+      m_Items: []
+  - m_Id: 327534188498944
+    m_Localized: Mata a un muglump de espalda plateada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 329606573133824
+    m_Localized: "Maestr\xEDa en Muglumps"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 329622184333312
+    m_Localized: "Mata 10 o m\xE1s muglumps de espalda plateada"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331066694242304
+    m_Localized: '{0} Aroma de muglump'
+    m_Metadata:
+      m_Items:
+      - rid: 2955195235773448252
+  - m_Id: 332261504651264
+    m_Localized: Trampero
+    m_Metadata:
+      m_Items: []
+  - m_Id: 332266672033792
+    m_Localized: Coloca 5 trampas para osos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 332271923302400
+    m_Localized: "Los Muglumps azules y de espalda plateada son atra\xEDdos por las
+      trampas cuando el aroma de Muglump est\xE1 activo"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 339154058940416
+    m_Localized: Experto en trampas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 339161969397760
+    m_Localized: Atrapa 5 muglumps de cualquier tipo con trampas de oso
+    m_Metadata:
+      m_Items: []
+  - m_Id: 341733455237120
+    m_Localized: Maestro de trampas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 341735787270144
+    m_Localized: "Atrapa 25 o m\xE1s muglumps de cualquier tipo con trampas de oso"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 342961614557184
+    m_Localized: "Pr\xF3ximamente"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 344901803118592
+    m_Localized: Masacre total
+    m_Metadata:
+      m_Items: []
+  - m_Id: 344903963185152
+    m_Localized: "Mata a 15 Muglumps de cualquier tipo que est\xE9n atrapados en
+      una trampa para osos y una red al mismo tiempo con una flecha de destello mientras
+      usas el aroma de Muglump"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 344904969818112
+    m_Localized: "Desbloquea el Modo Hardcore (pr\xF3ximamente)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366928358346752
+    m_Localized: "Min\xFAsculo"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366929679552512
+    m_Localized: "Peque\xF1o"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366930665213952
+    m_Localized: Medio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366931541823488
+    m_Localized: Grande
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366933429260288
+    m_Localized: Masivo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366934452670464
+    m_Localized: "\xC9pico"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366935455109120
+    m_Localized: Legendario
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366932485541888
+    m_Localized: Enorme
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 2955195235773448252
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 0010b5488afa000000107598d00401000010f506950601000010358dc21a01000010f5433e2201000010b5effc2901000010b5781a2d0100

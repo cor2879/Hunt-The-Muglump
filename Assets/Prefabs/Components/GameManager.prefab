@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1753615873991485750
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1101601550938231890}
+  - component: {fileID: 1120582826906870522}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1101601550938231890
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753615873991485750}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1120582826906870522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753615873991485750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 897090bd9425c9b4cbbbe313ea283dbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerSpawnPoint: {fileID: 1418469477029328998, guid: 94121ef553ee4a94bb4a77fa96b9d06e,
+    type: 3}
+  cameraManager: {fileID: 4517242015756877095, guid: 0c3e3c3052ae29a4ea7be3ce4376d886,
+    type: 3}
+  audioManager: {fileID: 3326842954045803675, guid: 417cb20ec10a34c43b7bcbd3d612cdda,
+    type: 3}
+  batPrefab: {fileID: 4776535274023580131, guid: cda5921b39049f6449a54a99cc8d3332,
+    type: 3}
+  flockOfBatsPrefab: {fileID: 2673065924939094940, guid: a9c54c60eb585ab4a85ab8cf6073b0e6,
+    type: 3}
+  playerPrefab: {fileID: 7855836728719861068, guid: e82808a47cf7ed446911927b03470995,
+    type: 3}
+  muglumpPrefab: {fileID: 7682416673315943473, guid: 43c4a8a54eb9d7a4ab758ce6545f6278,
+    type: 3}
+  arrowPrefab: {fileID: 7762093158748720238, guid: b5ec714769193ab4a9b8b61ffbe8c040,
+    type: 3}
+  cameraTargetPrefab: {fileID: 2409561170971315509, guid: 31011b54420ebc840a5516f995080e87,
+    type: 3}
+  pitPrefab: {fileID: 6841521095770902981, guid: 203f410f67320f243b1c511b8493034c,
+    type: 3}

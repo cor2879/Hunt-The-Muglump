@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: GameOverLocalizationTable_vi-VN
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: vi-VN
+  m_SharedData: {fileID: 11400000, guid: 8bb6b334376e177409585820a1c3f3d2, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 554784067584
+    m_Localized: "Huy hi\u1EC7u ki\u1EBFm \u0111\u01B0\u1EE3c"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2714078875648
+    m_Localized: "Huy hi\u1EC7u"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3539471765504
+    m_Localized: "\u0110\xF3ng"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4329791885312
+    m_Localized: "C\xE0i \u0111\u1EB7t ch\u1EBF \u0111\u1ED9 t\xF9y ch\u1EC9nh"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5607448186880
+    m_Localized: "L\u01B0u c\xE0i \u0111\u1EB7t v\xE0 b\u1EAFt \u0111\u1EA7u tr\xF2
+      ch\u01A1i"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6507273195520
+    m_Localized: "H\u1EE7y"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18780687503360
+    m_Localized: 'Muglumps xanh:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13231078051840
+    m_Localized: "Muglumps \u0111en:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18134395588608
+    m_Localized: "Muglumps \u0111\u1ECF:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19310629425152
+    m_Localized: "Muglumps v\xE0ng:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19995806732288
+    m_Localized: "Muglumps l\u01B0ng b\u1EA1c:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20789155139584
+    m_Localized: "S\u1ED1 ph\xF2ng \u0111\xE3 gh\xE9 th\u0103m:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21334641152000
+    m_Localized: "Di chuy\u1EC3n:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21861366042624
+    m_Localized: "S\u1ED1ng s\xF3t:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22452167315456
+    m_Localized: "M\u0169i t\xEAn b\u1EAFn:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22906582405120
+    m_Localized: "M\u0169i t\xEAn Flash:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 284476180860928
+    m_Localized: "M\u0169i t\xEAn m\u1EA1ng:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 293469573943296
+    m_Localized: "Ch\xEDnh x\xE1c:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 294530409893888
+    m_Localized: "M\xF9i h\u01B0\u01A1ng c\u1EE7a Muglump:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 297053376024576
+    m_Localized: "Th\u1EDDi gian mang theo:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 299648475795456
+    m_Localized: "T\xECm th\u1EA5y v\u01B0\u01A1ng mi\u1EC7n:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300388296495104
+    m_Localized: "Ch\u1EBF \u0111\u1ED9 tr\xF2 ch\u01A1i:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 302458693029888
+    m_Localized: "T\u1ED5ng \u0111i\u1EC3m:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 305436443348992
+    m_Localized: "TR\xD2 CH\u01A0I M\u1EDAI"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 308451975958528
+    m_Localized: "TH\u1EF0C \u0110\u01A0N CH\xCDNH"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

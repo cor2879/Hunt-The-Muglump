@@ -1,0 +1,513 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: LocalizedStringConstants Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: LocalizedStringConstants
+  m_TableCollectionNameGuidString: 771f35505359ba645805aa371579d72f
+  m_Entries:
+  - m_Id: 662414102528
+    m_Key: AllMuglumpsHunted
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12225468502016
+    m_Key: ArrowsEmpty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13120197431296
+    m_Key: FlashArrowsEmpty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14202847956992
+    m_Key: NetArrowsEmpty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16455973539840
+    m_Key: EauDuMuglumpEmpty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16981595328512
+    m_Key: BearTrapsEmpty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17913473208320
+    m_Key: BatWarning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18773418774528
+    m_Key: BatCarry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19352429858816
+    m_Key: BearTrapTrigger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20278003699712
+    m_Key: BlackMuglumpHit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21635410497536
+    m_Key: BlackMuglumpClue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22120796327936
+    m_Key: BlueMuglumpWarning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22800302936064
+    m_Key: SilverbackMuglumpWarning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23277723783168
+    m_Key: BlueMuglumpDireWarning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23814233985024
+    m_Key: SilverbackMuglumpDireWarning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24269836062720
+    m_Key: CoverScentExpired
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24841213513728
+    m_Key: ExitDungeonConfirmation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25402566578176
+    m_Key: ForfeitDungeonConfirmation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25811498635264
+    m_Key: FoundArrow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26738175578112
+    m_Key: FoundFlashArrow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27456844402688
+    m_Key: FoundNetArrow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27981405032448
+    m_Key: FoundEauDuMuglump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28829069676544
+    m_Key: FoundBearTrap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49123914223616
+    m_Key: FoundCrown
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50651832061952
+    m_Key: GameOverVictoryText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52295000985600
+    m_Key: GameOverEatenText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53722792398848
+    m_Key: GameOverFallenText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55221111033856
+    m_Key: GameOverQuitText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56623841480704
+    m_Key: Gamepad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57727933288448
+    m_Key: Keyboard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58453099089920
+    m_Key: MuglumpKill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59154659348480
+    m_Key: BlackMuglumpKill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59782441799680
+    m_Key: GoldMuglumpKill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60312878649344
+    m_Key: BlueMuglumpKill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60979173199872
+    m_Key: SilverbackMuglumpKill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61447756648448
+    m_Key: MuglumpWarning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62030093815808
+    m_Key: MuglumpDeath
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63181488984064
+    m_Key: NewSilverbackMuglump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63953584852992
+    m_Key: No
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64493563744256
+    m_Key: PitWarning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 65209032314880
+    m_Key: PitDeath
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66163899174912
+    m_Key: Yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68104700104704
+    m_Key: None
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68348389167104
+    m_Key: One
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68644779659264
+    m_Key: Few
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69446999019520
+    m_Key: Some
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69756081475584
+    m_Key: Many
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70573270306816
+    m_Key: Lots
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77244562477056
+    m_Key: Beginner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78997194346496
+    m_Key: New Entry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79441450831872
+    m_Key: Easy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79795093573632
+    m_Key: Normal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80296015106048
+    m_Key: Hard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80816909914112
+    m_Key: Expert
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81268686786560
+    m_Key: HunterAndPrey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81729686933504
+    m_Key: BlackMuglumpInsanity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82456601759744
+    m_Key: BlackMuglumpTest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83524270231552
+    m_Key: BlueMuglumpTest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83943583191040
+    m_Key: Empty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84183438659584
+    m_Key: LotsOfBats
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84610276200448
+    m_Key: Custom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273444272148480
+    m_Key: CowardsDieManyTimes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273782316273664
+    m_Key: EscapeTheDungeonAliveWithoutKillingASingleMuglump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 275471832256512
+    m_Key: FlashArrowBonus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286684666466304
+    m_Key: FirstBlood
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286729746845696
+    m_Key: SlayYourFirstMuglump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286768934227968
+    m_Key: ArrowBonus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288710188142592
+    m_Key: Shiny
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288711169609728
+    m_Key: FindTheCrown
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288712113328128
+    m_Key: NetArrowBonus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290138562564096
+    m_Key: HItchhiker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290140580024320
+    m_Key: RideTheBatsFiveTimesInASingleGameWithoutDying
+    m_Metadata:
+      m_Items: []
+  - m_Id: 291405141708800
+    m_Key: MuglumpSlayer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 291407243055104
+    m_Key: Kill10Muglumps
+    m_Metadata:
+      m_Items: []
+  - m_Id: 307157500497920
+    m_Key: BatRider
+    m_Metadata:
+      m_Items: []
+  - m_Id: 307209207877632
+    m_Key: RideTheBatsATotalOf25Times
+    m_Metadata:
+      m_Items: []
+  - m_Id: 308268202528768
+    m_Key: Sharpshooter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 308270094159872
+    m_Key: KillAllTheMuglumpsInADungeonWithoutMissing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 310267925041152
+    m_Key: HuntTheMuglumps
+    m_Metadata:
+      m_Items: []
+  - m_Id: 310271158849536
+    m_Key: HuntTheMuglumpsBadgeDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 310897871753216
+    m_Key: EauDuMuglumpDuration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 313564811563008
+    m_Key: IfItBleeds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 313566728359936
+    m_Key: IfItBleedsDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316033058803712
+    m_Key: GoldenMuglump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316036359720960
+    m_Key: GoldMuglumpBadgeDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 319123757535232
+    m_Key: Explorer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 319124906774528
+    m_Key: ExplorerBadgeDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 319125800161280
+    m_Key: GoldMuglumpSpawnBonus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 321827212955648
+    m_Key: DungeonCrawler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 321828462858240
+    m_Key: DungeonCrawlerBadgeDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 322869057097728
+    m_Key: LightItUp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 322869929512960
+    m_Key: LightItUpBadgeDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 324547948908544
+    m_Key: HuntTheHunter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 324550712954880
+    m_Key: HuntTheHunterBadgeDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 326015049338880
+    m_Key: ImSpecial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 326015917559808
+    m_Key: ImSpecialBadgeDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 327531910991872
+    m_Key: ApexHunter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 327534188498944
+    m_Key: ApexHunterBadgeDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 327641306828800
+    m_Key: BearTrapBonus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 329606573133824
+    m_Key: MuglumpMastery
+    m_Metadata:
+      m_Items: []
+  - m_Id: 329622184333312
+    m_Key: MuglumpMasteryBadgeDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331066694242304
+    m_Key: EauDuMuglumpBonus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 332261504651264
+    m_Key: Trapper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 332266672033792
+    m_Key: TrapperBadgeDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 332271923302400
+    m_Key: EnableTrapAttractionBonus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 339154058940416
+    m_Key: ExpertTrapper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 339161969397760
+    m_Key: ExpertTrapperBadgeDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 341733455237120
+    m_Key: MasterTrapper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 341735787270144
+    m_Key: MasterTrapperBadgeDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 342961614557184
+    m_Key: ComingSoon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 344901803118592
+    m_Key: Overkill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 344903963185152
+    m_Key: OverkillBadgeDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 344904969818112
+    m_Key: HardcoreModeBonus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366928358346752
+    m_Key: Tiny
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366929679552512
+    m_Key: Small
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366930665213952
+    m_Key: Medium
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366931541823488
+    m_Key: Large
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366932485541888
+    m_Key: Huge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366933429260288
+    m_Key: Massive
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366934452670464
+    m_Key: Epic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366935455109120
+    m_Key: Legendary
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 2955195235773448232
+  references:
+    version: 2
+    RefIds:
+    - rid: 2955195235773448232
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1679342443466

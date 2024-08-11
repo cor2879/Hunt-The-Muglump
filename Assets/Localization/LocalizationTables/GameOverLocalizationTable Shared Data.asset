@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: GameOverLocalizationTable Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: GameOverLocalizationTable
+  m_TableCollectionNameGuidString: 8bb6b334376e177409585820a1c3f3d2
+  m_Entries:
+  - m_Id: 554784067584
+    m_Key: BadgeEarnedPanel Variant/Canvas (Environment)/BadgeEarnedPanel Variant/BadgeEarnedHeaderPanel/BadgeEarnedHeaderText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2714078875648
+    m_Key: BadgesPanel Variant/Canvas (Environment)/BadgesPanel Variant/BadgesTitleText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3539471765504
+    m_Key: BadgesPanel Variant/Canvas (Environment)/BadgesPanel Variant/BadgesCloseButton/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4329791885312
+    m_Key: CustomModePanel Variant/Canvas (Environment)/CustomModePanel Variant/CustomModeHeaderText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5607448186880
+    m_Key: CustomModePanel Variant/Canvas (Environment)/CustomModePanel Variant/SaveButton/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6507273195520
+    m_Key: CustomModePanel Variant/Canvas (Environment)/CustomModePanel Variant/CancelButton/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13231078051840
+    m_Key: GameOverPanel/Canvas (Environment)/GameOverPanel/GameOverViewPort/GameOverContent/FinalReportPanel/BlackMuglumpsSlainPanel/MuglumpsSlainLabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18134395588608
+    m_Key: GameOverPanel/Canvas (Environment)/GameOverPanel/GameOverViewPort/GameOverContent/FinalReportPanel/RedMuglumpsSlainPanel/FinalReportLabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18780687503360
+    m_Key: GameOverPanel/Canvas (Environment)/GameOverPanel/GameOverViewPort/GameOverContent/FinalReportPanel/BlueMuglumpsSlainPanel/BlueMuglumpsSlainLabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19310629425152
+    m_Key: GameOverPanel/Canvas (Environment)/GameOverPanel/GameOverViewPort/GameOverContent/FinalReportPanel/GoldMuglumpsSlainPanel/MuglumpsSlainLabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19995806732288
+    m_Key: GameOverPanel/Canvas (Environment)/GameOverPanel/GameOverViewPort/GameOverContent/FinalReportPanel/SilverbackMuglumpsSlainPanel/FinalReportLabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20789155139584
+    m_Key: GameOverPanel/Canvas (Environment)/GameOverPanel/GameOverViewPort/GameOverContent/FinalReportPanel/RoomsVisitedPanel/RoomsVisitedText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21334641152000
+    m_Key: GameOverPanel/Canvas (Environment)/GameOverPanel/GameOverViewPort/GameOverContent/FinalReportPanel/NumberOfMovesPanel/NumberOfMovesText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21861366042624
+    m_Key: GameOverPanel/Canvas (Environment)/GameOverPanel/GameOverViewPort/GameOverContent/FinalReportPanel/SurvivedPanel/SurvivedText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22452167315456
+    m_Key: GameOverPanel/Canvas (Environment)/GameOverPanel/GameOverViewPort/GameOverContent/FinalReportPanel/ArrowsFiredPanel/ArrowsFiredText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22906582405120
+    m_Key: GameOverPanel/Canvas (Environment)/GameOverPanel/GameOverViewPort/GameOverContent/FinalReportPanel/FlashArrowsFiredPanel/FinalReportLabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 284476180860928
+    m_Key: GameOverPanel/Canvas (Environment)/GameOverPanel/GameOverViewPort/GameOverContent/FinalReportPanel/NetArrowsInfoPanel/FinalReportLabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 293469573943296
+    m_Key: GameOverPanel/Canvas (Environment)/GameOverPanel/GameOverViewPort/GameOverContent/FinalReportPanel/AccuracyInfoPanel/FinalReportLabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 294530409893888
+    m_Key: GameOverPanel/Canvas (Environment)/GameOverPanel/GameOverViewPort/GameOverContent/FinalReportPanel/CoverScentInfoPanel/FinalReportLabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 297053376024576
+    m_Key: GameOverPanel/Canvas (Environment)/GameOverPanel/GameOverViewPort/GameOverContent/FinalReportPanel/TimesCarriedPanel/TimesCarriedText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 299648475795456
+    m_Key: GameOverPanel/Canvas (Environment)/GameOverPanel/GameOverViewPort/GameOverContent/FinalReportPanel/FoundTheCrownPanel/FoundTheCrownText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300388296495104
+    m_Key: GameOverPanel/Canvas (Environment)/GameOverPanel/GameOverViewPort/GameOverContent/FinalReportPanel/DifficultyInfoPanel/FinalReportLabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 302458693029888
+    m_Key: GameOverPanel/Canvas (Environment)/GameOverPanel/GameOverViewPort/GameOverContent/FinalReportPanel/TotalScorePanel/TotalScoreLabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 305436443348992
+    m_Key: GameOverPanel/Canvas (Environment)/GameOverPanel/GameOverViewPort/GameOverContent/GameOverButtonsPanel/StartNewGameButton/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 308451975958528
+    m_Key: GameOverPanel/Canvas (Environment)/GameOverPanel/GameOverViewPort/GameOverContent/GameOverButtonsPanel/ReturnToMenuButton/Text
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 2955194961160044582
+  references:
+    version: 2
+    RefIds:
+    - rid: 2955194961160044582
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1678223927153

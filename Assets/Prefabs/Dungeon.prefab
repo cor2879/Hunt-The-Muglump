@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5888514640979660907
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5888514640979660906}
+  - component: {fileID: 5888514640979660905}
+  - component: {fileID: 5888514640979660904}
+  - component: {fileID: 931555581}
+  - component: {fileID: 931555580}
+  m_Layer: 0
+  m_Name: Dungeon
+  m_TagString: Dungeon
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5888514640979660906
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5888514640979660907}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!156049354 &5888514640979660905
+Grid:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5888514640979660907}
+  m_Enabled: 1
+  m_CellSize: {x: 1, y: 1, z: 0}
+  m_CellGap: {x: 0, y: 0, z: 0}
+  m_CellLayout: 0
+  m_CellSwizzle: 0
+--- !u!114 &5888514640979660904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5888514640979660907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5495b46699a856f4c87f63598643ce51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!60 &931555581
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5888514640979660907}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 1
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0, y: 1}
+      - {x: -0.95105654, y: 0.30901697}
+      - {x: -0.5877852, y: -0.80901706}
+      - {x: 0.58778536, y: -0.80901694}
+      - {x: 0.9510565, y: 0.30901712}
+--- !u!114 &931555580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5888514640979660907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4343e0b630d6e54494c6e6db13466f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  innerRoomPrefabs:
+  - {fileID: 2042622228284325703, guid: 37d154d053cf530458be26db129d6817, type: 3}
+  - {fileID: 4359601263906069321, guid: 6c38e3815fc8a2f418a25e3fdb16d6df, type: 3}
+  - {fileID: 4370578119220221155, guid: 68b3572c24374cc4381e7c998eae3327, type: 3}
+  - {fileID: 3486223057322689464, guid: 930bd034d3bf67a438ccd549ed202aa9, type: 3}
+  - {fileID: 9089259360053464516, guid: 5722d93442c8b4c45b80096e1f174ed7, type: 3}
+  - {fileID: 6736450417610234756, guid: b570cb37253c6f542ad1e5a85e804a2d, type: 3}
+  - {fileID: 3135203830341479329, guid: 14192117b2f2ba1478156b962eac8999, type: 3}
+  - {fileID: 3301736602105373018, guid: 652f95376a586f648a4cfcb3c1d90681, type: 3}
+  - {fileID: 2839578693748008095, guid: 3eac32b0c38a01443bbae98abf031cf1, type: 3}
+  - {fileID: 3305621732618763800, guid: 8f5bb160dc0916c46ac53a5991bd2af0, type: 3}
+  - {fileID: 3702259281562720735, guid: eb1f35287eedb204eb01a63736a81fa5, type: 3}
+  - {fileID: 7485925206633003757, guid: d8beaa7227ce2cb48b293eabc0edb156, type: 3}
+  edgeNorthPrefabs:
+  - {fileID: 6606367621149586293, guid: 5ef794d0f0658cf42b5bbe85a493d8d6, type: 3}
+  - {fileID: 3270894043889296786, guid: a5bd6f5d2f8874e4c9107da5537aed59, type: 3}
+  - {fileID: 8786389583239749884, guid: 5377b801f720b3c4e84e7f8a665bd0d6, type: 3}
+  - {fileID: 789755916120882577, guid: a0cb47371a9a57e4aab74558d978e06e, type: 3}
+  - {fileID: 8858758581877062206, guid: 67012e3c46ce67746a4cbbde8cc11b73, type: 3}
+  - {fileID: 3131379029446401390, guid: 55b08f3fa7da71248a157ec91b1b8441, type: 3}
+  - {fileID: 5711056769210715627, guid: 0dad4ba847787204594c3214ba5cfc1a, type: 3}
+  - {fileID: 1995356038347543751, guid: 21d3175c4587b79499d03acd122db371, type: 3}
+  - {fileID: 9069873375131531006, guid: 0b211d9d2c4f1ce48a76135f1dbbb22e, type: 3}
+  - {fileID: 6890775406324875218, guid: 10233f74a1f826149a56363cc28bb1e4, type: 3}
+  edgeEastPrefabs:
+  - {fileID: 7563882045444737702, guid: 803e9a38933b8064d96330dd02c62171, type: 3}
+  - {fileID: 317413769169740520, guid: 8b5b13247fca04f40b4ca4d70cf50dad, type: 3}
+  - {fileID: 1076158436256074606, guid: 1d4d805e92f34094b8b7152f604d1341, type: 3}
+  - {fileID: 98560347174338022, guid: 3c9fe916593c7c045a1747028506f139, type: 3}
+  - {fileID: 7904134248689968705, guid: 1a6a89101e9795e47a77b52a912c6325, type: 3}
+  - {fileID: 9043931186518540911, guid: 033fa0b4c16dce4469a3b4af280f528d, type: 3}
+  - {fileID: 4151978042271765350, guid: bb6abe51fb3e0e1488471f9a9135211f, type: 3}
+  - {fileID: 4993882978833654637, guid: 01c014c3edd2b77438d0004cb16c1167, type: 3}
+  - {fileID: 4490893856211401910, guid: 4cd4d4cc2de140c4f8ec98249e0acf5c, type: 3}
+  - {fileID: 3868407318119986478, guid: d41d4580751beba4aa930127572f0718, type: 3}
+  edgeSouthPrefabs:
+  - {fileID: 5905192081472752497, guid: 149d252544491c54b86b917e927f6044, type: 3}
+  - {fileID: 5647859000484720188, guid: 1d2e6d02b3db2294089e010adfcc00d8, type: 3}
+  - {fileID: 7143586288983669542, guid: 722c8ac8caf587f4c83d7ef72bd15dbd, type: 3}
+  - {fileID: 7737472525494205907, guid: 2150695469466044892f5a3c419d531a, type: 3}
+  - {fileID: 4797247621367030634, guid: fe8e0b92831989649b04fd67ea59f6c6, type: 3}
+  - {fileID: 442994060845829717, guid: 87ab86f6365689c4e924528505b1666b, type: 3}
+  - {fileID: 5993789101919814759, guid: 3020abdd5ab3ff146b215b83dbf3fc22, type: 3}
+  - {fileID: 8879700027706136200, guid: f826b8953b4b3f44f96bd4b4cceed322, type: 3}
+  - {fileID: 1047116890883578987, guid: c71b63deaf4f49644a4084e91621a34b, type: 3}
+  - {fileID: 5269939327090818813, guid: 74bc1fd48da413f45a9bed50d7d93882, type: 3}
+  edgeWestPrefabs:
+  - {fileID: 3626071461708935291, guid: c7d2b009ad4d8c44489ddb553ffcaf42, type: 3}
+  - {fileID: 2907743751099471124, guid: 994a042eb53d6334caedf4ae023a520f, type: 3}
+  - {fileID: 867081622134685738, guid: e8befeecf93f9374a94460174c7518bf, type: 3}
+  - {fileID: 7230616572397126121, guid: 15410ea631e8eb44ba6c30cf1eb57599, type: 3}
+  - {fileID: 4374890256793868810, guid: 7f9dcb602e428ff4faeeca37296c6ea4, type: 3}
+  - {fileID: 1721760546328683941, guid: 48db6813bea4ac249be051ce0ad0b08f, type: 3}
+  - {fileID: 7893566076161814971, guid: de255158e9f448442b1466f6dd7ec826, type: 3}
+  - {fileID: 4361084004321352380, guid: 831bbf1c98fa2d34b9d5e00019296556, type: 3}
+  - {fileID: 8128770745595013691, guid: 27674fdae61bcc3429592270b1b13796, type: 3}
+  - {fileID: 7458804861141831038, guid: 6f54b80a991aa4e44852f8b96058bad7, type: 3}
+  cornerNorthEastPrefabs:
+  - {fileID: 2888822306155830816, guid: c76fb912c7ede7041ba80263022be7a8, type: 3}
+  - {fileID: 1998878455439267674, guid: 68095aa76e7ee9e418e850d2c91abbbd, type: 3}
+  - {fileID: 5612594809764366905, guid: b534deadd70e83e4fb4ce5a2c027284a, type: 3}
+  cornerSouthEastPrefabs:
+  - {fileID: 6225128157921004886, guid: 6b938399bd379b04dac5e53dd833d5b7, type: 3}
+  - {fileID: 6139481873129375589, guid: aa7a9764070618a4488a9d35b4ac686b, type: 3}
+  - {fileID: 489462078943477528, guid: cbeace87e7321d04794c52dbc12b8abc, type: 3}
+  cornerSouthWestPrefabs:
+  - {fileID: 3514091786651098626, guid: 23c894ff1dad0d540979fcffdeaaaa9c, type: 3}
+  - {fileID: 2803884738341661824, guid: 07892661b75529a4c979189a75927c4b, type: 3}
+  - {fileID: 716977139603360932, guid: 7d3e377ba48956c4bb755fce4f6bf0ee, type: 3}
+  cornerNorthWestPrefabs:
+  - {fileID: 3236664066774652767, guid: cc19ccf05689ce04192320a6b010928e, type: 3}
+  - {fileID: 7316135879848859205, guid: 96f40a560bd2d0243ad036124dd98999, type: 3}
+  - {fileID: 964673144240845958, guid: bc0d54e822f516946978f96e7dc04bfb, type: 3}

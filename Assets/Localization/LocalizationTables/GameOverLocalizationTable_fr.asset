@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: GameOverLocalizationTable_fr
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: fr
+  m_SharedData: {fileID: 11400000, guid: 8bb6b334376e177409585820a1c3f3d2, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 554784067584
+    m_Localized: Badge obtenu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2714078875648
+    m_Localized: Badges
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3539471765504
+    m_Localized: Fermer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4329791885312
+    m_Localized: "Param\xE8tres du mode personnalis\xE9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5607448186880
+    m_Localized: "Enregistrer les param\xE8tres et d\xE9marrer le jeu"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6507273195520
+    m_Localized: Annuler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18780687503360
+    m_Localized: 'Muglumps bleus:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18134395588608
+    m_Localized: 'Muglumps rouges:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13231078051840
+    m_Localized: 'Muglumps noirs:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19310629425152
+    m_Localized: 'Muglumps en or:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19995806732288
+    m_Localized: "Muglumps \xE0 dos argent\xE9:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20789155139584
+    m_Localized: "Chambres visit\xE9es:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21334641152000
+    m_Localized: "Se d\xE9place:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21861366042624
+    m_Localized: "Surv\xE9cu:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22452167315456
+    m_Localized: "Fl\xE8ches tir\xE9es:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22906582405120
+    m_Localized: "Fl\xE8ches Flash:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 284476180860928
+    m_Localized: "Fl\xE8ches nettes:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 293469573943296
+    m_Localized: 'Exactitude:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 294530409893888
+    m_Localized: 'Parfum de Muglump:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 297053376024576
+    m_Localized: "Heures report\xE9es:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 299648475795456
+    m_Localized: "Trouv\xE9 la Couronne:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300388296495104
+    m_Localized: 'Mode de jeu:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 302458693029888
+    m_Localized: 'Score total:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 305436443348992
+    m_Localized: Nouveau jeu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 308451975958528
+    m_Localized: MENU PRINCIPAL
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

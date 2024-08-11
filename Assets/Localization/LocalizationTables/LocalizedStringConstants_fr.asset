@@ -1,0 +1,542 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: LocalizedStringConstants_fr
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: fr
+  m_SharedData: {fileID: 11400000, guid: 771f35505359ba645805aa371579d72f, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 2955195235773448246
+  m_TableData:
+  - m_Id: 662414102528
+    m_Localized: "Vous avez \xE9limin\xE9 tous les muglumps dans ce donjon.  Retour
+      \xE0 l\u2019entr\xE9e!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12225468502016
+    m_Localized: "Tu plonges la main dans ton carquois pour tirer une fl\xE8che,
+      mais il est vide. Peut-\xEAtre aurais-tu d\xFB en prendre plus."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13120197431296
+    m_Localized: "Tu n'as pas de fl\xE8ches lumineuses! Quel dommage..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14202847956992
+    m_Localized: "Tu n'as pas de fl\xE8ches filets!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16455973539840
+    m_Localized: "Ton d\xE9sir de sentir comme un muglump reste insatisfait. Il n'y
+      a pas d'Eau de Muglump."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16981595328512
+    m_Localized: "Cela pourrait \xEAtre un endroit fantastique pour un pi\xE8ge \xE0
+      ours, si vous en aviez un."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17913473208320
+    m_Localized: "Tu peux entendre le battement d'ailes venant d'une pi\xE8ce \xE0
+      proximit\xE9."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18773418774528
+    m_Localized: "Des chauves-souris g\xE9antes te transportent !"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19352429858816
+    m_Localized: "L'une de vos pi\xE8ges \xE0 ours a \xE9t\xE9 d\xE9clench\xE9e."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20278003699712
+    m_Localized: "Vous avez trouv\xE9 le Muglump Noir ! Maintenant, suivez sa trace
+      et achevez-le."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21635410497536
+    m_Localized: "Le sentier du Muglump noir se termine ici. Il doit \xEAtre dans
+      l'une des salles adjacentes. Choisissez judicieusement votre cible..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22120796327936
+    m_Localized: "Prenez garde ! Un Muglump bleu a capt\xE9 votre odeur !"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22800302936064
+    m_Localized: Prends garde ! Un Muglump dos d'argent a senti ton odeur !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23277723783168
+    m_Localized: Un Muglump bleu te tient presque dans ses griffes !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23814233985024
+    m_Localized: "Un Muglump argent\xE9 te tient presque dans ses griffes !"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24269836062720
+    m_Localized: "Prenez garde! Votre parfum de Muglump s'est dissip\xE9!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24841213513728
+    m_Localized: "Es-tu pr\xEAt \xE0 quitter le donjon ? Cela mettra fin au jeu."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25402566578176
+    m_Localized: "Es-tu s\xFBr ? Cela entra\xEEnera la perte du jeu."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25811498635264
+    m_Localized: "Tu as trouv\xE9 une fl\xE8che utilisable."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26738175578112
+    m_Localized: "Quelle bonne fortune ! Tu as acquis une fl\xE8che \xE9clair !"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27456844402688
+    m_Localized: "Une fl\xE8che-filet ! Utilisez-la pour traverser les pi\xE8ges
+      \xE0 fosse en toute s\xE9curit\xE9."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27981405032448
+    m_Localized: Une bouteille de Parfum de Muglump. Cela te fera sentir comme un
+      muglump pendant quelques tours.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28829069676544
+    m_Localized: "Tu as trouv\xE9 un pi\xE8ge \xE0 ours. Fonctionne \xE9galement
+      sur les muglumps !"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49123914223616
+    m_Localized: "La fortune sourit sur toi, car tu as trouv\xE9 la couronne !"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50651832061952
+    m_Localized: "Vous avez surv\xE9cu au donjon !"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52295000985600
+    m_Localized: "Vous avez \xE9t\xE9 mang\xE9 par un muglump !"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53722792398848
+    m_Localized: "Vous \xEAtes tomb\xE9 \xE0 votre perte !"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55221111033856
+    m_Localized: "Est-ce que \xE7a fait du bien d'\xEAtre un abandonneur ?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56623841480704
+    m_Localized: Manette de jeu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57727933288448
+    m_Localized: Clavier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58453099089920
+    m_Localized: "Ton courage et ton intelligence t'ont bien servi, car tu as tu\xE9
+      un muglump."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59154659348480
+    m_Localized: "F\xE9licitations, le Muglump Noir n'\xE9tait pas de taille contre
+      toi."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59782441799680
+    m_Localized: Qu'est-ce que c'est !? Un Muglump d'or !? Tu es vraiment un grand
+      chasseur de Muglumps !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60312878649344
+    m_Localized: "Le chasseur chass\xE9 a maintenant vaincu le chasseur chass\xE9."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60979173199872
+    m_Localized: "Le redoutable Muglump Silverback n'\xE9tait pas \xE0 la hauteur
+      de toi. F\xE9licitations."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61447756648448
+    m_Localized: "Tu peux entendre une respiration lourde et laborieuse venant d'une
+      pi\xE8ce proche."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62030093815808
+    m_Localized: Comme tant d'autres avant toi, tu es maintenant dans le ventre d'un
+      muglump.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63181488984064
+    m_Localized: "Un nouveau Silverback Muglump est entr\xE9 dans le donjon !"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63953584852992
+    m_Localized: Non
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64493563744256
+    m_Localized: "Tu entends un courant d'air venant d'une pi\xE8ce adjacente."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 65209032314880
+    m_Localized: "Tu es tomb\xE9 \xE0 ta mort. La prochaine fois, fais attention
+      \xE0 tes pas."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66163899174912
+    m_Localized: Oui
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68104700104704
+    m_Localized: Aucun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68348389167104
+    m_Localized: Un
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68644779659264
+    m_Localized: Quelques
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69446999019520
+    m_Localized: Certain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69756081475584
+    m_Localized: Beaucoup
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70573270306816
+    m_Localized: Une tonne
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77244562477056
+    m_Localized: Novice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79441450831872
+    m_Localized: Facile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79795093573632
+    m_Localized: Normal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80296015106048
+    m_Localized: Difficile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80816909914112
+    m_Localized: Expert
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81268686786560
+    m_Localized: Chasseur et proie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81729686933504
+    m_Localized: Black Muglump Insanity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82456601759744
+    m_Localized: Black Muglump Test
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83524270231552
+    m_Localized: Blue Muglump Test
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83943583191040
+    m_Localized: Vide
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84183438659584
+    m_Localized: Beaucoup de chauves-souris
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84610276200448
+    m_Localized: "Mode personnalis\xE9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273444272148480
+    m_Localized: "Les l\xE2ches meurent plusieurs fois"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273782316273664
+    m_Localized: "\xC9chappez-vous du donjon en vie sans tuer un seul muglump"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 275471832256512
+    m_Localized: "{0} Fl\xE8ches Flash"
+    m_Metadata:
+      m_Items:
+      - rid: 2955195235773448246
+  - m_Id: 286768934227968
+    m_Localized: "{0} Fl\xE8ches"
+    m_Metadata:
+      m_Items:
+      - rid: 2955195235773448246
+  - m_Id: 286684666466304
+    m_Localized: Premier Sang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286729746845696
+    m_Localized: Tuez votre premier muglump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288712113328128
+    m_Localized: "{0} Fl\xE8ches de filet"
+    m_Metadata:
+      m_Items:
+      - rid: 2955195235773448246
+  - m_Id: 288710188142592
+    m_Localized: Brillant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288711169609728
+    m_Localized: Trouvez la couronne
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290138562564096
+    m_Localized: Auto-stoppeur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290140580024320
+    m_Localized: Faites cinq tours de chauve-souris lors d'un seul jeu sans mourir.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 291405141708800
+    m_Localized: Tueur de Muglumps
+    m_Metadata:
+      m_Items: []
+  - m_Id: 291407243055104
+    m_Localized: Tuez 10 Muglumps
+    m_Metadata:
+      m_Items: []
+  - m_Id: 307157500497920
+    m_Localized: Cavalier de chauve-souris
+    m_Metadata:
+      m_Items: []
+  - m_Id: 307209207877632
+    m_Localized: Faites un total de 25 tours de chauve-souris. Seules les courses
+      de chauve-souris qui ne se terminent pas par la mort du joueur comptent.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 308268202528768
+    m_Localized: "Tireur d'\xE9lite"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 308270094159872
+    m_Localized: "Tuez tous les muglumps d'un donjon sans manquer un seul tir, au
+      moins en difficult\xE9 normale."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 310267925041152
+    m_Localized: Chasse aux Muglumps
+    m_Metadata:
+      m_Items: []
+  - m_Id: 310271158849536
+    m_Localized: "Tuez tous les muglumps d'un donjon et revenez \xE0 l'entr\xE9e
+      en vie, au moins en difficult\xE9 normale"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 310897871753216
+    m_Localized: "{0} Dur\xE9e de l'odeur des muglumps"
+    m_Metadata:
+      m_Items:
+      - rid: 2955195235773448246
+  - m_Id: 313564811563008
+    m_Localized: Saigne-t-il, tu peux le tuer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 313566728359936
+    m_Localized: Tuez le muglump sombre
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316033058803712
+    m_Localized: "Je parie que les dor\xE9s rendent le chocolat terrible"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316036359720960
+    m_Localized: "Tuez le muglump ultra-rare dor\xE9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 319125800161280
+    m_Localized: "{0} Chance d'apparition Muglump dor\xE9"
+    m_Metadata:
+      m_Items:
+      - rid: 2955195235773448246
+  - m_Id: 319123757535232
+    m_Localized: Explorateur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 319124906774528
+    m_Localized: Explorez 100 chambres
+    m_Metadata:
+      m_Items: []
+  - m_Id: 321827212955648
+    m_Localized: Explorateur de donjons
+    m_Metadata:
+      m_Items: []
+  - m_Id: 321828462858240
+    m_Localized: Explorez 1000 chambres
+    m_Metadata:
+      m_Items: []
+  - m_Id: 322869057097728
+    m_Localized: Illuminez-le
+    m_Metadata:
+      m_Items: []
+  - m_Id: 322869929512960
+    m_Localized: "Utilisez des fl\xE8ches \xE9clairantes pour effrayer des chauves-souris
+      5 fois"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 324547948908544
+    m_Localized: Chassez le chasseur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 324550712954880
+    m_Localized: Tuez un Muglump bleu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 326015049338880
+    m_Localized: "Je suis sp\xE9cial"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 326015917559808
+    m_Localized: "Tuez un Muglump chasseur pris dans un filet avec une fl\xE8che
+      flash tout en portant le Parfum de Muglump"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 327641306828800
+    m_Localized: "{0} Pi\xE8ges \xE0 ours"
+    m_Metadata:
+      m_Items:
+      - rid: 2955195235773448246
+  - m_Id: 327531910991872
+    m_Localized: "Chasseur supr\xEAme"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 327534188498944
+    m_Localized: Tuez un Muglump dos d'argent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 329606573133824
+    m_Localized: "Ma\xEEtre Muglump"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 329622184333312
+    m_Localized: Tuez 10 ou plus de Muglumps dos d'argent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331066694242304
+    m_Localized: '{0} Parfum de Muglump'
+    m_Metadata:
+      m_Items:
+      - rid: 2955195235773448246
+  - m_Id: 332261504651264
+    m_Localized: Pisteur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 332266672033792
+    m_Localized: "Placez 5 pi\xE8ges \xE0 ours"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 332271923302400
+    m_Localized: "Les Muglumps bleus et \xE0 dos d'argent sont attir\xE9s par les
+      pi\xE8ges lorsque le parfum de Muglump est actif"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 339154058940416
+    m_Localized: Expert Trappeur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 339161969397760
+    m_Localized: "Attrapez 5 muglumps de n'importe quel type avec des pi\xE8ges \xE0
+      ours"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 341733455237120
+    m_Localized: "Ma\xEEtre Trappeur"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 341735787270144
+    m_Localized: "Attrapez 25 muglumps de n'importe quel type avec des pi\xE8ges
+      \xE0 ours"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 342961614557184
+    m_Localized: "\xC0 venir"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 344901803118592
+    m_Localized: Extermination totale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 344903963185152
+    m_Localized: "Tuer 15 Muglumps de n'importe quelle sorte pi\xE9g\xE9s dans un
+      pi\xE8ge \xE0 ours et un filet en m\xEAme temps avec une Fl\xE8che Flash tout
+      en portant le Parfum de Muglump"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 344904969818112
+    m_Localized: "D\xE9bloquer le mode Hardcore (bient\xF4t disponible)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366928358346752
+    m_Localized: Minuscule
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366929679552512
+    m_Localized: Petit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366930665213952
+    m_Localized: Moyen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366931541823488
+    m_Localized: Grand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366933429260288
+    m_Localized: Massif
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366934452670464
+    m_Localized: "\xC9pique"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366935455109120
+    m_Localized: "L\xE9gendaire"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366932485541888
+    m_Localized: "\xC9norme"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 2955195235773448246
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 0010b5488afa000000107598d00401000010f506950601000010358dc21a01000010f5433e2201000010b5effc2901000010b5781a2d0100

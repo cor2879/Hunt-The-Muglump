@@ -1,0 +1,537 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: LocalizedStringConstants_de
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: de
+  m_SharedData: {fileID: 11400000, guid: 771f35505359ba645805aa371579d72f, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 2955195235773448247
+  m_TableData:
+  - m_Id: 662414102528
+    m_Localized: "Du hast alle Muglumpen in diesem Dungeon eliminiert.  Zur\xFCck
+      zum Eingang!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12225468502016
+    m_Localized: "Du greifst in deinen K\xF6cher, um einen Pfeil zu ziehen, nur um
+      festzustellen, dass er leer ist. Vielleicht h\xE4ttest du mehr mitbringen sollen."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13120197431296
+    m_Localized: Du hast keine Blitzpfeile! Schade...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14202847956992
+    m_Localized: Du hast keine Netzpfeile!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16455973539840
+    m_Localized: "Dein Wunsch, wie ein Muglump zu riechen, bleibt unerf\xFCllt. Es
+      gibt kein Eau du Muglump."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16981595328512
+    m_Localized: "Das w\xE4re ein fantastischer Ort f\xFCr eine B\xE4renfalle, wenn
+      du eine h\xE4ttest."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17913473208320
+    m_Localized: "Du kannst das Flattern von Fl\xFCgeln aus einem nahegelegenen Raum
+      h\xF6ren."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18773418774528
+    m_Localized: "Riesige Flederm\xE4use tragen dich!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19352429858816
+    m_Localized: "Eine deiner B\xE4renfallen wurde ausgel\xF6st."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20278003699712
+    m_Localized: Du hast den schwarzen Muglump gefunden! Folge jetzt seiner Spur
+      und erledige ihn.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21635410497536
+    m_Localized: "Die Spur des schwarzen Muglumps endet hier. Es muss sich in einem
+      der angrenzenden R\xE4ume befinden. W\xE4hlen Sie Ihr Ziel mit Bedacht..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22120796327936
+    m_Localized: Pass auf! Ein blauer Muglump hat deinen Geruch erfasst!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22800302936064
+    m_Localized: "Vorsicht! Ein Silberr\xFCcken-Muglump hat deine Spur aufgenommen!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23277723783168
+    m_Localized: Ein blauer Muglump hat dich fast in seiner Gewalt!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23814233985024
+    m_Localized: "Ein Silberr\xFCcken-Muglump hat dich fast in seiner Gewalt!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24269836062720
+    m_Localized: Vorsicht! Dein Duft von Muglump ist verflogen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24841213513728
+    m_Localized: Bist du bereit, das Verlies zu verlassen? Dadurch endet das Spiel.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25402566578176
+    m_Localized: Bist du sicher? Das wird das Spiel aufgeben.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25811498635264
+    m_Localized: Du hast einen verwendbaren Pfeil gefunden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26738175578112
+    m_Localized: "Welch ein Gl\xFCck! Du hast einen Blitzpfeil erworben!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27456844402688
+    m_Localized: "Ein Netz-Pfeil! Verwende ihn, um Pitfall-Fallen sicher zu \xFCberqueren."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27981405032448
+    m_Localized: "Eine Flasche Duft von Muglump. Es wird dich f\xFCr einige Runden
+      wie einen Muglump riechen lassen."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28829069676544
+    m_Localized: "Du hast eine B\xE4renfalle gefunden. Funktioniert auch bei Muglumps!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49123914223616
+    m_Localized: "Das Gl\xFCck l\xE4chelt dir zu, denn du hast die Krone gefunden!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50651832061952
+    m_Localized: "Du hast das Verlies \xFCberlebt!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52295000985600
+    m_Localized: Du wurdest von einem Muglump gefressen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53722792398848
+    m_Localized: "Du bist in dein Verderben gest\xFCrzt!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55221111033856
+    m_Localized: "F\xFChlt es sich gut an, ein Aufgeber zu sein?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56623841480704
+    m_Localized: Gamepad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57727933288448
+    m_Localized: Tastatur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58453099089920
+    m_Localized: "Dein Mut und dein Witz haben dir gut gedient, denn du hast einen
+      Muglump get\xF6tet."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59154659348480
+    m_Localized: "Herzlichen Gl\xFCckwunsch, der schwarze Muglump war kein Gegner
+      f\xFCr dich."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59782441799680
+    m_Localized: "Was ist das!? Ein Goldener Muglump!? Du bist wahrlich ein gro\xDFartiger
+      Muglump-J\xE4ger!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60312878649344
+    m_Localized: "Der J\xE4ger, der gejagt wurde, hat nun den gejagten J\xE4ger besiegt."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60979173199872
+    m_Localized: "Der furchteinfl\xF6\xDFende Silverback Muglump war kein Gegner
+      f\xFCr dich. Gl\xFCckwunsch."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61447756648448
+    m_Localized: "Du h\xF6rst schweres, angestrengtes Atmen aus einem nahegelegenen
+      Raum."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62030093815808
+    m_Localized: Wie so viele vor dir bist du jetzt im Bauch eines Muglumps.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63181488984064
+    m_Localized: Ein neuer Silverback Muglump ist in den Kerker eingetreten!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63953584852992
+    m_Localized: Nein
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64493563744256
+    m_Localized: "Du h\xF6rst einen Luftzug aus einem benachbarten Raum."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 65209032314880
+    m_Localized: "Du bist zu deinem Tod gefallen. N\xE4chstes Mal pass auf, wohin
+      du trittst."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66163899174912
+    m_Localized: Ja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68104700104704
+    m_Localized: Keiner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68348389167104
+    m_Localized: Eins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68644779659264
+    m_Localized: Wenige
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69446999019520
+    m_Localized: Einige
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69756081475584
+    m_Localized: Viele
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70573270306816
+    m_Localized: Massen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77244562477056
+    m_Localized: Neuling
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79441450831872
+    m_Localized: Einfach
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79795093573632
+    m_Localized: Normal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80296015106048
+    m_Localized: Schwer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80816909914112
+    m_Localized: Experte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81268686786560
+    m_Localized: "J\xE4ger und Beute"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81729686933504
+    m_Localized: Black Muglump Insanity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82456601759744
+    m_Localized: Black Muglump Test
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83524270231552
+    m_Localized: Blue Muglump Test
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83943583191040
+    m_Localized: Leer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84183438659584
+    m_Localized: "Viele Flederm\xE4use"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84610276200448
+    m_Localized: Benutzerdefinierter Modus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273444272148480
+    m_Localized: Feiglinge sterben oft
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273782316273664
+    m_Localized: "Entkomme dem Verlies lebendig, ohne einen einzigen Muglump zu t\xF6ten"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 275471832256512
+    m_Localized: '{0} Blitzpfeile'
+    m_Metadata:
+      m_Items:
+      - rid: 2955195235773448247
+  - m_Id: 286768934227968
+    m_Localized: '{0} Pfeile'
+    m_Metadata:
+      m_Items:
+      - rid: 2955195235773448247
+  - m_Id: 286684666466304
+    m_Localized: Erstes Blut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286729746845696
+    m_Localized: "T\xF6te deinen ersten Muglump"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288712113328128
+    m_Localized: '{0} Netz-Pfeile'
+    m_Metadata:
+      m_Items:
+      - rid: 2955195235773448247
+  - m_Id: 288710188142592
+    m_Localized: "Gl\xE4nzend"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288711169609728
+    m_Localized: Finde die Krone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290138562564096
+    m_Localized: Anhalter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290140580024320
+    m_Localized: "Reite im Laufe eines einzigen Spiels f\xFCnfmal auf Flederm\xE4usen,
+      ohne zu sterben."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 291405141708800
+    m_Localized: "Muglump-Schl\xE4chter"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 291407243055104
+    m_Localized: "T\xF6te 10 Muglumps"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 307157500497920
+    m_Localized: Fledermausreiter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 307209207877632
+    m_Localized: "Reite insgesamt 25-mal auf Flederm\xE4usen. Nur Fledermausritte,
+      die nicht mit dem Tod des Spielers enden, z\xE4hlen."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 308268202528768
+    m_Localized: "Scharfsch\xFCtze"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 308270094159872
+    m_Localized: "T\xF6te alle Muglumps in einem Dungeon, ohne einen einzigen Schuss
+      zu verfehlen, mindestens auf normaler Schwierigkeit."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 310267925041152
+    m_Localized: Muglump-Jagd
+    m_Metadata:
+      m_Items: []
+  - m_Id: 310271158849536
+    m_Localized: "T\xF6te alle Muglumps in einem Dungeon und kehre lebend zum Eingang
+      zur\xFCck, mindestens auf normaler Schwierigkeit."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 310897871753216
+    m_Localized: '{0} Dauer des Muglump-Dufts'
+    m_Metadata:
+      m_Items:
+      - rid: 2955195235773448247
+  - m_Id: 313564811563008
+    m_Localized: "Wenn es blutet, kann man es t\xF6ten"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 313566728359936
+    m_Localized: "T\xF6te den dunklen Muglump"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316033058803712
+    m_Localized: Ich wette, die goldenen machen den Schokoladengeschmack furchtbar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316036359720960
+    m_Localized: "T\xF6te den ultra-raren goldenen Muglump"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 319125800161280
+    m_Localized: "{0} Chance f\xFCr goldene Muglumps"
+    m_Metadata:
+      m_Items:
+      - rid: 2955195235773448247
+  - m_Id: 319123757535232
+    m_Localized: Entdecker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 319124906774528
+    m_Localized: "Erkunde 100 R\xE4ume"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 321827212955648
+    m_Localized: Dungeon-Kriecher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 321828462858240
+    m_Localized: "Erkunde 1000 R\xE4ume"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 322869057097728
+    m_Localized: "Entz\xFCnden!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 322869929512960
+    m_Localized: "Benutze Blitzpfeile, um Flederm\xE4use 5-mal zu vertreiben"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 324547948908544
+    m_Localized: "Jagd auf den J\xE4ger"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 324550712954880
+    m_Localized: "T\xF6te einen blauen Muglump"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 326015049338880
+    m_Localized: Ich bin besonders
+    m_Metadata:
+      m_Items: []
+  - m_Id: 326015917559808
+    m_Localized: "T\xF6te einen J\xE4ger-Muglump, der in einem Netz gefangen ist,
+      mit einem Blitzpfeil, w\xE4hrend du Duft von Muglump tr\xE4gst"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 327641306828800
+    m_Localized: "{0} B\xE4renfallen"
+    m_Metadata:
+      m_Items:
+      - rid: 2955195235773448247
+  - m_Id: 327531910991872
+    m_Localized: "Spitzenj\xE4ger"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 327534188498944
+    m_Localized: "T\xF6te einen Silberr\xFCcken-Muglumpen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 329606573133824
+    m_Localized: Muglump-Beherrschung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 329622184333312
+    m_Localized: "Erlege 10 oder mehr Silberr\xFCcken-Muglumps"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331066694242304
+    m_Localized: '{0} Duft von Muglump'
+    m_Metadata:
+      m_Items:
+      - rid: 2955195235773448247
+  - m_Id: 332261504651264
+    m_Localized: Fallensteller
+    m_Metadata:
+      m_Items: []
+  - m_Id: 332266672033792
+    m_Localized: "Platziere 5 B\xE4renfallen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 332271923302400
+    m_Localized: "Blaue und Silberr\xFCcken-Muglumps werden von Fallen angezogen,
+      wenn der Duft von Muglump aktiv ist"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 339154058940416
+    m_Localized: Experte in Fallenstellung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 339161969397760
+    m_Localized: "Fangen Sie 5 Muglumps jeglicher Art mit B\xE4renfallen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 341733455237120
+    m_Localized: Meister der Fallenstellung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 341735787270144
+    m_Localized: "Fangen Sie 25 Muglumps jeglicher Art mit B\xE4renfallen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 342961614557184
+    m_Localized: "Demn\xE4chst verf\xFCgbar"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 344901803118592
+    m_Localized: "\xDCbertrieben"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 344903963185152
+    m_Localized: "T\xF6te 15 Muglumps jeder Art, die gleichzeitig in einer B\xE4renfalle
+      und einem Netz gefangen sind, mit einem Blitzpfeil, w\xE4hrend du das Muglump-Parf\xFCm
+      tr\xE4gst"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 344904969818112
+    m_Localized: "Schalte den Hardcore-Modus frei (bald verf\xFCgbar)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366928358346752
+    m_Localized: Winzig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366929679552512
+    m_Localized: Klein
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366930665213952
+    m_Localized: Mittel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366931541823488
+    m_Localized: "Gro\xDF"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366933429260288
+    m_Localized: Massiv
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366934452670464
+    m_Localized: Episch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366935455109120
+    m_Localized: "Legend\xE4r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366932485541888
+    m_Localized: Riesig
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 2955195235773448247
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 0010b5488afa000000107598d00401000010f506950601000010358dc21a01000010f5433e2201000010b5effc2901000010b5781a2d0100

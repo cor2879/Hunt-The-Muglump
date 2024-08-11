@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-String-Tables-Vietnamese (Vietnam) (vi-VN)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-String-Tables-Vietnamese (Vietnam) (vi-VN)
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 7cebed8b9e586ca4b9a970b87ed76c3b
+  m_SerializeEntries:
+  - m_GUID: 64fd8a7aef76a6641bf6ec2f34babf1c
+    m_Address: LocalizationTable_vi-VN
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-vi-VN
+    - Preload
+  - m_GUID: ad41e2c4161334e4f84be0124abd4df2
+    m_Address: GameOverLocalizationTable_vi-VN
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-vi-VN
+    - Preload
+  - m_GUID: 9470441573d341b479ad7b4ebf5a2f26
+    m_Address: MenuPanelsLocalizationTable_vi-VN
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-vi-VN
+    - Preload
+  - m_GUID: 5fa442c79ccdbbe47875dd996f837b69
+    m_Address: LocalizedStringConstants_vi-VN
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-vi-VN
+    - Preload
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 8b77ed5de1ec81140aeb81a08a8abd18, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 4cb4a70d0ab9aee4db3509f3905bb253, type: 2}
+    - {fileID: 11400000, guid: bcf4af14df1732d46b5fc41cded82bbb, type: 2}

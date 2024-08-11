@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bb1838fe8befb0429646b938e757ff3, type: 3}
+  m_Name: Spanish (Mexico) (es-MX)
+  m_EditorClassIdentifier: 
+  m_Identifier:
+    m_Code: es-MX
+  m_Metadata:
+    m_Items:
+    - rid: 2955194961160044573
+    - rid: 2955194961160044580
+  m_LocaleName: Spanish (Mexico) (es-MX)
+  m_CustomFormatCultureCode: 
+  m_UseCustomFormatter: 0
+  m_SortOrder: 13
+  references:
+    version: 2
+    RefIds:
+    - rid: 2955194961160044573
+      type: {class: FallbackLocale, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Locale: {fileID: 11400000, guid: 2a8b39e75f6d9fe4386aefa6b2cf17aa, type: 2}
+    - rid: 2955194961160044580
+      type: {class: FallbackLocale, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Locale: {fileID: 11400000, guid: 4339551abde759f4db1e36fd6c5e7606, type: 2}

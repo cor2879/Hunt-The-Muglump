@@ -1,0 +1,1205 @@
+fileFormatVersion: 2
+guid: 85b2618fc5b590e40855d81381203e4a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RedMuglump-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -6, y: 8}
+        - {x: -7, y: 3}
+        - {x: -13, y: -2}
+        - {x: -14, y: -12}
+        - {x: -10, y: -15}
+        - {x: 10, y: -15}
+        - {x: 14, y: -12}
+        - {x: 14, y: -2}
+        - {x: 11, y: 1}
+        - {x: 6, y: 2}
+        - {x: 7, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc34049e5aae214c9b579dd33067b08
+      internalID: -468215125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedMuglump-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -6, y: 8}
+        - {x: -7, y: 3}
+        - {x: -13, y: -2}
+        - {x: -14, y: -12}
+        - {x: -10, y: -15}
+        - {x: 10, y: -15}
+        - {x: 14, y: -12}
+        - {x: 14, y: -2}
+        - {x: 11, y: 1}
+        - {x: 6, y: 2}
+        - {x: 7, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d76db45447080449ba28110f881dc62
+      internalID: -1566821954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedMuglump-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -6, y: 8}
+        - {x: -7, y: 3}
+        - {x: -13, y: -2}
+        - {x: -14, y: -12}
+        - {x: -10, y: -15}
+        - {x: 10, y: -15}
+        - {x: 14, y: -12}
+        - {x: 14, y: -2}
+        - {x: 11, y: 1}
+        - {x: 6, y: 2}
+        - {x: 7, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d297c008f342142a1084cbda7be401
+      internalID: 1761688144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedMuglump-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -6, y: 8}
+        - {x: -7, y: 3}
+        - {x: -13, y: -2}
+        - {x: -14, y: -12}
+        - {x: -10, y: -15}
+        - {x: 10, y: -15}
+        - {x: 14, y: -12}
+        - {x: 14, y: -2}
+        - {x: 11, y: 1}
+        - {x: 6, y: 2}
+        - {x: 7, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b037a29a8b3bd17488498b038259ffc2
+      internalID: -1405409073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedMuglump-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 2, y: 13}
+        - {x: -3, y: 13}
+        - {x: -7, y: 8}
+        - {x: -7, y: 3}
+        - {x: -5, y: -12}
+        - {x: 0, y: -16}
+        - {x: 10, y: -15}
+        - {x: 4, y: -9}
+        - {x: 7, y: -4}
+        - {x: 6, y: 2}
+        - {x: 7, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f0d87407a6a9747ae79172b62e96cb
+      internalID: -2062988403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedMuglump-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 2, y: 13}
+        - {x: -3, y: 13}
+        - {x: -7, y: 8}
+        - {x: -7, y: 3}
+        - {x: -5, y: -12}
+        - {x: -9, y: -16}
+        - {x: 2, y: -16}
+        - {x: 4, y: -9}
+        - {x: 7, y: -4}
+        - {x: 6, y: 2}
+        - {x: 7, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ea9b8f274648c48ab8bbf196c38c9d
+      internalID: -433763706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedMuglump-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -6, y: 8}
+        - {x: -7, y: 3}
+        - {x: -10, y: -15}
+        - {x: 10, y: -15}
+        - {x: 11, y: 1}
+        - {x: 6, y: 2}
+        - {x: 7, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81edb63d62a0f524e8c0cc692e5105f8
+      internalID: -799792502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedMuglump-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -6, y: 8}
+        - {x: -7, y: 3}
+        - {x: -10, y: -2}
+        - {x: -6, y: -7}
+        - {x: 6, y: -8}
+        - {x: 10, y: -3}
+        - {x: 11, y: 1}
+        - {x: 6, y: 2}
+        - {x: 7, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b6b96e543b3f0c4eb8bf66947a4d14e
+      internalID: -1823439365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedMuglump-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -6, y: 8}
+        - {x: -7, y: 3}
+        - {x: -13, y: -2}
+        - {x: -14, y: -12}
+        - {x: -10, y: -15}
+        - {x: 10, y: -15}
+        - {x: 14, y: -12}
+        - {x: 14, y: -2}
+        - {x: 11, y: 1}
+        - {x: 6, y: 2}
+        - {x: 7, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d1f92ebb5ea2e449027b7cf5e4526a
+      internalID: 52780519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedMuglump-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -6, y: 8}
+        - {x: -7, y: 3}
+        - {x: -13, y: -2}
+        - {x: -14, y: -12}
+        - {x: -10, y: -15}
+        - {x: 10, y: -15}
+        - {x: 14, y: -12}
+        - {x: 14, y: -2}
+        - {x: 11, y: 1}
+        - {x: 6, y: 2}
+        - {x: 7, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97856024cb5c154bb0b18f12eaa81b9
+      internalID: 1574052099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedMuglump-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -6, y: 8}
+        - {x: -7, y: 3}
+        - {x: -13, y: -2}
+        - {x: -14, y: -12}
+        - {x: -10, y: -15}
+        - {x: 10, y: -15}
+        - {x: 14, y: -12}
+        - {x: 14, y: -2}
+        - {x: 11, y: 1}
+        - {x: 6, y: 2}
+        - {x: 7, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bad92f55c1b4874c8dec3910801dab8
+      internalID: -1477284932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedMuglump-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -6, y: 8}
+        - {x: -7, y: 3}
+        - {x: -13, y: -2}
+        - {x: -14, y: -12}
+        - {x: -10, y: -15}
+        - {x: 10, y: -15}
+        - {x: 14, y: -12}
+        - {x: 14, y: -2}
+        - {x: 11, y: 1}
+        - {x: 6, y: 2}
+        - {x: 7, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273d024c18b86a74fa863fd5224bb24e
+      internalID: 1902356290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedMuglump-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -6, y: 8}
+        - {x: -7, y: 3}
+        - {x: -10, y: -11}
+        - {x: -5, y: -15}
+        - {x: 10, y: -15}
+        - {x: 10, y: -7}
+        - {x: 6, y: 2}
+        - {x: 7, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 750dc49994b89b44ea58ce4755258b1c
+      internalID: 840233169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedMuglump-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -6, y: 8}
+        - {x: -7, y: 3}
+        - {x: -10, y: -8}
+        - {x: -9, y: -14}
+        - {x: 8, y: -15}
+        - {x: 9, y: -5}
+        - {x: 6, y: 2}
+        - {x: 7, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e392ee36303eb47b1bf5a9e8aa145f
+      internalID: 805960689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedMuglump-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -6, y: 8}
+        - {x: -7, y: 3}
+        - {x: -9, y: -2}
+        - {x: -10, y: -15}
+        - {x: 10, y: -15}
+        - {x: 11, y: 1}
+        - {x: 6, y: 2}
+        - {x: 7, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b5ca0330c53574e8e5f17fa1481fdb
+      internalID: -982061603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedMuglump-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -6, y: 8}
+        - {x: -7, y: 3}
+        - {x: -8, y: 1}
+        - {x: -5, y: -2}
+        - {x: 5, y: -1}
+        - {x: 11, y: 1}
+        - {x: 6, y: 2}
+        - {x: 7, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68449ed0bcac45a419379fb7bd00f0d5
+      internalID: -75055157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedMuglump-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -6, y: 8}
+        - {x: -7, y: 3}
+        - {x: -13, y: -2}
+        - {x: -14, y: -12}
+        - {x: -10, y: -15}
+        - {x: 10, y: -15}
+        - {x: 14, y: -12}
+        - {x: 14, y: -2}
+        - {x: 11, y: 1}
+        - {x: 6, y: 2}
+        - {x: 7, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f14a88fbb266641a2f45f580a9a7cb
+      internalID: -724454909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedMuglump-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -6, y: 8}
+        - {x: -7, y: 3}
+        - {x: -13, y: -2}
+        - {x: -14, y: -12}
+        - {x: -10, y: -15}
+        - {x: 10, y: -15}
+        - {x: 14, y: -12}
+        - {x: 14, y: -2}
+        - {x: 11, y: 1}
+        - {x: 6, y: 2}
+        - {x: 7, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c446bb21e31c84458026c4bc9ceebf6
+      internalID: 2088932466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedMuglump-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -6, y: 8}
+        - {x: -7, y: 3}
+        - {x: -13, y: -2}
+        - {x: -14, y: -12}
+        - {x: -10, y: -15}
+        - {x: 10, y: -15}
+        - {x: 14, y: -12}
+        - {x: 14, y: -2}
+        - {x: 11, y: 1}
+        - {x: 6, y: 2}
+        - {x: 7, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b7e319084b8f84db850a1a69c9d8e5
+      internalID: 39589757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedMuglump-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -6, y: 8}
+        - {x: -7, y: 3}
+        - {x: -8, y: -15}
+        - {x: 7, y: -15}
+        - {x: 6, y: 2}
+        - {x: 7, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa7376dbf9ade0498d3a2beb7aebdfa
+      internalID: 1108912104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedMuglump-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -6, y: 8}
+        - {x: -7, y: 3}
+        - {x: -8, y: -15}
+        - {x: 7, y: -15}
+        - {x: 6, y: 2}
+        - {x: 7, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: de5636831d35eb248a4175df85c4df51
+      internalID: 1290620360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedMuglump-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -6, y: 8}
+        - {x: -7, y: 3}
+        - {x: -13, y: -2}
+        - {x: -14, y: -12}
+        - {x: -10, y: -15}
+        - {x: 10, y: -15}
+        - {x: 14, y: -12}
+        - {x: 14, y: -2}
+        - {x: 11, y: 1}
+        - {x: 6, y: 2}
+        - {x: 7, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 518d66c8f225f784ca7f997fb1656a33
+      internalID: -611158887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedMuglump-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -6, y: 8}
+        - {x: -7, y: 3}
+        - {x: -9, y: -1}
+        - {x: -10, y: -15}
+        - {x: 10, y: -15}
+        - {x: 9, y: -11}
+        - {x: 11, y: 1}
+        - {x: 6, y: 2}
+        - {x: 7, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d363ee2cf7c1474a96b394a69e3dc0f
+      internalID: 126731301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedMuglump-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -6, y: 8}
+        - {x: -7, y: 3}
+        - {x: -13, y: -2}
+        - {x: -14, y: -12}
+        - {x: -10, y: -15}
+        - {x: 10, y: -15}
+        - {x: 14, y: -12}
+        - {x: 14, y: -2}
+        - {x: 11, y: 1}
+        - {x: 6, y: 2}
+        - {x: 7, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9198b8df2cf574993450c62228a076
+      internalID: -1004082570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedMuglump-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -6, y: 8}
+        - {x: -7, y: 3}
+        - {x: -13, y: -2}
+        - {x: -14, y: -12}
+        - {x: -10, y: -15}
+        - {x: 10, y: -15}
+        - {x: 14, y: -12}
+        - {x: 14, y: -2}
+        - {x: 11, y: 1}
+        - {x: 6, y: 2}
+        - {x: 7, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c7cc8187731084284ca71fe6a83359
+      internalID: 255789987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedMuglump-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -6, y: 8}
+        - {x: -7, y: 3}
+        - {x: -13, y: -2}
+        - {x: -14, y: -12}
+        - {x: -10, y: -15}
+        - {x: 10, y: -15}
+        - {x: 14, y: -12}
+        - {x: 14, y: -2}
+        - {x: 11, y: 1}
+        - {x: 6, y: 2}
+        - {x: 7, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b57aab80bb206c84e938f79e8d1ec2fa
+      internalID: -1308261990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedMuglump-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -6, y: 8}
+        - {x: -7, y: 3}
+        - {x: -8, y: -15}
+        - {x: 7, y: -15}
+        - {x: 6, y: 2}
+        - {x: 7, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01fc20fb98103c849bb13604a2ed4f23
+      internalID: -525836122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedMuglump-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -6, y: 8}
+        - {x: -7, y: 3}
+        - {x: -8, y: -15}
+        - {x: 7, y: -15}
+        - {x: 6, y: 2}
+        - {x: 7, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78024996b7820d9468351bfa863fb779
+      internalID: -1209390970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedMuglump-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -6, y: 8}
+        - {x: -7, y: 3}
+        - {x: -13, y: -2}
+        - {x: -14, y: -12}
+        - {x: -10, y: -15}
+        - {x: 10, y: -15}
+        - {x: 14, y: -12}
+        - {x: 14, y: -2}
+        - {x: 11, y: 1}
+        - {x: 6, y: 2}
+        - {x: 7, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4898a90291a8c0546a30924dc8ccad47
+      internalID: 1441637935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedMuglump-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -6, y: 8}
+        - {x: -7, y: 3}
+        - {x: -8, y: -10}
+        - {x: 8, y: -10}
+        - {x: 11, y: 1}
+        - {x: 6, y: 2}
+        - {x: 7, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea09e2116d61034d9819f934472aebb
+      internalID: -318217121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedMuglump-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0380c760101ee1541b736c2b227b9a83
+      internalID: -694501058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedMuglump-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4b8ecf84e80be4aacf01063d993aeb
+      internalID: 870360646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      RedMuglump-Sheet_0: -468215125
+      RedMuglump-Sheet_1: -1566821954
+      RedMuglump-Sheet_10: -1477284932
+      RedMuglump-Sheet_11: 1902356290
+      RedMuglump-Sheet_12: 840233169
+      RedMuglump-Sheet_13: 805960689
+      RedMuglump-Sheet_14: -982061603
+      RedMuglump-Sheet_15: -75055157
+      RedMuglump-Sheet_16: -724454909
+      RedMuglump-Sheet_17: 2088932466
+      RedMuglump-Sheet_18: 39589757
+      RedMuglump-Sheet_19: 1108912104
+      RedMuglump-Sheet_2: 1761688144
+      RedMuglump-Sheet_20: 1290620360
+      RedMuglump-Sheet_21: -611158887
+      RedMuglump-Sheet_22: 126731301
+      RedMuglump-Sheet_23: -1004082570
+      RedMuglump-Sheet_24: 255789987
+      RedMuglump-Sheet_25: -1308261990
+      RedMuglump-Sheet_26: -525836122
+      RedMuglump-Sheet_27: -1209390970
+      RedMuglump-Sheet_28: 1441637935
+      RedMuglump-Sheet_29: -318217121
+      RedMuglump-Sheet_3: -1405409073
+      RedMuglump-Sheet_30: -694501058
+      RedMuglump-Sheet_31: 870360646
+      RedMuglump-Sheet_4: -2062988403
+      RedMuglump-Sheet_5: -433763706
+      RedMuglump-Sheet_6: -799792502
+      RedMuglump-Sheet_7: -1823439365
+      RedMuglump-Sheet_8: 52780519
+      RedMuglump-Sheet_9: 1574052099
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

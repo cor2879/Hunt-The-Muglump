@@ -1,0 +1,1189 @@
+fileFormatVersion: 2
+guid: 2b3ca7bd4816b8d43aac6e50d19e9cb0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DarkMuglump-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -4, y: 12}
+        - {x: -7, y: 3}
+        - {x: -13, y: -1}
+        - {x: -14, y: -12}
+        - {x: -9, y: -15}
+        - {x: 11, y: -15}
+        - {x: 15, y: -12}
+        - {x: 14, y: -2}
+        - {x: 8, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa1b73f14a2c84641827f0a393438189
+      internalID: 448615994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkMuglump-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -4, y: 12}
+        - {x: -7, y: 3}
+        - {x: -13, y: -1}
+        - {x: -14, y: -12}
+        - {x: -9, y: -15}
+        - {x: 11, y: -15}
+        - {x: 15, y: -12}
+        - {x: 14, y: -2}
+        - {x: 8, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c3eaf35655d8f542b1605d5edbe6a01
+      internalID: 1672304477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkMuglump-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -4, y: 12}
+        - {x: -7, y: 3}
+        - {x: -13, y: -1}
+        - {x: -14, y: -12}
+        - {x: -9, y: -15}
+        - {x: 11, y: -15}
+        - {x: 15, y: -12}
+        - {x: 14, y: -2}
+        - {x: 8, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8bcda358fab514ea441bd89af21d65
+      internalID: 1218457316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkMuglump-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -4, y: 12}
+        - {x: -7, y: 3}
+        - {x: -13, y: -1}
+        - {x: -14, y: -12}
+        - {x: -9, y: -15}
+        - {x: 11, y: -15}
+        - {x: 15, y: -12}
+        - {x: 14, y: -2}
+        - {x: 8, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212cbae62166ac34784b754043d76acf
+      internalID: 412740135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkMuglump-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -4, y: 12}
+        - {x: -7, y: 3}
+        - {x: -13, y: -1}
+        - {x: -14, y: -12}
+        - {x: -9, y: -15}
+        - {x: 11, y: -15}
+        - {x: 15, y: -12}
+        - {x: 14, y: -2}
+        - {x: 8, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3811c71b28c10ee49b5920abfd562d33
+      internalID: 1274553255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkMuglump-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -4, y: 12}
+        - {x: -7, y: 3}
+        - {x: -13, y: -1}
+        - {x: -14, y: -12}
+        - {x: -9, y: -15}
+        - {x: 11, y: -15}
+        - {x: 15, y: -12}
+        - {x: 14, y: -2}
+        - {x: 8, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f084f062f945e774e914d1687a36bc4d
+      internalID: 1918383789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkMuglump-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -4, y: 12}
+        - {x: -7, y: 3}
+        - {x: -13, y: -1}
+        - {x: -14, y: -12}
+        - {x: -9, y: -15}
+        - {x: 11, y: -15}
+        - {x: 15, y: -12}
+        - {x: 14, y: -2}
+        - {x: 8, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b224cc0be65eb4eb34adb4586ecfbf
+      internalID: -1804551319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkMuglump-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -4, y: 12}
+        - {x: -7, y: 3}
+        - {x: -13, y: -1}
+        - {x: -14, y: -12}
+        - {x: -9, y: -15}
+        - {x: 11, y: -15}
+        - {x: 15, y: -12}
+        - {x: 14, y: -2}
+        - {x: 8, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1318a042008234198f4afce3fa26e9
+      internalID: 565024400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkMuglump-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -4, y: 12}
+        - {x: -7, y: 3}
+        - {x: -13, y: -1}
+        - {x: -14, y: -12}
+        - {x: -9, y: -15}
+        - {x: 11, y: -15}
+        - {x: 15, y: -12}
+        - {x: 14, y: -2}
+        - {x: 8, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5623fb0e1eb1742b12bd6ee7190949
+      internalID: 1100022196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkMuglump-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -4, y: 12}
+        - {x: -7, y: 3}
+        - {x: -13, y: -1}
+        - {x: -14, y: -12}
+        - {x: -9, y: -15}
+        - {x: 11, y: -15}
+        - {x: 15, y: -12}
+        - {x: 14, y: -2}
+        - {x: 8, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d852fd6cb44c2b740bf310430ceb379d
+      internalID: -647237246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkMuglump-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -4, y: 12}
+        - {x: -7, y: 3}
+        - {x: -13, y: -1}
+        - {x: -14, y: -12}
+        - {x: -9, y: -15}
+        - {x: 11, y: -15}
+        - {x: 15, y: -12}
+        - {x: 14, y: -2}
+        - {x: 8, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0454d691833aabf488e15546dc142482
+      internalID: 1461284765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkMuglump-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -4, y: 12}
+        - {x: -7, y: 3}
+        - {x: -13, y: -1}
+        - {x: -14, y: -12}
+        - {x: -9, y: -15}
+        - {x: 11, y: -15}
+        - {x: 15, y: -12}
+        - {x: 14, y: -2}
+        - {x: 8, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 468d61d16d43e684d88472ef43ef23a9
+      internalID: 1056593887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkMuglump-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -4, y: 12}
+        - {x: -7, y: 3}
+        - {x: -13, y: -1}
+        - {x: -14, y: -12}
+        - {x: -9, y: -15}
+        - {x: 11, y: -15}
+        - {x: 15, y: -12}
+        - {x: 14, y: -2}
+        - {x: 8, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: afba4b59c0e7d704b9d7f1ff65138a48
+      internalID: 106094799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkMuglump-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -4, y: 12}
+        - {x: -7, y: 3}
+        - {x: -13, y: -1}
+        - {x: -14, y: -12}
+        - {x: -9, y: -15}
+        - {x: 11, y: -15}
+        - {x: 15, y: -12}
+        - {x: 14, y: -2}
+        - {x: 8, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7249126cf9d73414bb855e288ab778f4
+      internalID: 2040822091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkMuglump-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -4, y: 12}
+        - {x: -7, y: 3}
+        - {x: -7, y: -15}
+        - {x: 7, y: -15}
+        - {x: 8, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d9d16258428284d87f6c00d4599442
+      internalID: 32587317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkMuglump-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -4, y: 12}
+        - {x: -7, y: 3}
+        - {x: -7, y: -15}
+        - {x: 7, y: -15}
+        - {x: 8, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f840923a7eda25e4a9da3af329760372
+      internalID: -491951772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkMuglump-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -4, y: 12}
+        - {x: -7, y: 3}
+        - {x: -3, y: -13}
+        - {x: 7, y: -15}
+        - {x: 8, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab0ef7889d9a5fe4aa479827981b7950
+      internalID: -1552088632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkMuglump-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -4, y: 12}
+        - {x: -7, y: 3}
+        - {x: -9, y: -10}
+        - {x: -7, y: -15}
+        - {x: 7, y: -15}
+        - {x: 8, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: efed8113eeb07ee46bc43cb535f647b0
+      internalID: 1232362261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkMuglump-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -4, y: 12}
+        - {x: -7, y: 3}
+        - {x: -7, y: -15}
+        - {x: 7, y: -15}
+        - {x: 8, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5124050cd0e1bf94e8d726b40c52d285
+      internalID: 1075350074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkMuglump-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -4, y: 12}
+        - {x: -7, y: 3}
+        - {x: -7, y: -15}
+        - {x: 7, y: -15}
+        - {x: 8, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5efb1f9cbc3d79345ab24c62f24748ce
+      internalID: 719903284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkMuglump-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -4, y: 12}
+        - {x: -7, y: 3}
+        - {x: -7, y: -15}
+        - {x: 7, y: -15}
+        - {x: 8, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef0ed2630d4146548b59216e107dc87b
+      internalID: 436189519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkMuglump-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -4, y: 12}
+        - {x: -7, y: 3}
+        - {x: -9, y: -7}
+        - {x: -9, y: -14}
+        - {x: 7, y: -15}
+        - {x: 9, y: -9}
+        - {x: 7, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2bd540a5409ba24bb0843074cf55394
+      internalID: -1360804801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkMuglump-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -4, y: 12}
+        - {x: -7, y: 3}
+        - {x: -13, y: -1}
+        - {x: -14, y: -12}
+        - {x: -9, y: -15}
+        - {x: 11, y: -15}
+        - {x: 15, y: -12}
+        - {x: 14, y: -2}
+        - {x: 8, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a8ed9065b50424384467bccfb35238
+      internalID: 2123487761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkMuglump-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -4, y: 12}
+        - {x: -7, y: 3}
+        - {x: -13, y: -1}
+        - {x: -14, y: -12}
+        - {x: -9, y: -15}
+        - {x: 11, y: -15}
+        - {x: 15, y: -12}
+        - {x: 14, y: -2}
+        - {x: 8, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af64b316a4be774d8986a9950b6f976
+      internalID: 1838511514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkMuglump-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -4, y: 12}
+        - {x: -7, y: 3}
+        - {x: -9, y: -3}
+        - {x: -9, y: -10}
+        - {x: -9, y: -15}
+        - {x: 10, y: -15}
+        - {x: 9, y: -4}
+        - {x: 8, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2339f0e6daf7c148bdc20c474598375
+      internalID: -1687464600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkMuglump-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -4, y: 12}
+        - {x: -7, y: 3}
+        - {x: -9, y: -3}
+        - {x: -9, y: -10}
+        - {x: -9, y: -15}
+        - {x: 10, y: -15}
+        - {x: 9, y: -4}
+        - {x: 8, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b56c0dbe029403458186b36fa1dd1e5
+      internalID: 2093395284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkMuglump-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -4, y: 12}
+        - {x: -7, y: 3}
+        - {x: -9, y: -3}
+        - {x: -9, y: -10}
+        - {x: -9, y: -15}
+        - {x: 10, y: -15}
+        - {x: 9, y: -4}
+        - {x: 8, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f721eb7de81097418880bc56880f098
+      internalID: -1611203887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkMuglump-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -4, y: 12}
+        - {x: -7, y: 3}
+        - {x: -9, y: -3}
+        - {x: -9, y: -10}
+        - {x: 8, y: -10}
+        - {x: 10, y: -3}
+        - {x: 8, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4165549569fc9d446bd52bf858b9eebf
+      internalID: -309704279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkMuglump-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -4, y: 12}
+        - {x: -7, y: 3}
+        - {x: -9, y: -2}
+        - {x: -7, y: -7}
+        - {x: 8, y: -7}
+        - {x: 10, y: -2}
+        - {x: 8, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e8d75d21915db448fc9c01455e445e
+      internalID: -1358143524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkMuglump-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -4, y: 12}
+        - {x: -7, y: 3}
+        - {x: -9, y: -2}
+        - {x: 10, y: -2}
+        - {x: 8, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775517da27ecc364aa28b142b6ce93cf
+      internalID: 895360168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkMuglump-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0d271db14eca64f99f711ff2ba9065
+      internalID: -1851872986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkMuglump-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c532592e4b314b4e97130ef2f316230
+      internalID: -551255157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkMuglump-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0046f89d34d48408de9f7b90ae7ed2
+      internalID: -683903986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkMuglump-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f51f3cd3fcda7b43a73480b66bb47d5
+      internalID: 1101667812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkMuglump-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3490f79fc988e14dbf45a35ee0c28d8
+      internalID: -310047661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DarkMuglump-Sheet_0: 448615994
+      DarkMuglump-Sheet_1: 1672304477
+      DarkMuglump-Sheet_10: 1461284765
+      DarkMuglump-Sheet_11: 1056593887
+      DarkMuglump-Sheet_12: 106094799
+      DarkMuglump-Sheet_13: 2040822091
+      DarkMuglump-Sheet_14: 32587317
+      DarkMuglump-Sheet_15: -491951772
+      DarkMuglump-Sheet_16: -1552088632
+      DarkMuglump-Sheet_17: 1232362261
+      DarkMuglump-Sheet_18: 1075350074
+      DarkMuglump-Sheet_19: 719903284
+      DarkMuglump-Sheet_2: 1218457316
+      DarkMuglump-Sheet_20: 436189519
+      DarkMuglump-Sheet_21: -1360804801
+      DarkMuglump-Sheet_22: 2123487761
+      DarkMuglump-Sheet_23: 1838511514
+      DarkMuglump-Sheet_24: -1687464600
+      DarkMuglump-Sheet_25: 2093395284
+      DarkMuglump-Sheet_26: -1611203887
+      DarkMuglump-Sheet_27: -309704279
+      DarkMuglump-Sheet_28: -1358143524
+      DarkMuglump-Sheet_29: 895360168
+      DarkMuglump-Sheet_3: 412740135
+      DarkMuglump-Sheet_30: -1851872986
+      DarkMuglump-Sheet_31: -551255157
+      DarkMuglump-Sheet_32: -683903986
+      DarkMuglump-Sheet_33: 1101667812
+      DarkMuglump-Sheet_34: -310047661
+      DarkMuglump-Sheet_4: 1274553255
+      DarkMuglump-Sheet_5: 1918383789
+      DarkMuglump-Sheet_6: -1804551319
+      DarkMuglump-Sheet_7: 565024400
+      DarkMuglump-Sheet_8: 1100022196
+      DarkMuglump-Sheet_9: -647237246
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

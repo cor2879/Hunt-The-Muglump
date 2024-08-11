@@ -1,0 +1,1175 @@
+fileFormatVersion: 2
+guid: 654c76dfd4d58cc4da912bb4f085a686
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GoldMuglump-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 13}
+        - {x: -6, y: 10}
+        - {x: -9, y: 2}
+        - {x: -14, y: -2}
+        - {x: -14, y: -11}
+        - {x: -10, y: -15}
+        - {x: 10, y: -15}
+        - {x: 15, y: -12}
+        - {x: 13, y: -1}
+        - {x: 9, y: 2}
+        - {x: 6, y: 8}
+        - {x: 4, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 189d228412e52c54bb2a242655a77581
+      internalID: 1528884238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldMuglump-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 13}
+        - {x: -6, y: 10}
+        - {x: -9, y: 2}
+        - {x: -14, y: -2}
+        - {x: -14, y: -11}
+        - {x: -10, y: -15}
+        - {x: 10, y: -15}
+        - {x: 15, y: -12}
+        - {x: 13, y: -1}
+        - {x: 9, y: 2}
+        - {x: 6, y: 8}
+        - {x: 4, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4560050098943f74cbc410ae4354c29b
+      internalID: -59720475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldMuglump-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 13}
+        - {x: -6, y: 10}
+        - {x: -9, y: 2}
+        - {x: -14, y: -2}
+        - {x: -14, y: -11}
+        - {x: -10, y: -15}
+        - {x: 10, y: -15}
+        - {x: 15, y: -12}
+        - {x: 13, y: -1}
+        - {x: 9, y: 2}
+        - {x: 6, y: 8}
+        - {x: 4, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb583ba19f6bac46a6c1caa2a29da3b
+      internalID: -1131714511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldMuglump-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 13}
+        - {x: -6, y: 10}
+        - {x: -9, y: 2}
+        - {x: -14, y: -2}
+        - {x: -14, y: -11}
+        - {x: -10, y: -15}
+        - {x: 10, y: -15}
+        - {x: 15, y: -12}
+        - {x: 13, y: -1}
+        - {x: 9, y: 2}
+        - {x: 6, y: 8}
+        - {x: 4, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb5c1cbbbedf0f40974b312bf1e7671
+      internalID: -1176222093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldMuglump-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 13}
+        - {x: -6, y: 10}
+        - {x: -9, y: 2}
+        - {x: -14, y: -2}
+        - {x: -14, y: -11}
+        - {x: -10, y: -15}
+        - {x: 10, y: -15}
+        - {x: 15, y: -12}
+        - {x: 13, y: -1}
+        - {x: 9, y: 2}
+        - {x: 6, y: 8}
+        - {x: 4, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37303077e8123424e8f7d8e780ba7f43
+      internalID: 900536071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldMuglump-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 13}
+        - {x: -6, y: 10}
+        - {x: -9, y: 2}
+        - {x: -14, y: -2}
+        - {x: -14, y: -11}
+        - {x: -10, y: -15}
+        - {x: 10, y: -15}
+        - {x: 15, y: -12}
+        - {x: 13, y: -1}
+        - {x: 9, y: 2}
+        - {x: 6, y: 8}
+        - {x: 4, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f22f1642712ad7044867cc712c8b0b74
+      internalID: 1496317858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldMuglump-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 13}
+        - {x: -6, y: 10}
+        - {x: -9, y: 2}
+        - {x: -14, y: -2}
+        - {x: -14, y: -11}
+        - {x: -10, y: -15}
+        - {x: 10, y: -15}
+        - {x: 15, y: -12}
+        - {x: 13, y: -1}
+        - {x: 9, y: 2}
+        - {x: 6, y: 8}
+        - {x: 4, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba660ffb3aded745ab07c84d8bf86a6
+      internalID: -747306852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldMuglump-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 13}
+        - {x: -6, y: 10}
+        - {x: -9, y: 2}
+        - {x: -14, y: -2}
+        - {x: -14, y: -11}
+        - {x: -10, y: -15}
+        - {x: 10, y: -15}
+        - {x: 15, y: -12}
+        - {x: 13, y: -1}
+        - {x: 9, y: 2}
+        - {x: 6, y: 8}
+        - {x: 4, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3c83182ddb46c4380f381035bd65a8
+      internalID: 887225654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldMuglump-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 13}
+        - {x: -6, y: 10}
+        - {x: -9, y: 2}
+        - {x: -14, y: -2}
+        - {x: -14, y: -11}
+        - {x: -10, y: -15}
+        - {x: 10, y: -15}
+        - {x: 15, y: -12}
+        - {x: 13, y: -1}
+        - {x: 9, y: 2}
+        - {x: 6, y: 8}
+        - {x: 4, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb54079712c14241b37da0a0fc7711f
+      internalID: -744564911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldMuglump-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 13}
+        - {x: -6, y: 10}
+        - {x: -9, y: 2}
+        - {x: -14, y: -2}
+        - {x: -14, y: -11}
+        - {x: -10, y: -15}
+        - {x: 10, y: -15}
+        - {x: 15, y: -12}
+        - {x: 13, y: -1}
+        - {x: 9, y: 2}
+        - {x: 6, y: 8}
+        - {x: 4, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ed28df900d03f42aebec40b5ddddfb
+      internalID: -1632777841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldMuglump-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 13}
+        - {x: -6, y: 10}
+        - {x: -9, y: 2}
+        - {x: -14, y: -2}
+        - {x: -14, y: -11}
+        - {x: -10, y: -15}
+        - {x: 10, y: -15}
+        - {x: 15, y: -12}
+        - {x: 13, y: -1}
+        - {x: 9, y: 2}
+        - {x: 6, y: 8}
+        - {x: 4, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de29fac2d6efc245a11d8e2f66171ff
+      internalID: 167757456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldMuglump-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 13}
+        - {x: -6, y: 10}
+        - {x: -9, y: 2}
+        - {x: -14, y: -2}
+        - {x: -14, y: -11}
+        - {x: -10, y: -15}
+        - {x: 10, y: -15}
+        - {x: 15, y: -12}
+        - {x: 13, y: -1}
+        - {x: 9, y: 2}
+        - {x: 6, y: 8}
+        - {x: 4, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b8a90ae8911a44b88d8d25bd2e43c5
+      internalID: -855068424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldMuglump-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 13}
+        - {x: -6, y: 10}
+        - {x: -9, y: 2}
+        - {x: -14, y: -2}
+        - {x: -14, y: -11}
+        - {x: -10, y: -15}
+        - {x: 10, y: -15}
+        - {x: 15, y: -12}
+        - {x: 13, y: -1}
+        - {x: 9, y: 2}
+        - {x: 6, y: 8}
+        - {x: 4, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3553c7aded31954ca84431e74ee72db
+      internalID: 690171274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldMuglump-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 13}
+        - {x: -6, y: 10}
+        - {x: -9, y: 2}
+        - {x: -14, y: -2}
+        - {x: -14, y: -11}
+        - {x: -10, y: -15}
+        - {x: 10, y: -15}
+        - {x: 15, y: -12}
+        - {x: 13, y: -1}
+        - {x: 9, y: 2}
+        - {x: 6, y: 8}
+        - {x: 4, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225e8da47796b864bb922b6cb4f9ccb0
+      internalID: -997343135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldMuglump-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f96b7f37719474fa2fb14ea2693cfb
+      internalID: -1493255312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldMuglump-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e2e6a5bc56083548b1d04eecad722ec
+      internalID: 2142083013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldMuglump-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a01466e8459a5204c8c19b1b1b29fad2
+      internalID: -1719726693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldMuglump-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435caa6f85161fd4fba8c0b5f9c9ccbb
+      internalID: -980688184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldMuglump-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c2f8ca2dc93224fa53f88c7eb4a247
+      internalID: 1926359843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldMuglump-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81652d0fe0ae8604f90e6e609410e0ab
+      internalID: 295721572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldMuglump-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2af79b0a1c7e0b4eb371ac7bcf2afef
+      internalID: -1883432812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldMuglump-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51dd140631fe2104897d8195f71e7922
+      internalID: -98110875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldMuglump-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 13}
+        - {x: -6, y: 10}
+        - {x: -9, y: 2}
+        - {x: -14, y: -2}
+        - {x: -14, y: -11}
+        - {x: -10, y: -15}
+        - {x: 10, y: -15}
+        - {x: 15, y: -12}
+        - {x: 13, y: -1}
+        - {x: 9, y: 2}
+        - {x: 6, y: 8}
+        - {x: 4, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7429bd81d4a55e044b28bc7dca21a300
+      internalID: -1044385458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldMuglump-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 13}
+        - {x: -6, y: 10}
+        - {x: -9, y: 2}
+        - {x: -14, y: -2}
+        - {x: -14, y: -11}
+        - {x: -10, y: -15}
+        - {x: 10, y: -15}
+        - {x: 15, y: -12}
+        - {x: 13, y: -1}
+        - {x: 9, y: 2}
+        - {x: 6, y: 8}
+        - {x: 4, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b818f8dad1a54f445b86261e16753b01
+      internalID: 1741156018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldMuglump-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 13}
+        - {x: -6, y: 10}
+        - {x: -9, y: 2}
+        - {x: -10, y: -5}
+        - {x: -10, y: -15}
+        - {x: 10, y: -15}
+        - {x: 9, y: 2}
+        - {x: 6, y: 8}
+        - {x: 4, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a96831854ae29f647a06660c9d24c2d2
+      internalID: -752187172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldMuglump-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 13}
+        - {x: -6, y: 10}
+        - {x: -9, y: 2}
+        - {x: -10, y: -5}
+        - {x: -10, y: -15}
+        - {x: 10, y: -15}
+        - {x: 9, y: 2}
+        - {x: 6, y: 8}
+        - {x: 4, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d38cefc9b6ae34689474e8913b5488
+      internalID: 779935942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldMuglump-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 13}
+        - {x: -6, y: 10}
+        - {x: -9, y: 2}
+        - {x: -10, y: -5}
+        - {x: -10, y: -15}
+        - {x: 10, y: -15}
+        - {x: 9, y: 2}
+        - {x: 6, y: 8}
+        - {x: 4, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c92530b2b9561644ad3b0045e61e046
+      internalID: 150127085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldMuglump-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 13}
+        - {x: -6, y: 10}
+        - {x: -9, y: 2}
+        - {x: -10, y: -5}
+        - {x: -8, y: -9}
+        - {x: 9, y: -10}
+        - {x: 9, y: 2}
+        - {x: 6, y: 8}
+        - {x: 4, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195e17ade9f6d464c98cfcbbfdfb6f34
+      internalID: -1412345760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldMuglump-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 13}
+        - {x: -6, y: 10}
+        - {x: -9, y: 2}
+        - {x: -10, y: -5}
+        - {x: -5, y: -7}
+        - {x: 6, y: -7}
+        - {x: 11, y: -4}
+        - {x: 9, y: 2}
+        - {x: 6, y: 8}
+        - {x: 4, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f220e8b2f7c1b47b34bf5bb33d1b92
+      internalID: 1361933347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldMuglump-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 13}
+        - {x: -6, y: 10}
+        - {x: -9, y: 2}
+        - {x: -6, y: -1}
+        - {x: 7, y: -1}
+        - {x: 9, y: 2}
+        - {x: 6, y: 8}
+        - {x: 4, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2f9328707e4d7499b8eb2583f642bd
+      internalID: -944773034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldMuglump-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9055fcd362f2d534cbdbd719baef3565
+      internalID: -530759132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldMuglump-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc5c80ede17b7e4082bf876fdccded8
+      internalID: 1788472674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldMuglump-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0aaaecd14d5bc64da7e2b340784283a
+      internalID: 1967227835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldMuglump-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf37d4cca920e340b7954070ff60f09
+      internalID: 151466368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldMuglump-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d28439ee3bdbe9849bce3e97f544e145
+      internalID: -1658765104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      GoldMuglump-Sheet_0: 1528884238
+      GoldMuglump-Sheet_1: -59720475
+      GoldMuglump-Sheet_10: 167757456
+      GoldMuglump-Sheet_11: -855068424
+      GoldMuglump-Sheet_12: 690171274
+      GoldMuglump-Sheet_13: -997343135
+      GoldMuglump-Sheet_14: -1493255312
+      GoldMuglump-Sheet_15: 2142083013
+      GoldMuglump-Sheet_16: -1719726693
+      GoldMuglump-Sheet_17: -980688184
+      GoldMuglump-Sheet_18: 1926359843
+      GoldMuglump-Sheet_19: 295721572
+      GoldMuglump-Sheet_2: -1131714511
+      GoldMuglump-Sheet_20: -1883432812
+      GoldMuglump-Sheet_21: -98110875
+      GoldMuglump-Sheet_22: -1044385458
+      GoldMuglump-Sheet_23: 1741156018
+      GoldMuglump-Sheet_24: -752187172
+      GoldMuglump-Sheet_25: 779935942
+      GoldMuglump-Sheet_26: 150127085
+      GoldMuglump-Sheet_27: -1412345760
+      GoldMuglump-Sheet_28: 1361933347
+      GoldMuglump-Sheet_29: -944773034
+      GoldMuglump-Sheet_3: -1176222093
+      GoldMuglump-Sheet_30: -530759132
+      GoldMuglump-Sheet_31: 1788472674
+      GoldMuglump-Sheet_32: 1967227835
+      GoldMuglump-Sheet_33: 151466368
+      GoldMuglump-Sheet_34: -1658765104
+      GoldMuglump-Sheet_4: 900536071
+      GoldMuglump-Sheet_5: 1496317858
+      GoldMuglump-Sheet_6: -747306852
+      GoldMuglump-Sheet_7: 887225654
+      GoldMuglump-Sheet_8: -744564911
+      GoldMuglump-Sheet_9: -1632777841
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

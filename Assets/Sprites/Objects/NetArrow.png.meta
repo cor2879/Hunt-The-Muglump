@@ -1,0 +1,468 @@
+fileFormatVersion: 2
+guid: 8ce6c0fe0c7f93d41a0795d5d41bc5d7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4724823600962216181
+    second: NetArrow_0
+  - first:
+      213: -6778839222850499195
+    second: NetArrow_1
+  - first:
+      213: -6489507308192639565
+    second: NetArrow_2
+  - first:
+      213: -2557817376532047615
+    second: NetArrow_3
+  - first:
+      213: 5727834745832162819
+    second: NetArrow_4
+  - first:
+      213: -2932156641039932423
+    second: NetArrow_5
+  - first:
+      213: 2565116044533777159
+    second: NetArrow_6
+  - first:
+      213: 4020329179701563141
+    second: NetArrow_7
+  - first:
+      213: 1070037643565996739
+    second: NetArrow_8
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NetArrow_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -15, y: 32}
+        - {x: -12, y: -32}
+        - {x: 11, y: -32}
+        - {x: 12, y: 0}
+        - {x: 14, y: 32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3a445b7ac9f4b49b9bb4d335367591
+      internalID: -4724823600962216181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetArrow_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: 12}
+        - {x: -32, y: -12}
+        - {x: 32, y: -14}
+        - {x: 32, y: 9}
+        - {x: 27, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 837f1d4e21bb68d48946b01c6bdc1bc9
+      internalID: -6778839222850499195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetArrow_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -11, y: 32}
+        - {x: -15, y: -32}
+        - {x: 13, y: -32}
+        - {x: 12, y: 32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c2114988fd7afe44b30c4734276742a
+      internalID: -6489507308192639565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetArrow_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 14}
+        - {x: -32, y: 13}
+        - {x: -32, y: -14}
+        - {x: 32, y: -11}
+        - {x: 32, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784eeaaac97b9a94fba9b0edea198d61
+      internalID: -2557817376532047615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetArrow_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 3, y: 26}
+        - {x: -9, y: 22}
+        - {x: -14, y: 16}
+        - {x: -21, y: 16}
+        - {x: -18, y: 0}
+        - {x: -4, y: -14}
+        - {x: 5, y: -14}
+        - {x: 18, y: 1}
+        - {x: 21, y: 14}
+        - {x: 14, y: 19}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee90fb27ffa266b41951492ca88444f1
+      internalID: 5727834745832162819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetArrow_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 21}
+        - {x: -12, y: 19}
+        - {x: -24, y: 4}
+        - {x: -22, y: -10}
+        - {x: -16, y: -14}
+        - {x: -16, y: -20}
+        - {x: -6, y: -21}
+        - {x: 14, y: -4}
+        - {x: 13, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: eddd376dfb3c85240922e3d3f419be55
+      internalID: -2932156641039932423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetArrow_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -6, y: 14}
+        - {x: -21, y: -6}
+        - {x: -20, y: -12}
+        - {x: -13, y: -17}
+        - {x: -5, y: -24}
+        - {x: 9, y: -21}
+        - {x: 14, y: -16}
+        - {x: 21, y: -15}
+        - {x: 19, y: -2}
+        - {x: 6, y: 14}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1448f0bdcdc10f42a812a0818fafc9f
+      internalID: 2565116044533777159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetArrow_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 6, y: 21}
+        - {x: -14, y: 5}
+        - {x: -14, y: -6}
+        - {x: -4, y: -11}
+        - {x: 5, y: -21}
+        - {x: 13, y: -20}
+        - {x: 17, y: -13}
+        - {x: 25, y: -4}
+        - {x: 21, y: 10}
+        - {x: 15, y: 20}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2097a2bad11911d4cad2e68d9b037a1c
+      internalID: 4020329179701563141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetArrow_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 27, y: 18}
+        - {x: 17, y: 26}
+        - {x: 8, y: 26}
+        - {x: -6, y: 27}
+        - {x: -19, y: 24}
+        - {x: -25, y: 18}
+        - {x: -30, y: 11}
+        - {x: -27, y: -11}
+        - {x: -20, y: -23}
+        - {x: -8, y: -28}
+        - {x: 8, y: -26}
+        - {x: 20, y: -23}
+        - {x: 28, y: -11}
+        - {x: 31, y: 9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6163fff5efd47ae4c945154aa5063931
+      internalID: 1070037643565996739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      NetArrow_0: -4724823600962216181
+      NetArrow_1: -6778839222850499195
+      NetArrow_2: -6489507308192639565
+      NetArrow_3: -2557817376532047615
+      NetArrow_4: 5727834745832162819
+      NetArrow_5: -2932156641039932423
+      NetArrow_6: 2565116044533777159
+      NetArrow_7: 4020329179701563141
+      NetArrow_8: 1070037643565996739
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

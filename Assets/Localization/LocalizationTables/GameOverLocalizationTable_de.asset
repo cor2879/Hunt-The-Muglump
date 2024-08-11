@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: GameOverLocalizationTable_de
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: de
+  m_SharedData: {fileID: 11400000, guid: 8bb6b334376e177409585820a1c3f3d2, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 554784067584
+    m_Localized: Verdientes Abzeichen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2714078875648
+    m_Localized: Kennzeichen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3539471765504
+    m_Localized: "Schlie\xDFen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4329791885312
+    m_Localized: "Einstellungen f\xFCr den benutzerdefinierten Modus"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5607448186880
+    m_Localized: Einstellungen speichern und Spiel starten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6507273195520
+    m_Localized: Abbrechen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18780687503360
+    m_Localized: 'Blaue Muglumps:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13231078051840
+    m_Localized: 'Schwarze Muglumps:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18134395588608
+    m_Localized: 'Rote Muglumps:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19310629425152
+    m_Localized: 'Goldbecher:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19995806732288
+    m_Localized: "Silberr\xFCcken-Muglumps:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20789155139584
+    m_Localized: 'Besuchte Zimmer:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21334641152000
+    m_Localized: 'Bewegt:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21861366042624
+    m_Localized: "\xDCberlebte:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22452167315456
+    m_Localized: 'Abgefeuerte Pfeile:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22906582405120
+    m_Localized: 'Blitzpfeile:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 284476180860928
+    m_Localized: 'Netzpfeile:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 293469573943296
+    m_Localized: 'Genauigkeit:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 294530409893888
+    m_Localized: 'Duft von Muglump:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 297053376024576
+    m_Localized: "Durchgef\xFChrte Zeiten:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 299648475795456
+    m_Localized: 'Habe die Krone gefunden:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300388296495104
+    m_Localized: 'Spielmodus:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 302458693029888
+    m_Localized: 'Gesamtpunktzahl:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 305436443348992
+    m_Localized: Neues Spiel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 308451975958528
+    m_Localized: "HAUPTMEN\xDC"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
