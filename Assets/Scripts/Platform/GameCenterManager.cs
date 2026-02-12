@@ -1,5 +1,4 @@
-﻿#if UNITY_IOS
-namespace OldSchoolGames.HuntTheMuglump.Scripts.Platform
+﻿namespace OldSchoolGames.HuntTheMuglump.Scripts.Platform
 {
     using UnityEngine;
     using UnityEngine.SocialPlatforms.GameCenter;
@@ -8,6 +7,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Platform
 
     public class GameCenterManager : MonoBehaviour
     {
+        #if UNITY_IOS
         public static GameCenterManager Instance { get; private set; }
 
         public string GetUsername()
@@ -97,6 +97,6 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Platform
             print(" alias= " + KTGameCenter.SharedCenter().PlayerAlias + " name= " +
                    KTGameCenter.SharedCenter().PlayerName + " id= " + KTGameCenter.SharedCenter().PlayerId);
         }
+        #endif
     }
 }
-#endif

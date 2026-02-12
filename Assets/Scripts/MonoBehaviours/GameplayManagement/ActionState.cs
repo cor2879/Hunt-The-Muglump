@@ -123,6 +123,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours.GameplayManagemen
 
         public static ActionStateBase GetInitialState()
         {
+            Debug.Log(Settings.MenuStyle);
             switch (Settings.MenuStyle)
             {
                 case MenuStyle.DragonQuest:

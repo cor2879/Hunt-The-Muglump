@@ -57,7 +57,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Components
 
         private static PlayerPrefsStringProperty selectedLanguage = new PlayerPrefsStringProperty("selectedLanguage", defaultValue: string.Empty);
 
-        private static PlayerPrefsIntProperty menuStyle = new PlayerPrefsIntProperty("menuStyle", defaultValue: 1);
+        private static PlayerPrefsIntProperty menuStyle = new PlayerPrefsIntProperty("menuStyle", defaultValue: 0);
 
         /// <summary>
         /// Gets or sets the difficulty.

@@ -136,9 +136,9 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours.GameplayManagemen
 
     public class InventoryUnavailableState : InventoryStateBase
     {
-        private static InventoryAvailableState instance = new InventoryAvailableState();
+        private static InventoryUnavailableState instance = new InventoryUnavailableState();
 
-        public static new InventoryAvailableState Instance { get => instance; }
+        public static new InventoryUnavailableState Instance { get => instance; }
 
         public override void UseItem() { }
 
