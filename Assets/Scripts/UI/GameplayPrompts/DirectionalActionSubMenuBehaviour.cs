@@ -130,13 +130,17 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.UI.GameplayPrompts
 
         public void SetActive(bool active)
         {
-            this.Active = active;
-            this.gameObject.SetActive(active);
-
-            if (!active)
+            if (active && !this.Active)
             {
+                Show();
+            }
+            else if (!active)
+            {
+                Hide(this.Active);
                 this.SetValidDirections(new[] { false, false, false, false });
             }
+            
+            this.Active = active;
         }
 
         private bool ShowDirectionPrompts()

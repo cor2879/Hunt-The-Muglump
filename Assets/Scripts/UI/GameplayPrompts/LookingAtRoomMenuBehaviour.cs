@@ -50,10 +50,18 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.UI.GameplayPrompts
 
         public bool Active { get; private set; }
 
-        public void SetActive(bool activeState)
+        public void SetActive(bool active)
         {
-            this.gameObject.SetActive(activeState);
-            this.Active = activeState;
+            if (active && !this.Active)
+            {
+                Show();
+            }
+            else if (!active)
+            {
+                Hide(this.Active);
+            }
+            
+            this.Active = active;
         }
 
         private void Start()

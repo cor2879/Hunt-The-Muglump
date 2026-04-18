@@ -222,6 +222,22 @@ MonoBehaviour:
     m_Localized: "Muzyka t\u0142a"
     m_Metadata:
       m_Items: []
+  - m_Id: 411947590383505408
+    m_Localized: "Menu g\u0142\xF3wne"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 411951890702733312
+    m_Localized: "Strza\u0142"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 411952810681372672
+    m_Localized: Ruch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 411953189817094144
+    m_Localized: Obserwuj
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

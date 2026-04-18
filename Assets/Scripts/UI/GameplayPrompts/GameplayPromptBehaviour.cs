@@ -41,12 +41,12 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.UI.GameplayPrompts
             }
         }
 
-        public override void Hide()
+        public override void Hide(bool fadeOut = false)
         {
             this.transform.localScale = Vector3.zero;
         }
 
-        public override void Show()
+        public override void Show(bool fadeIn = false)
         {
             this.transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
         }

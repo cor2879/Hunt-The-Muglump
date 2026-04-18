@@ -88,6 +88,8 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours.GameplayManagemen
         [SerializeField]
         private MainTextPanelBehaviour mainTextPanel;
 
+        private bool LockInput { get; set; } = false;
+
         #endregion
 
         #region public reference accessors
@@ -244,7 +246,10 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours.GameplayManagemen
         {
             foreach (var t in Instance.ArrowCountTexts.ArrowCountText)
             {
-                t.text = count.ToString();
+                if (t != null)
+                {
+                    t.text = count.ToString();
+                }
             }
         }
 
@@ -252,7 +257,10 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours.GameplayManagemen
         {
             foreach (var t in Instance.ArrowCountTexts.FlashArrowCountText)
             {
-                t.text = count.ToString();
+                if (t != null)
+                {
+                    t.text = count.ToString();
+                }
             }
         }
 
@@ -260,7 +268,10 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours.GameplayManagemen
         {
             foreach (var t in Instance.ArrowCountTexts.NetArrowCountText)
             {
-                t.text = count.ToString();
+                if (t != null)
+                {
+                    t.text = count.ToString();
+                }
             }
         }
 
@@ -268,7 +279,10 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours.GameplayManagemen
         {
             foreach (var t in Instance.ItemCountTexts.EauDuMuglumpCountText)
             {
-                t.text = count.ToString();
+                if (t != null)
+                {
+                    t.text = count.ToString();
+                }
             };
         }
 
@@ -276,7 +290,10 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours.GameplayManagemen
         {
             foreach (var t in Instance.ItemCountTexts.BearTrapCountText)
             {
-                t.text = count.ToString();
+                if (t != null)
+                {
+                    t.text = count.ToString();
+                }
             };
         }
 
@@ -298,6 +315,111 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours.GameplayManagemen
             this.MenuState.Update();
             this.CurrentControlState.Update();
             this.isInputLocked = this.MenuState.LockInput;
+
+            if (InputExtension.IsCyleArrowsPressed() && !this.LockInput)
+            {
+                this.LockInput = true;
+
+                StartCoroutine(
+                    nameof(this.WaitForPredicateToBeFalseThenDoAction),
+                    new WaitAction(
+                        () => InputExtension.IsCyleArrowsPressed(),
+                        () =>
+                        {
+                            this.LockInput = false;
+                            CycleArrows();
+                        }));
+            }
+
+            if (InputExtension.IsSelectArrowsPressed() && !this.LockInput)
+            {
+                this.LockInput = true;
+
+                StartCoroutine(
+                    nameof(this.WaitForPredicateToBeFalseThenDoAction),
+                    new WaitAction(
+                        () => InputExtension.IsSelectArrowsPressed(),
+                        () =>
+                        {
+                            this.LockInput = false;
+                            PlayerBehaviour.Instance.SelectArrows(ArrowType.Arrow);
+                        }));
+            }
+
+            if (InputExtension.IsSelectFlashArrowsPressed() && !this.LockInput)
+            {
+                this.LockInput = true;
+
+                StartCoroutine(
+                    nameof(this.WaitForPredicateToBeFalseThenDoAction),
+                    new WaitAction(
+                        () => InputExtension.IsSelectFlashArrowsPressed(),
+                        () =>
+                        {
+                            this.LockInput = false;
+                            PlayerBehaviour.Instance.SelectArrows(ArrowType.FlashArrow);
+                        }));
+            }
+
+            if (InputExtension.IsSelectNetArrowsPressed() && !this.LockInput)
+            {
+                this.LockInput = true;
+
+                StartCoroutine(
+                    nameof(this.WaitForPredicateToBeFalseThenDoAction),
+                    new WaitAction(
+                        () => InputExtension.IsSelectNetArrowsPressed(),
+                        () =>
+                        {
+                            this.LockInput = false;
+                            PlayerBehaviour.Instance.SelectArrows(ArrowType.NetArrow);
+                        }));
+            }
+
+            if (InputExtension.IsCycleItemsPressed() && !this.LockInput)
+            {
+                this.LockInput = true;
+
+                StartCoroutine(
+                    nameof(this.WaitForPredicateToBeFalseThenDoAction),
+                    new WaitAction(
+                        () => InputExtension.IsCycleItemsPressed(),
+                        () =>
+                        {
+                            this.LockInput = false;
+                            CycleItems();
+                        }));
+            }
+
+            if (InputExtension.IsUseEauDuMuglumpPressed())
+            {
+                this.LockInput = true;
+
+                GameplayMenuManagerBehaviour.Instance.StartCoroutine(
+                    nameof(this.WaitForPredicateToBeFalseThenDoAction),
+                    new WaitAction(
+                        () => InputExtension.IsUseEauDuMuglumpPressed(),
+                        () =>
+                        {
+                            this.LockInput = false;
+                            PlayerBehaviour.Instance.UseCoverScent();
+                        }));
+            }
+
+            if (InputExtension.IsUseBearTrapPressed())
+            {
+                this.LockInput = true;
+
+                GameplayMenuManagerBehaviour.Instance.StartCoroutine(
+                    nameof(this.WaitForPredicateToBeFalseThenDoAction),
+                    new WaitAction(
+                        () => InputExtension.IsUseBearTrapPressed(),
+                        () =>
+                        {
+                            this.LockInput = false;
+                            PlayerBehaviour.Instance.UseBearTrap();
+                        }));
+            }
         }
 
         private void Start()
@@ -325,6 +447,24 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours.GameplayManagemen
         public static void OpenMinimap()
         {
             GameManager.Minimap.Enable();
+        }
+
+        private void CycleArrows()
+        {
+            var current = PlayerBehaviour.Instance.SelectedArrowType;
+            var next = (ArrowType)(((int)current + 1) % 3);
+
+            PlayerBehaviour.Instance.SelectArrows(next);
+        }
+
+        private void CycleItems()
+        {
+            var current = PlayerBehaviour.Instance.SelectedItemType;
+            var next = (ItemType)(((int)current + 1) % 2);
+
+            PlayerBehaviour.Instance.SelectedItemType = next;
+
+            GameManager.Instance.SoundEffectManager.PlayAudioOnce(SoundClips.Click2);
         }
 
         public static void SetMainTextPanelText(string text)

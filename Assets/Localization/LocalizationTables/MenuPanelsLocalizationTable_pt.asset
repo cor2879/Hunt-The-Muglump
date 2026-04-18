@@ -222,6 +222,22 @@ MonoBehaviour:
     m_Localized: "M\xFAsica de fundo"
     m_Metadata:
       m_Items: []
+  - m_Id: 411947590383505408
+    m_Localized: Menu principal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 411951890702733312
+    m_Localized: Atirar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 411952810681372672
+    m_Localized: Mover
+    m_Metadata:
+      m_Items: []
+  - m_Id: 411953189817094144
+    m_Localized: Observar
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

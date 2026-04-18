@@ -30,19 +30,24 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.UI
             }
         }
 
-        public bool ShowHighlight
+        public bool ShowActiveEffect
         {
             get
             {
-                return PlayerBehaviour.Instance.IsCoverScentActive ?
-                    Utility.Between(PlayerBehaviour.Instance.CoverScentBehaviour.ActiveTurns, 1, 2) ?
-                        Blinkronizer.Instance.BlinkOn : true : false;
+                if (PlayerBehaviour.Instance != null)
+                {
+                    return PlayerBehaviour.Instance.IsCoverScentActive ?
+                        Utility.Between(PlayerBehaviour.Instance.CoverScentBehaviour.ActiveTurns, 1, 2) ?
+                            Blinkronizer.Instance.BlinkOn : true : false;
+                }
+
+                return false;
             }
         }
 
         public void Update()
         {
-            this.ActiveImage.gameObject.SetActive(this.ShowHighlight);
+            this.ActiveImage.gameObject.SetActive(this.ShowActiveEffect);
         }
 
         public void ValidateUnityEditorParameter(MonoBehaviour parameter, string parameterName)

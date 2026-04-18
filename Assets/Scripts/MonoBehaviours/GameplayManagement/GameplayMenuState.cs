@@ -14,6 +14,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours.GameplayManagemen
     using OldSchoolGames.HuntTheMuglump.Scripts.Components;
     using OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours;
     using OldSchoolGames.HuntTheMuglump.Scripts.Utilities;
+    using System;
 
     public abstract class GameplayMenuStateBase
     {
@@ -40,6 +41,8 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours.GameplayManagemen
         public InventoryStateBase InventoryState { get; set; } = InventoryStateBase.GetInitialState();
 
         public GameplayMenuManagerBehaviour GameplayMenuManager { get => GameplayMenuManagerBehaviour.Instance; }
+
+        public static Action OnMenuStateChanged;
 
         protected GameplayMenuStateBase() { }
 
@@ -166,15 +169,17 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours.GameplayManagemen
             }
             else
             {
-                Debug.Log("The Gameplay Menu State Manager was had a redundant state change.  Did you mean to do this?");
+                Debug.Log("The Gameplay Menu State Manager had a redundant state change.  Did you mean to do this?");
             }
 
             this.GameplayMenuManager.MenuState = newState;
             this.GameplayMenuManager.PreviousState?.ExitState();
+            OnMenuStateChanged?.Invoke();
         }
 
         public void ChangeActionState(ActionStateBase newState)
         {
+            Debug.Log($"Change ActionState from {GameplayMenuManager.MenuState.ActionState} to {newState} @ Frame {Time.frameCount}");
             if (newState != this.GameplayMenuManager.MenuState.ActionState)
             {
                 this.GameplayMenuManager.MenuState.PreviousActionState = this.GameplayMenuManager.MenuState.ActionState;
@@ -373,14 +378,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours.GameplayManagemen
                         () =>
                         {
                             this.LockInput = false;
-                            if (this.ActionState.CanPauseGame)
-                            {
-                                this.TogglePauseGame();
-                            }
-                            else
-                            {
-                                this.GoBack();
-                            }
+                            this.GoBack();
                         }));
             }
         }

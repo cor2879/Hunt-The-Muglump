@@ -486,6 +486,8 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.UI
             this.ScoreRecordHistoryPanel.Disable();
             this.CustomModePanel.Disable();
             this.VersionText.Text = $"v {Constants.Version}";
+
+            SetupListeners();
         }
 
         /// <summary>
@@ -493,64 +495,6 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.UI
         /// </summary>
         public void Update()
         {
-            if (this.addListener)
-            {
-                if (this.QuickStartButton.isActiveAndEnabled)
-                {
-                    this.QuickStartButton.onClick.AddListener(this.QuickStartGame);
-                    this.QuickStartButton.Select();
-                }
-
-                if (this.NewGameButton.isActiveAndEnabled)
-                {
-                    this.NewGameButton.onClick.AddListener(this.LaunchNewGameMenu);
-                }
-
-                if (this.SettingsButton.isActiveAndEnabled)
-                {
-                    this.SettingsButton.onClick.AddListener(this.LaunchSettings);
-                }
-
-                if (this.BadgesButton.isActiveAndEnabled)
-                {
-                    this.BadgesButton.onClick.AddListener(this.LaunchBadges);
-                }
-
-                if (this.HistoryButton.isActiveAndEnabled)
-                {
-                    this.HistoryButton.onClick.AddListener(
-                        () =>
-                        {
-                            StartCoroutine(nameof(this.WaitForPredicateToBeFalseThenDoAction),
-                                new WaitAction(
-                                    () => InputExtension.IsSubmitPressed(),
-                                    this.LaunchScoreRecordHistory));
-                        });
-                }
-
-                //if (this.CreditsButton.isActiveAndEnabled)
-                //{
-                //    this.CreditsButton.onClick.AddListener(this.ShowCredits);
-                //}
-
-                if (this.MoreButton.isActiveAndEnabled)
-                {
-                    this.MoreButton.onClick.AddListener(this.CloseMainButtonsAndOpenMoreButtons);
-                }
-
-                if (this.BackButton.isActiveAndEnabled)
-                {
-                    this.BackButton.onClick.AddListener(this.CloseMoreButtonsAndOpenMainButtons);
-                }
-
-                if (this.ExitButton.isActiveAndEnabled)
-                {
-                    this.ExitButton.onClick.AddListener(this.ExitGame);
-                }
-
-                this.addListener = false;
-            }
-
             InputExtension.HideMouseIfGamepadIsPresent();
         }
 
@@ -619,6 +563,54 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.UI
             this.MainButtonsPanel.GetComponent<ButtonsPanelBehaviour>().Deactivate();
             EventSystem.current.SetSelectedGameObject(null);
             this.NewGameMenu.Show();
+        }
+
+        private void SetupListeners()
+        {
+
+                this.QuickStartButton.onClick.AddListener(this.QuickStartGame);
+                this.QuickStartButton.Select();
+            
+
+      
+                this.NewGameButton.onClick.AddListener(this.LaunchNewGameMenu);
+            
+
+        
+                this.SettingsButton.onClick.AddListener(this.LaunchSettings);
+            
+
+          
+                this.BadgesButton.onClick.AddListener(this.LaunchBadges);
+            
+
+       
+                this.HistoryButton.onClick.AddListener(
+                    () =>
+                    {
+                        StartCoroutine(nameof(this.WaitForPredicateToBeFalseThenDoAction),
+                            new WaitAction(
+                                () => InputExtension.IsSubmitPressed(),
+                                this.LaunchScoreRecordHistory));
+                    });
+            
+
+            //if (this.CreditsButton.isActiveAndEnabled)
+            //{
+            //    this.CreditsButton.onClick.AddListener(this.ShowCredits);
+            //}
+
+            
+                this.MoreButton.onClick.AddListener(this.CloseMainButtonsAndOpenMoreButtons);
+            
+
+            
+                this.BackButton.onClick.AddListener(this.CloseMoreButtonsAndOpenMainButtons);
+            
+
+            
+                this.ExitButton.onClick.AddListener(this.ExitGame);
+            
         }
 
         /// <summary>

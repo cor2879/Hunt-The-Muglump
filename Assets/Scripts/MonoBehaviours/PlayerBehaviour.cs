@@ -465,9 +465,9 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours
 
             // TODO: figure out what to do about the Crown
             //
-            // (this.crownBehaviour != null ?
-            //     (Action)GameManager.Instance.CrownInventoryPanel.Enable :
-            //     GameManager.Instance.CrownInventoryPanel.Disable).Invoke();
+            (this.crownBehaviour != null ?
+                (Action)GameManager.Instance.CrownInventoryPanel.Enable :
+                GameManager.Instance.CrownInventoryPanel.Disable).Invoke();
 
             this.isWalking = this.Animator.GetBool(Constants.IsWalking);
 

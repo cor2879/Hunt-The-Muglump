@@ -285,8 +285,16 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
         ///  * Completely revamped the user interface to make it more friendly and intuitive
         ///    for touch/mobile screens.  Still need to adapt it back to the PC/Console version
         ///  * Fixed a bug where the player graphic was not displaying in the Minimap
+        ///  Version 7.1.0
+        ///  * After a two year hiatus I have returned to make yet another update.  This one
+        ///    is a UI tweak.  The Mobile version doesn't work work so great on the PC it turns
+        ///    out, so after mistakenly/on purpose publishing the iOS interface to Steam,
+        ///    I returned to create an improved Keyboard/Gamepad/Mouse interface that uses
+        ///    some features from the iPhone version such as the better touch-friendly buttons
+        ///    for selecting arrows and special items.  Also fixed a few bugs and added a bit
+        ///    more polish in a few places.
         /// </remarks>
-        public static readonly string Version = $"7.0.0-{PlatformManager.Platform}";
+        public static readonly string Version = $"7.1.0-{PlatformManager.Platform}";
 
         /// <summary>
         /// The XDirection Animator parameter

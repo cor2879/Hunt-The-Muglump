@@ -235,22 +235,28 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.UI
 
         private void UpdateDisplayText()
         {
-            if (this.DisplayTextUI.IsActive())
+            if (this.DisplayTextUI == null)
             {
-                try
+                return;
+            }
+
+            try
+            {
+                this.DisplayTextUI.text = this.LocalizeText ? 
+                    LocalizationSettings.StringDatabase.GetLocalizedString(
+                        StringContent.StringContentTable, 
+                        this.SelectedValue,
+                        locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode))) : 
+                    this.SelectedValue; 
+
+                if (this.DisplayTextUI.gameObject.activeInHierarchy)
                 {
-                    this.DisplayTextUI.text = this.LocalizeText ? 
-                        LocalizationSettings.StringDatabase.GetLocalizedString(
-                            StringContent.StringContentTable, 
-                            this.SelectedValue,
-                            locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode))) : 
-                        this.SelectedValue; 
                     this.DisplayTextUI.StartAnimation();
                 }
-                catch (System.Exception ex) 
-                {
-                    Debug.Log(ex);
-                }
+            }
+            catch (System.Exception ex) 
+            {
+                Debug.Log(ex);
             }
         }
 

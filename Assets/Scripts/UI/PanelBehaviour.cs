@@ -22,6 +22,11 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.UI
     public class PanelBehaviour : BeautifulInterface.BasePanel
     {
         private ButtonsPanelBehaviour buttonsPanel;
+        private CanvasGroup canvasGroup;
+        private Coroutine fadeRoutine;
+
+        [SerializeField]
+        private float fadeDuration = 0.15f;
 
         public ButtonsPanelBehaviour ButtonsPanel
         {
@@ -36,25 +41,118 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.UI
             }
         }
 
-        public virtual void Show()
+        protected override void Awake()
         {
-            base.Show(BeautifulInterface.CanvasSide.Centre);
+            base.Awake();
 
-            if (this.ButtonsPanel != null)
+            canvasGroup = GetComponent<CanvasGroup>();
+
+            if (canvasGroup == null)
             {
-                this.ButtonsPanel.Activate();
-                this.ButtonsPanel.DefaultButton.Select();
+                canvasGroup = gameObject.AddComponent<CanvasGroup>();
             }
         }
 
-        public virtual void Hide()
+        public virtual void Show(bool fadeIn = true)
         {
-            base.Hide(BeautifulInterface.CanvasSide.Centre);
+            Debug.Log($"SHOW CALLED on {gameObject.name}, active={gameObject.activeInHierarchy}, alpha={canvasGroup.alpha}");
+            if (!gameObject.activeSelf)
+            {
+                gameObject.SetActive(true);
+            }
+
+            if (fadeIn)
+            {
+                canvasGroup.alpha = 0f;
+                canvasGroup.interactable = true;
+                canvasGroup.blocksRaycasts = true;
+
+                if (fadeRoutine != null)
+                {
+                    StopCoroutine(fadeRoutine);
+                }
+
+                fadeRoutine = StartCoroutine(Fade(1f));
+            }
+
+            if (ButtonsPanel != null)
+            {
+                ButtonsPanel.Activate();
+                ButtonsPanel.DefaultButton.Select();
+            }
+        }
+
+        public virtual void Hide(bool fadeOut = false)
+        {
+            if (!gameObject.activeInHierarchy)
+            {
+                return;
+            }
+
+            if (fadeOut)
+            {
+                if (fadeRoutine != null)
+                {
+                    StopCoroutine(fadeRoutine);
+                }
+
+                canvasGroup.interactable = false;
+                canvasGroup.blocksRaycasts = false;
+
+                fadeRoutine = StartCoroutine(FadeOutAndHide());
+            }
+            else
+            {
+                gameObject.SetActive(false);
+            }
 
             if (this.ButtonsPanel != null)
             {
                 this.ButtonsPanel.Deactivate();
             }
         }
+
+        #region Coroutines
+
+        private IEnumerator Fade(float target)
+        {
+            float start = canvasGroup.alpha;
+            float time = 0f;
+
+            while (time < fadeDuration)
+            {
+                time += Time.deltaTime;
+                float t = time / fadeDuration;
+
+                canvasGroup.alpha = Mathf.Lerp(start, target, t);
+                yield return null;
+            }
+
+            canvasGroup.alpha = target;
+        }
+
+        private IEnumerator FadeOutAndHide()
+        {
+            yield return Fade(0f);
+
+            gameObject.SetActive(false);
+
+            if (this.ButtonsPanel != null)
+            {
+                this.ButtonsPanel.Deactivate();
+            }
+        }
+
+        private IEnumerator SelectDefaultButtonNextFrame()
+        {
+            yield return new WaitForSeconds(1f); // wait 1 frame
+
+            if (ButtonsPanel != null && ButtonsPanel.DefaultButton != null)
+            {
+                ButtonsPanel.DefaultButton.Select();
+            }
+        }
+
+        #endregion
     }
 }
