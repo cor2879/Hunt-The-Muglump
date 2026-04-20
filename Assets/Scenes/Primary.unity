@@ -446,6 +446,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2047800692848089965, guid: 8598237f8c848d047852353614215478,
+        type: 3}
+      propertyPath: m_ControlPath
+      value: <Gamepad>/buttonEast
+      objectReference: {fileID: 0}
     - target: {fileID: 5634681633861444251, guid: 8598237f8c848d047852353614215478,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -4134,6 +4139,11 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5693337708318287324, guid: 5da1af824e5e1634c80b3274903df7b8,
+        type: 3}
+      propertyPath: m_ControlPath
+      value: <Gamepad>/start
+      objectReference: {fileID: 0}
     - target: {fileID: 5887910355352814463, guid: 5da1af824e5e1634c80b3274903df7b8,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -6240,6 +6250,11 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2000111809371126128, guid: 9315958ca63412e4a9131e0b3e5dd781,
+        type: 3}
+      propertyPath: m_ControlPath
+      value: <Gamepad>/buttonEast
+      objectReference: {fileID: 0}
     - target: {fileID: 2010992905950826684, guid: 9315958ca63412e4a9131e0b3e5dd781,
         type: 3}
       propertyPath: upPanel
@@ -6260,10 +6275,20 @@ PrefabInstance:
       propertyPath: rightPanel
       value: 
       objectReference: {fileID: 189234737}
+    - target: {fileID: 2125543227444279332, guid: 9315958ca63412e4a9131e0b3e5dd781,
+        type: 3}
+      propertyPath: m_ControlPath
+      value: <Gamepad>/buttonWest
+      objectReference: {fileID: 0}
     - target: {fileID: 2990157399096630523, guid: 9315958ca63412e4a9131e0b3e5dd781,
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4118044407780682285, guid: 9315958ca63412e4a9131e0b3e5dd781,
+        type: 3}
+      propertyPath: m_ControlPath
+      value: <Gamepad>/leftShoulder
       objectReference: {fileID: 0}
     - target: {fileID: 4326659172733769683, guid: 9315958ca63412e4a9131e0b3e5dd781,
         type: 3}
@@ -6384,6 +6409,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5604129825470418823, guid: 9315958ca63412e4a9131e0b3e5dd781,
+        type: 3}
+      propertyPath: m_ControlPath
+      value: <Gamepad>/select
+      objectReference: {fileID: 0}
+    - target: {fileID: 6391051754884318383, guid: 9315958ca63412e4a9131e0b3e5dd781,
+        type: 3}
+      propertyPath: m_ControlPath
+      value: <Gamepad>/rightShoulder
       objectReference: {fileID: 0}
     - target: {fileID: 6908058575342207292, guid: 9315958ca63412e4a9131e0b3e5dd781,
         type: 3}
@@ -7473,7 +7508,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1939923321}
   - component: {fileID: 1939923320}
-  - component: {fileID: 1939923319}
+  - component: {fileID: 1939923322}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -7481,26 +7516,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1939923319
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1939923318}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SendPointerHoverToParent: 1
-  m_HorizontalAxis: Horizontal
-  m_VerticalAxis: Vertical
-  m_SubmitButton: Submit
-  m_CancelButton: Cancel
-  m_InputActionsPerSecond: 10
-  m_RepeatDelay: 0.5
-  m_ForceModuleActive: 1
 --- !u!114 &1939923320
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7531,6 +7546,47 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1939923322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1939923318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_MoveRepeatDelay: 0.5
+  m_MoveRepeatRate: 0.1
+  m_XRTrackingOrigin: {fileID: 0}
+  m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_PointAction: {fileID: -1654692200621890270, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_MoveAction: {fileID: -8784545083839296357, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_SubmitAction: {fileID: 392368643174621059, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_CancelAction: {fileID: 7727032971491509709, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_LeftClickAction: {fileID: 3001919216989983466, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_MiddleClickAction: {fileID: -2185481485913320682, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_RightClickAction: {fileID: -4090225696740746782, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_ScrollWheelAction: {fileID: 6240969308177333660, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_TrackedDevicePositionAction: {fileID: 6564999863303420839, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_TrackedDeviceOrientationAction: {fileID: 7970375526676320489, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_DeselectOnBackgroundClick: 1
+  m_PointerBehavior: 0
+  m_CursorLockBehavior: 0
 --- !u!224 &1996480778 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3018374379423614381, guid: 7f9025ee339eb5446b3113ced99f14ba,
@@ -8130,6 +8186,61 @@ PrefabInstance:
         type: 3}
       propertyPath: moveAction.m_Name
       value: Move
+      objectReference: {fileID: 0}
+    - target: {fileID: 223384487791478568, guid: b71d8bf70bbe10c439b7a147bfd632d1,
+        type: 3}
+      propertyPath: cancelAction.m_SingletonActionBindings.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 223384487791478568, guid: b71d8bf70bbe10c439b7a147bfd632d1,
+        type: 3}
+      propertyPath: submitAction.m_SingletonActionBindings.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 223384487791478568, guid: b71d8bf70bbe10c439b7a147bfd632d1,
+        type: 3}
+      propertyPath: cancelAction.m_SingletonActionBindings.Array.data[3].m_Id
+      value: 586d0c8c-afef-457a-9346-ce7bf064f501
+      objectReference: {fileID: 0}
+    - target: {fileID: 223384487791478568, guid: b71d8bf70bbe10c439b7a147bfd632d1,
+        type: 3}
+      propertyPath: cancelAction.m_SingletonActionBindings.Array.data[4].m_Id
+      value: b3471570-0798-40ce-809b-204b5b157ae3
+      objectReference: {fileID: 0}
+    - target: {fileID: 223384487791478568, guid: b71d8bf70bbe10c439b7a147bfd632d1,
+        type: 3}
+      propertyPath: submitAction.m_SingletonActionBindings.Array.data[3].m_Id
+      value: ab0ae57f-d383-42a1-acc6-46d184707de7
+      objectReference: {fileID: 0}
+    - target: {fileID: 223384487791478568, guid: b71d8bf70bbe10c439b7a147bfd632d1,
+        type: 3}
+      propertyPath: cancelAction.m_SingletonActionBindings.Array.data[3].m_Path
+      value: <Gamepad>/buttonEast
+      objectReference: {fileID: 0}
+    - target: {fileID: 223384487791478568, guid: b71d8bf70bbe10c439b7a147bfd632d1,
+        type: 3}
+      propertyPath: cancelAction.m_SingletonActionBindings.Array.data[4].m_Path
+      value: <XInputController>/buttonEast
+      objectReference: {fileID: 0}
+    - target: {fileID: 223384487791478568, guid: b71d8bf70bbe10c439b7a147bfd632d1,
+        type: 3}
+      propertyPath: submitAction.m_SingletonActionBindings.Array.data[3].m_Path
+      value: <Gamepad>/buttonSouth
+      objectReference: {fileID: 0}
+    - target: {fileID: 223384487791478568, guid: b71d8bf70bbe10c439b7a147bfd632d1,
+        type: 3}
+      propertyPath: cancelAction.m_SingletonActionBindings.Array.data[3].m_Action
+      value: Cancel
+      objectReference: {fileID: 0}
+    - target: {fileID: 223384487791478568, guid: b71d8bf70bbe10c439b7a147bfd632d1,
+        type: 3}
+      propertyPath: cancelAction.m_SingletonActionBindings.Array.data[4].m_Action
+      value: Cancel
+      objectReference: {fileID: 0}
+    - target: {fileID: 223384487791478568, guid: b71d8bf70bbe10c439b7a147bfd632d1,
+        type: 3}
+      propertyPath: submitAction.m_SingletonActionBindings.Array.data[3].m_Action
+      value: Submit
       objectReference: {fileID: 0}
     - target: {fileID: 223384487791478569, guid: b71d8bf70bbe10c439b7a147bfd632d1,
         type: 3}

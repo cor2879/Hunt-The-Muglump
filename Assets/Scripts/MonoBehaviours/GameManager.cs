@@ -12,6 +12,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours
     using System.Linq;
 
     using UnityEngine;
+    using UnityEngine.InputSystem;
     using UnityEngine.UI;
 
     using OldSchoolGames.HuntTheMuglump.Scripts.Components;

@@ -48,7 +48,7 @@ PrefabInstance:
     - target: {fileID: 1157120714746003839, guid: cf9df461217e7754e9f8ad18c5269212,
         type: 3}
       propertyPath: m_ControlPath
-      value: <XInputController>/buttonSouth
+      value: <Gamepad>/buttonSouth
       objectReference: {fileID: 0}
     - target: {fileID: 1840509795333473717, guid: cf9df461217e7754e9f8ad18c5269212,
         type: 3}
@@ -169,7 +169,7 @@ PrefabInstance:
     - target: {fileID: 2472663500126626299, guid: cf9df461217e7754e9f8ad18c5269212,
         type: 3}
       propertyPath: m_ControlPath
-      value: <XInputController>/start
+      value: <Gamepad>/start
       objectReference: {fileID: 0}
     - target: {fileID: 2753966960169941206, guid: cf9df461217e7754e9f8ad18c5269212,
         type: 3}
@@ -234,7 +234,7 @@ PrefabInstance:
     - target: {fileID: 5560492667528388364, guid: cf9df461217e7754e9f8ad18c5269212,
         type: 3}
       propertyPath: m_ControlPath
-      value: <XInputController>/buttonWest
+      value: <Gamepad>/buttonWest
       objectReference: {fileID: 0}
     - target: {fileID: 5857515984293028384, guid: cf9df461217e7754e9f8ad18c5269212,
         type: 3}
@@ -267,12 +267,12 @@ PrefabInstance:
     - target: {fileID: 8528318539620511387, guid: cf9df461217e7754e9f8ad18c5269212,
         type: 3}
       propertyPath: m_ControlPath
-      value: <XInputController>/buttonEast
+      value: <Gamepad>/buttonEast
       objectReference: {fileID: 0}
     - target: {fileID: 8553989104194469763, guid: cf9df461217e7754e9f8ad18c5269212,
         type: 3}
       propertyPath: m_ControlPath
-      value: <XInputController>/buttonNorth
+      value: <Gamepad>/buttonNorth
       objectReference: {fileID: 0}
     - target: {fileID: 8554302734220585626, guid: cf9df461217e7754e9f8ad18c5269212,
         type: 3}
@@ -298,7 +298,7 @@ PrefabInstance:
     - target: {fileID: 9154477741538795599, guid: cf9df461217e7754e9f8ad18c5269212,
         type: 3}
       propertyPath: m_ControlPath
-      value: <XInputController>/select
+      value: <Gamepad>/select
       objectReference: {fileID: 0}
     - target: {fileID: 9178851647231659232, guid: cf9df461217e7754e9f8ad18c5269212,
         type: 3}

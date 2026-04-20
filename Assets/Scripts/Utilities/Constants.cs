@@ -293,8 +293,14 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
         ///    some features from the iPhone version such as the better touch-friendly buttons
         ///    for selecting arrows and special items.  Also fixed a few bugs and added a bit
         ///    more polish in a few places.
+        ///  Version 7.1.1
+        ///  * Fixed a major issue that was preventing Gamepads from working on Linux Builds
+        ///    (and possibly others).  Essentially, there were still too many hooks into the
+        ///    Legacy input system and Unity just couldn't handle it any more.  This update
+        ///    ensures that Gamepads work again.  Also fixed some inconsistencies in the
+        ///    button mappings.
         /// </remarks>
-        public static readonly string Version = $"7.1.0-{PlatformManager.Platform}";
+        public static readonly string Version = $"7.1.1-{PlatformManager.Platform}";
 
         /// <summary>
         /// The XDirection Animator parameter

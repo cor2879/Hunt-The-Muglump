@@ -47,7 +47,6 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.UI
             get
             {
                 return false;
-                // return InputExtension.IsTouchDetected() && EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId);
             }
         } 
 

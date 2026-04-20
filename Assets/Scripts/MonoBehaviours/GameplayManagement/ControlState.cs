@@ -47,7 +47,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours.GameplayManagemen
             {
                 KeyboardControlState.Instance.DisableMenus();
 
-                if (false && InputExtension.IsGamepadPresent())
+                if (InputExtension.IsGamepadPresent())
                 {
                     MobileTouchControlState.Instance.DisableMenus();
                     return GamepadControlState.Instance;

@@ -15,6 +15,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours.GameplayManagemen
     using OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours;
     using OldSchoolGames.HuntTheMuglump.Scripts.Utilities;
     using System;
+    using TMPro;
 
     public abstract class GameplayMenuStateBase
     {
@@ -163,6 +164,17 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours.GameplayManagemen
 
         public void ChangeState(GameplayMenuStateBase newState)
         {
+            this.LockInput = true;
+
+            GameplayMenuManager.StartCoroutine(
+                nameof(this.WaitForPredicateToBeFalseThenDoAction),
+                new WaitAction(
+                    () => InputExtension.IsAnyActionPressed(),
+                    () =>
+                    {
+                        this.LockInput = false;
+                    }));
+
             if (newState != this.GameplayMenuManager.MenuState)
             {
                 this.GameplayMenuManager.PreviousState = this.GameplayMenuManager.MenuState;
@@ -226,6 +238,8 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours.GameplayManagemen
 
     public class MainGameplayMenuState : GameplayMenuStateBase
     {
+        private bool suppressShootInput = true;
+        
         private static MainGameplayMenuState instance = new MainGameplayMenuState();
 
         public static new MainGameplayMenuState Instance { get => instance; }
@@ -245,6 +259,15 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours.GameplayManagemen
 
         public override void HandleInput()
         {
+            if (suppressShootInput)
+            {
+                if (!InputExtension.IsShootPressed())
+                {
+                    suppressShootInput = false;
+                }
+                return;
+            }
+
             this.ActionState.HandleInput();
             this.InventoryState.HandleInput();
 

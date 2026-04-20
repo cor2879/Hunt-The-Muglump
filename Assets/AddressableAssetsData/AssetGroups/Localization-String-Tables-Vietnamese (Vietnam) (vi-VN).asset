@@ -17,12 +17,6 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 7cebed8b9e586ca4b9a970b87ed76c3b
   m_SerializeEntries:
-  - m_GUID: 64fd8a7aef76a6641bf6ec2f34babf1c
-    m_Address: LocalizationTable_vi-VN
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-vi-VN
-    - Preload
   - m_GUID: ad41e2c4161334e4f84be0124abd4df2
     m_Address: GameOverLocalizationTable_vi-VN
     m_ReadOnly: 1

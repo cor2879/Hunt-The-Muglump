@@ -17,10 +17,6 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 3fa4a744a4045b24d8d8f859a152bbc7
   m_SerializeEntries:
-  - m_GUID: 2a37e92bf30cb5b4799f9e18410dc295
-    m_Address: Assets/Localization/LocalizationTables/LocalizationTable Shared Data.asset
-    m_ReadOnly: 1
-    m_SerializedLabels: []
   - m_GUID: 8bb6b334376e177409585820a1c3f3d2
     m_Address: Assets/Localization/LocalizationTables/LocalizationTable2 Shared Data.asset
     m_ReadOnly: 1

@@ -1,8 +1,9 @@
 ﻿namespace OldSchoolGames.HuntTheMuglump.Scripts.Platform
 {
     using UnityEngine;
+    #if UNITY_IOS
     using UnityEngine.SocialPlatforms.GameCenter;
-
+    #endif
     using System.Collections;
 
     public class GameCenterManager : MonoBehaviour

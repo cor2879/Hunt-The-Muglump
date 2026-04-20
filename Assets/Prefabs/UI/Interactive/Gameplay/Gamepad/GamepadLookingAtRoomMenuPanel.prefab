@@ -123,6 +123,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -1462202393, guid: 0b560054537f62a41be0521b4101d801,
         type: 3}
+    - target: {fileID: 4505569239313171057, guid: 4a7c1944e032b024ab4b0799a49d712e,
+        type: 3}
+      propertyPath: m_ControlPath
+      value: <Gamepad>/buttonEast
+      objectReference: {fileID: 0}
     - target: {fileID: 5712887185013545509, guid: 4a7c1944e032b024ab4b0799a49d712e,
         type: 3}
       propertyPath: m_AnchorMax.y

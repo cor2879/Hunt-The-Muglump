@@ -17,12 +17,6 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: c608cce4daddabb4facf2153e9125043
   m_SerializeEntries:
-  - m_GUID: a4dae6bc2c2e1a14b8485915ad3b5413
-    m_Address: LocalizationTable_en
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en
-    - Preload
   - m_GUID: a7070b2cdcdc0d44cb83ffe7e0058284
     m_Address: GameOverLocalizationTable_en
     m_ReadOnly: 1

@@ -53,17 +53,9 @@ MonoBehaviour:
     m_Interactions: 
     m_SingletonActionBindings:
     - m_Name: 
-      m_Id: adcea288-8acf-4b16-a6ac-e97bf836a19a
-      m_Path: <Gamepad>/buttonSouth
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Submit
-      m_Flags: 0
-    - m_Name: 
       m_Id: cc519b44-8f1e-44c7-9e32-ea7bd548843e
       m_Path: <XInputController>/buttonSouth
-      m_Interactions: 
+      m_Interactions: Press
       m_Processors: 
       m_Groups: 
       m_Action: Submit

@@ -103,7 +103,10 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.UI
             }
             else
             {
-                gameObject.SetActive(false);
+                if (gameObject != null)
+                {
+                    gameObject.SetActive(false);
+                }
             }
 
             if (this.ButtonsPanel != null)
@@ -151,6 +154,12 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.UI
             {
                 ButtonsPanel.DefaultButton.Select();
             }
+        }
+
+        private IEnumerator DisableNextFrame()
+        {
+            yield return null;
+            gameObject.SetActive(false);
         }
 
         #endregion

@@ -21,6 +21,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.UI
     using OldSchoolGames.HuntTheMuglump.Scripts.Utilities;
 
     using Touch = UnityEngine.InputSystem.EnhancedTouch.Touch;
+    using OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours.GameplayManagement;
 
     /// <summary>
     /// Defines the behaviours for the Minimap
@@ -415,14 +416,14 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.UI
                 this.mouseOver = false;
             }
 
-            if (this.mouseOver && Input.GetMouseButtonDown(InputConfiguration.LeftMouseButton))
+            if (this.mouseOver && Mouse.current.leftButton.wasPressedThisFrame)
             {
                 this.leftMouseButtonDown = true;
                 InputExtension.HideMouse();
                 InputExtension.ClampMouse();
                 InputExtension.LockMouse();
             }
-            else if (!this.mouseOver || Input.GetMouseButtonUp(InputConfiguration.LeftMouseButton))
+            else if (!this.mouseOver || Mouse.current.leftButton.wasReleasedThisFrame)
             {
                 this.leftMouseButtonDown = false;
                 InputExtension.UnlockMouse();
@@ -516,9 +517,11 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.UI
 
             if (this.leftMouseButtonDown)
             {
+               var delta = Mouse.current.delta.ReadValue();
+
                 movementVector = new Vector2(
-                    Input.GetAxis(InputAxes.MouseX) * this.mapScrollMultiplier,
-                    Input.GetAxis(InputAxes.MouseY) * this.mapScrollMultiplier);
+                    delta.x * this.mapScrollMultiplier,
+                    delta.y * this.mapScrollMultiplier);
             }
             else if (Touch.activeFingers.Count > 0)
             { 
@@ -543,9 +546,9 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.UI
             }
             else
             {
-                movementVector = new Vector2(
-                    Input.GetAxisRaw(InputAxes.Horizontal) * this.CameraMovementSpeed,
-                    Input.GetAxisRaw(InputAxes.Vertical) * this.CameraMovementSpeed);
+                var move = InputManager.Instance.MoveAction.ReadValue<Vector2>();
+
+                movementVector = move * this.CameraMovementSpeed;
             }
 
             movementVector.Normalize();

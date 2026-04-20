@@ -134,11 +134,6 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.UI
         private BeautifulInterface.ButtonUI historyButton;
 
         /// <summary>
-        /// Determines whether or not a listener needs to be added to the on screen buttons
-        /// </summary>
-        private bool addListener;
-
-        /// <summary>
         /// The instance
         /// </summary>
         private static TitleScreenBehaviour instance;
@@ -665,7 +660,6 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.UI
             this.TitlePanel.Enable();
             this.MainButtonsPanel.Show();
             this.MoreButtonsPanel.Hide();
-            this.addListener = true;
         }
 
         public void ShowCredits()

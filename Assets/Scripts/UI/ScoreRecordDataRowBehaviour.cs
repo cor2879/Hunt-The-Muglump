@@ -22,6 +22,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.UI
     using OldSchoolGames.HuntTheMuglump.Scripts.Exceptions;
     using OldSchoolGames.HuntTheMuglump.Scripts.Interfaces;
     using OldSchoolGames.HuntTheMuglump.Scripts.Utilities;
+    using UnityEngine.InputSystem;
 
     [RequireComponent(typeof(DataRowBehaviour))]
     public class ScoreRecordDataRowBehaviour
@@ -172,11 +173,11 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.UI
 
         public void Update()
         {
-            if (this.IsSelected && (InputExtension.IsSubmitPressed() || Input.GetMouseButtonDown(InputConfiguration.LeftMouseButton)))
+            if (this.IsSelected && (InputExtension.IsSubmitPressed() || Mouse.current.leftButton.wasPressedThisFrame))
             {
                 StartCoroutine(nameof(this.WaitForPredicateToBeFalseThenDoAction),
                     new WaitAction(
-                        () => InputExtension.IsSubmitPressed() || Input.GetMouseButtonDown(InputConfiguration.LeftMouseButton),
+                        () => InputExtension.IsSubmitPressed() || Mouse.current.leftButton.wasPressedThisFrame,
                         () =>
                         {
                             //if (!this.IsSelected)

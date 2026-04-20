@@ -27,6 +27,16 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
             return Keyboard.current.anyKey.wasPressedThisFrame;
         }
 
+        public static bool IsAnyActionPressed()
+        {
+            return IsSubmitPressed() ||
+                IsCancelPressed() ||
+                IsShootPressed() ||
+                IsLookPressed() ||
+                IsMovePressed();
+        }
+
+
         public static bool IsAnyButtonPressed()
         {
             return Gamepad.current != null &&
@@ -341,7 +351,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
 
         public static bool IsGamepadPresent()
         {
-            return !string.IsNullOrEmpty(Input.GetJoystickNames().FirstOrDefault());
+            return Gamepad.current != null;
         }
 
         public static void HideMouse()
