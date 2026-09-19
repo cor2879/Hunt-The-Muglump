@@ -28,19 +28,19 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
                 LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     "ArrowsEmpty",
-                    locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode))) },
+                    locale: null) },
             // "Thou reachest into thine quiver to draw an arrow, only to find it is empty.  Perhaps thou shouldest have brought more."
             { ArrowType.FlashArrow, () => 
                 LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     "FlashArrowsEmpty",
-                    locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode))) },
+                    locale: null) },
             // "Thou dost not have any flash arrows!  A pity..."
             { ArrowType.NetArrow, () => 
                 LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     "NetArrowsEmpty",
-                    locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)))  }
+                    locale: null)  }
             // "Thou hast not any net arrows!"
         };
 
@@ -50,13 +50,13 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
                 LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     "EauDuMuglumpEmpty",
-                    locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode))) },
+                    locale: null) },
             // "Thy desire to smell like a muglump goes unfulfilled.  There is no Eau du Muglump."
             { ItemType.BearTrap, () => 
                 LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     "BearTrapsEmpty",
-                    locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode))) }
+                    locale: null) }
             // "This might be a fantastic spot for a bear trap, if you had one."
         };
 
@@ -65,7 +65,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
             get => LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     "AllMuglumpsHunted",
-                    locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
+                    locale: null);
             // "You have eliminated all muglumps in this dungeon.  Return to the entrance!";
         }
 
@@ -74,7 +74,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
             get => LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     "BatWarning",
-                    locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
+                    locale: null);
             // "Thou canst hear the fluttering of wings from a nearby room.";
         }
 
@@ -83,7 +83,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
             get => LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     "BatCarry",
-                    locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
+                    locale: null);
             // "Giant bats are carrying thee!";
         }
 
@@ -92,7 +92,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
             get => LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     nameof(BearTrapTrigger),
-                    locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
+                    locale: null);
             // "One of your bear traps was triggered.";
         }
 
@@ -101,7 +101,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
             get => LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     nameof(BlackMuglumpHit),
-                    locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
+                    locale: null);
             // "You found the Black Muglump!  Now follow his trail and finish him off.";
         }
 
@@ -110,7 +110,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
             get => LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     nameof(BlackMuglumpClue),
-                    locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
+                    locale: null);
             // "The Black Muglump's trail ends here.  It must be in one of the adjacent rooms.  Choose your aim wisely...";
         }
 
@@ -119,7 +119,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
             get => LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     nameof(BlueMuglumpWarning),
-                    locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
+                    locale: null);
             // "Have a care!  A Blue Muglump has caught thy scent!";
         }
 
@@ -128,7 +128,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
             get => LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     nameof(SilverbackMuglumpWarning),
-                    locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
+                    locale: null);
             // "Have a care!  A Silverback Muglump has caught thy scent!";
         }
 
@@ -137,7 +137,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
             get => LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     nameof(BlueMuglumpDireWarning),
-                    locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
+                    locale: null);
             // "A Blue Muglump has thee nearly in its grasp!";
         }
 
@@ -146,7 +146,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
             get => LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     nameof(SilverbackMuglumpDireWarning),
-                    locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
+                    locale: null);
             // "A Silverback Muglump has thee nearly in its grasp!";
         }
 
@@ -155,7 +155,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
             get => LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     nameof(CoverScentExpired),
-                    locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
+                    locale: null);
             // "Beware! Thy Eau du Muglump has worn off!";
         }
 
@@ -164,7 +164,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
             get => LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     nameof(ExitDungeonConfirmation),
-                    locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
+                    locale: null);
             // "Art thou ready to leave the dungeon?  This will end the game.";
         }
 
@@ -173,7 +173,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
             get => LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     nameof(ForfeitDungeonConfirmation),
-                    locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
+                    locale: null);
             // "Art thou sure?  This will forfeit the game.";
         }
 
@@ -182,17 +182,17 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
             { ArrowType.Arrow, () => LocalizationUtility.GetLocalizedString(
                                         StringContentTable, 
                                         "FoundArrow",
-                                        locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode))) },
+                                        locale: null) },
             // "Thou hast found a useable arrow." 
             { ArrowType.FlashArrow, () => LocalizationUtility.GetLocalizedString(
                                             StringContentTable, 
                                             "FoundFlashArrow",
-                                            locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode))) },
+                                            locale: null) },
             // "Such good fortune!  Thou hast acquired a flash arrow!"
             { ArrowType.NetArrow, () => LocalizationUtility.GetLocalizedString(
                                             StringContentTable, 
                                             "FoundNetArrow",
-                                            locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode))) }
+                                            locale: null) }
             // "A net arrow!  Use this to cross pit traps safely."
         };
 
@@ -201,12 +201,12 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
             { ItemType.EauDuMuglump, () => LocalizationUtility.GetLocalizedString(
                                             StringContentTable, 
                                             "FoundEauDuMuglump",
-                                            locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode))) },
+                                            locale: null) },
             // "A bottle of Eau du Muglump.  It will make thee smell like a muglump for a few turns."
             { ItemType.BearTrap, () => LocalizationUtility.GetLocalizedString(
                                         StringContentTable, 
                                         "FoundBearTrap",
-                                        locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode))) }
+                                        locale: null) }
             // "You found a bear trap.  Also works on muglumps!"
         };
 
@@ -215,7 +215,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
             get => LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     nameof(FoundCrown),
-                    locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
+                    locale: null);
             // "Fortune smiles upon thee, for thou hast found the crown!";
         }
 
@@ -224,7 +224,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
             get => LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     nameof(GameOverVictoryText),
-                    locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
+                    locale: null);
             // "You survived the dungeon!";
         }
 
@@ -233,7 +233,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
             get => LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     nameof(GameOverEatenText),
-                    locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
+                    locale: null);
             // "You were eaten by a muglump!";
         }
 
@@ -242,7 +242,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
             get => LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     nameof(GameOverFallenText),
-                    locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
+                    locale: null);
             // "You have fallen to your doom!";
         }
 
@@ -251,7 +251,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
             get => LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     nameof(GameOverQuitText),
-                    locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
+                    locale: null);
             // "Does it feel good to be a quitter?";
         }
 
@@ -260,7 +260,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
             get => LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     nameof(Gamepad),
-                    locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
+                    locale: null);
             // "Gamepad";
         }
 
@@ -269,18 +269,18 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
             get => LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     nameof(Keyboard),
-                    locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
+                    locale: null);
             // "Keyboard";
         }
 
         public static readonly Func<string>[] LocalizedAmountOptions = new Func<string>[] 
         { 
-            () => LocalizationUtility.GetLocalizedString(StringContentTable, Constants.None, locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode))),
-            () => LocalizationUtility.GetLocalizedString(StringContentTable, Constants.One, locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode))),
-            () => LocalizationUtility.GetLocalizedString(StringContentTable, Constants.Few, locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode))),
-            () => LocalizationUtility.GetLocalizedString(StringContentTable, Constants.Some, locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode))),
-            () => LocalizationUtility.GetLocalizedString(StringContentTable, Constants.Many, locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode))),
-            () => LocalizationUtility.GetLocalizedString(StringContentTable, Constants.Lots, locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)))
+            () => LocalizationUtility.GetLocalizedString(StringContentTable, Constants.None, locale: null),
+            () => LocalizationUtility.GetLocalizedString(StringContentTable, Constants.One, locale: null),
+            () => LocalizationUtility.GetLocalizedString(StringContentTable, Constants.Few, locale: null),
+            () => LocalizationUtility.GetLocalizedString(StringContentTable, Constants.Some, locale: null),
+            () => LocalizationUtility.GetLocalizedString(StringContentTable, Constants.Many, locale: null),
+            () => LocalizationUtility.GetLocalizedString(StringContentTable, Constants.Lots, locale: null)
         };
 
         public static readonly Dictionary<Type, Func<string>> MuglumpKill = new Dictionary<Type, Func<string>>()
@@ -288,27 +288,27 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
             { typeof(MuglumpBehaviour), () => LocalizationUtility.GetLocalizedString(
                                                 StringContentTable, 
                                                 "MuglumpKill",
-                                                locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode))) },
+                                                locale: null) },
             // "Thy courage and wit have served thee well, for thou hast slain a muglump."
             { typeof(BlackMuglumpBehaviour), () => LocalizationUtility.GetLocalizedString(
                                                     StringContentTable, 
                                                     "BlackMuglumpKill",
-                                                    locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode))) },
+                                                    locale: null) },
             // "Congratulations, the Black Muglump was no match for thee."
             { typeof(GoldMuglumpBehaviour), () => LocalizationUtility.GetLocalizedString(
                                                     StringContentTable, 
                                                     "GoldMuglumpKill",
-                                                    locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)))  },
+                                                    locale: null)  },
             // "What's this!?  A Gold Muglump!?  Thou art truly a great Muglump Hunter!"
             { typeof(BlueMuglumpBehaviour), () => LocalizationUtility.GetLocalizedString(
                                                     StringContentTable, 
                                                     "BlueMuglumpKill",
-                                                    locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode))) },
+                                                    locale: null) },
             // "The hunter who was hunted has now defeated the hunted hunter."
             { typeof(SilverbackMuglumpBehaviour), () => LocalizationUtility.GetLocalizedString(
                                                             StringContentTable, 
                                                             "SilverbackMuglumpKill",
-                                                            locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode))) }
+                                                            locale: null) }
             // "The fearsome Silverback Muglump was no match for thee.  Congratulations."
         };
 
@@ -317,7 +317,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
             get => LocalizationUtility.GetLocalizedString(
                 StringContentTable, 
                 nameof(MuglumpWarning),
-                locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
+                locale: null);
             // "Thou canst hear heavy, labored breathing from a nearby room."
         }
 
@@ -326,7 +326,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
             get => LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     nameof(MuglumpDeath),
-                    locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
+                    locale: null);
             // "Like so many that have come before thee, thou art now in a muglump's belly.";
         }
 
@@ -335,7 +335,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
             get => LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     nameof(NewSilverbackMuglump),
-                    locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
+                    locale: null);
             // "A new Silverback Muglump has entered the dungeon!";
         }
 
@@ -344,7 +344,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
             get => LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     nameof(No),
-                    locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
+                    locale: null);
             // "No";
         }
 
@@ -353,7 +353,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
             get => LocalizationUtility.GetLocalizedString(
                 StringContentTable, 
                 nameof(PitWarning), 
-                locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
+                locale: null);
             // "Thou hearest a draft coming from an adjacent room.";
         }
 
@@ -362,7 +362,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
             get => LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     nameof(PitDeath),
-                    locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
+                    locale: null);
             // "Thou hast fallen to thy death.  Next time, watcheth thy step.";
         }
 
@@ -371,7 +371,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
             get => LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     nameof(Yes),
-                    locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
+                    locale: null);
             // "Yes";
         }
 
