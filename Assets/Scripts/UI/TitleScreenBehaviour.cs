@@ -8,6 +8,7 @@
 namespace OldSchoolGames.HuntTheMuglump.Scripts.UI
 {
     using System;
+    using System.Collections;
     using System.Collections.Generic;
     using System.Linq;
 
@@ -23,6 +24,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.UI
     using OldSchoolGames.HuntTheMuglump.Scripts.Exceptions;
     using OldSchoolGames.HuntTheMuglump.Scripts.Interfaces;
     using OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours;
+    using OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours.GameplayManagement;
     using OldSchoolGames.HuntTheMuglump.Scripts.Utilities;
 
     /// <summary>
@@ -504,7 +506,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.UI
         public void QuickStartGame()
         {
             this.QuickStartButton.Normal();
-            SceneManager.LoadScene(Constants.PrimaryScene);
+            StartCoroutine(this.LoadPrimarySceneWhenLocalizationIsReady());
         }
 
         public void CloseMainButtonsAndOpenMoreButtons()
@@ -546,8 +548,16 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.UI
             }
             else
             {
-                SceneManager.LoadScene(Constants.PrimaryScene);
+                StartCoroutine(this.LoadPrimarySceneWhenLocalizationIsReady());
             }
+        }
+
+        private IEnumerator LoadPrimarySceneWhenLocalizationIsReady()
+        {
+            yield return new WaitUntil(
+                () => LocaleManager.Instance != null && LocaleManager.Instance.IsReady);
+
+            SceneManager.LoadScene(Constants.PrimaryScene);
         }
 
         private void LaunchNewGameMenu()
