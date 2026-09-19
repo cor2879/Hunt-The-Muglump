@@ -577,7 +577,13 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours.GameplayManagemen
 
         public static bool IsActionPressed(InputAction inputAction)
         {
-            return inputAction.IsPressed();
+#if UNITY_WEBGL && !UNITY_EDITOR
+            // WebGL can report a held action across many rendered frames. Treat input as
+            // edge-triggered so a single press cannot enqueue duplicate gameplay actions.
+            return inputAction != null && inputAction.WasPressedThisFrame();
+#else
+            return inputAction != null && inputAction.IsPressed();
+#endif
         }
     }
 }
