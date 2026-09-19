@@ -255,6 +255,11 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Components
         {
             get
             {
+#if UNITY_WEBGL && !UNITY_EDITOR
+                // The WebGL build intentionally uses its bundled English table and never
+                // starts Unity Localization's Addressables initialization pipeline.
+                return SupportedLanguage.SupportedLanguages["en"];
+#else
                 if (SupportedLanguage.SupportedLanguages.TryGetValue(selectedLanguage.Get(), out var language))
                 {
                     return language;
@@ -275,6 +280,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Components
                 }
 
                 return SupportedLanguage.SupportedLanguages["en"];
+#endif
             }
 
             set => selectedLanguage.Set(value.CultureCode);
