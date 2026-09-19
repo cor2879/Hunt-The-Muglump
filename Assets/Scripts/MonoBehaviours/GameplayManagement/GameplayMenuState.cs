@@ -209,6 +209,12 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours.GameplayManagemen
             return MainGameplayMenuState.Instance;
         }
 
+        public static void ResetTransientState()
+        {
+            // LOCK_INPUT is static and otherwise survives Primary scene reloads.
+            LOCK_INPUT = false;
+        }
+
         protected IEnumerator WaitForDurationThenDoAction(WaitDuration waitDuration)
         {
             while (waitDuration.Duration >= float.Epsilon)
