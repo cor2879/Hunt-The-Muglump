@@ -46,6 +46,12 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours.GameplayManagemen
             return InventoryAvailableState.Instance;
         }
 
+        public static void ResetTransientState()
+        {
+            InventoryAvailableState.Instance.LockInput = false;
+            InventoryUnavailableState.Instance.LockInput = false;
+        }
+
         protected IEnumerator WaitForDurationThenDoAction(WaitDuration waitDuration)
         {
             while (waitDuration.Duration >= float.Epsilon)
