@@ -679,7 +679,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.UI
 
         private void UpdateDifficultySettingText()
         {
-            this.DifficultyTextContainer.Value = $"{LocalizationSettings.StringDatabase.GetLocalizedString(StringContent.StringContentTable, this.DifficultySetting.ToString())}";
+            this.DifficultyTextContainer.Value = $"{LocalizationUtility.GetLocalizedString(StringContent.StringContentTable, this.DifficultySetting.ToString())}";
         }
 
         /// <summary>
@@ -687,7 +687,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.UI
         /// </summary>
         private void UpdateFoundTheCrownText()
         {
-            this.foundTheCrownTextContainer.Value = LocalizationSettings.StringDatabase.GetLocalizedString(StringContent.StringContentTable, this.FoundTheCrown ? "Yes" : "No");
+            this.foundTheCrownTextContainer.Value = LocalizationUtility.GetLocalizedString(StringContent.StringContentTable, this.FoundTheCrown ? "Yes" : "No");
         }
 
         /// <summary>
@@ -695,7 +695,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.UI
         /// </summary>
         private void UpdateSurvivedText()
         {
-            this.survivedTextContainer.Value = LocalizationSettings.StringDatabase.GetLocalizedString(StringContent.StringContentTable, this.Survived ? "Yes" : "No");
+            this.survivedTextContainer.Value = LocalizationUtility.GetLocalizedString(StringContent.StringContentTable, this.Survived ? "Yes" : "No");
         }
 
         /// <summary>
