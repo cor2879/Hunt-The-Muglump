@@ -58,6 +58,14 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Platform
             }
         }
 
+        [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
+        private static void InitializeForSteamBuild()
+        {
+            // SteamManager is compiled only for Steam-capable builds. Creating it
+            // here keeps Steam initialization out of shared cross-platform prefabs.
+            _ = Instance;
+        }
+
         protected static bool s_EverInitialized;
 
         protected bool m_bInitialized;
