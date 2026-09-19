@@ -97,6 +97,11 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours.GameplayManagemen
                 yield break;
             }
 
+            // GameObjectLocalizer.Start caches SelectedLocaleAsync while initialization is in
+            // progress. Let those coroutines consume the completed handle before a locale change
+            // can replace and release it.
+            yield return null;
+
             yield return this.ApplyLocaleAsync(Settings.SelectedLanguage);
 
             if (this.IsReady)
@@ -135,7 +140,13 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours.GameplayManagemen
                 yield break;
             }
 
-            LocalizationSettings.SelectedLocale = locale;
+            var selectedLocaleOperation = LocalizationSettings.SelectedLocaleAsync;
+            var currentLocale = selectedLocaleOperation.IsDone ? selectedLocaleOperation.Result : null;
+
+            if (!ReferenceEquals(currentLocale, locale))
+            {
+                LocalizationSettings.SelectedLocale = locale;
+            }
 
             // Load each table asynchronously so WebGL-safe cached lookups are available before
             // gameplay begins. WebGL cannot call Addressables.WaitForCompletion at any point.
