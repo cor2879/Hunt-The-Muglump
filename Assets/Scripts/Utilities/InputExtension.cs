@@ -20,6 +20,12 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
     /// </summary>
     public static class InputExtension
     {
+#if UNITY_WEBGL && !UNITY_EDITOR
+        private const float WebGLGamepadActivationThreshold = 0.5f;
+
+        private static bool webGLGamepadActivated;
+#endif
+
         public static CursorState CursorState { get; private set; }
 
         public static bool IsAnyKeyPressed()
@@ -351,7 +357,40 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
 
         public static bool IsGamepadPresent()
         {
+#if UNITY_WEBGL && !UNITY_EDITOR
+            Gamepad gamepad = Gamepad.current;
+
+            if (gamepad == null)
+            {
+                webGLGamepadActivated = false;
+                return false;
+            }
+
+            if (!webGLGamepadActivated)
+            {
+                webGLGamepadActivated =
+                    gamepad.aButton.isPressed ||
+                    gamepad.bButton.isPressed ||
+                    gamepad.xButton.isPressed ||
+                    gamepad.yButton.isPressed ||
+                    gamepad.startButton.isPressed ||
+                    gamepad.selectButton.isPressed ||
+                    gamepad.leftShoulder.isPressed ||
+                    gamepad.rightShoulder.isPressed ||
+                    gamepad.leftTrigger.ReadValue() >= WebGLGamepadActivationThreshold ||
+                    gamepad.rightTrigger.ReadValue() >= WebGLGamepadActivationThreshold ||
+                    gamepad.dpad.ReadValue().sqrMagnitude >=
+                        WebGLGamepadActivationThreshold * WebGLGamepadActivationThreshold ||
+                    gamepad.leftStick.ReadValue().sqrMagnitude >=
+                        WebGLGamepadActivationThreshold * WebGLGamepadActivationThreshold ||
+                    gamepad.rightStick.ReadValue().sqrMagnitude >=
+                        WebGLGamepadActivationThreshold * WebGLGamepadActivationThreshold;
+            }
+
+            return webGLGamepadActivated;
+#else
             return Gamepad.current != null;
+#endif
         }
 
         public static void HideMouse()
