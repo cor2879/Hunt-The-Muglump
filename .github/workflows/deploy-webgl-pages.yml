@@ -6,6 +6,7 @@ on:
       - shopify-arcade-integration
     paths:
       - .github/workflows/deploy-webgl-pages.yml
+      - .github/webgl-template/**
   workflow_dispatch:
 
 permissions:
@@ -21,6 +22,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Check out WebGL wrapper
+        uses: actions/checkout@v4
+
       - name: Download WebGL release
         env:
           GH_TOKEN: ${{ github.token }}
@@ -31,6 +35,8 @@ jobs:
             --pattern 'HuntTheMuglump.7.1.9-WebGL-ready.zip' \
             --dir release
           unzip -q release/HuntTheMuglump.7.1.9-WebGL-ready.zip -d site
+          cp .github/webgl-template/index.html site/index.html
+          cp .github/webgl-template/style.css site/TemplateData/style.css
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
@@ -50,5 +56,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
-# Trigger initial WebGL deployment
