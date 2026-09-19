@@ -62,10 +62,17 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Platform
         /// </value>
         public static PlatformManager Instance { get; private set; }
 
+#if UNITY_WEBGL && !UNITY_EDITOR
+        private static bool? usesMobileTouchControls;
+
+        [System.Runtime.InteropServices.DllImport("__Internal")]
+        private static extern int OldSkool_IsMobileTouchBrowser();
+#endif
+
         /// <summary>
         /// Gets whether this runtime should present the touch-first control experience.
-        /// Native iOS always uses touch controls. WebGL uses Unity's runtime input
-        /// devices so mobile browsers are not mistaken for desktop WebGL.
+        /// Native iOS always uses touch controls. WebGL asks the browser whether it is
+        /// running on a mobile device instead of relying on Unity's generic touch device.
         /// </summary>
         public static bool UsesMobileTouchControls
         {
@@ -74,8 +81,20 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Platform
 #if UNITY_IOS
                 return true;
 #elif UNITY_WEBGL && !UNITY_EDITOR
-                return Application.isMobilePlatform ||
-                    UnityEngine.InputSystem.Touchscreen.current != null;
+                if (!usesMobileTouchControls.HasValue)
+                {
+                    try
+                    {
+                        usesMobileTouchControls = OldSkool_IsMobileTouchBrowser() == 1;
+                    }
+                    catch (Exception exception)
+                    {
+                        Debug.LogWarning($"Unable to query the WebGL mobile browser state: {exception.Message}");
+                        usesMobileTouchControls = Application.isMobilePlatform;
+                    }
+                }
+
+                return usesMobileTouchControls.Value;
 #else
                 return false;
 #endif
