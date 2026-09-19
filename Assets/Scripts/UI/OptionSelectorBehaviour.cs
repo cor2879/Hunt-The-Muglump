@@ -243,7 +243,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.UI
             try
             {
                 this.DisplayTextUI.text = this.LocalizeText ? 
-                    LocalizationSettings.StringDatabase.GetLocalizedString(
+                    LocalizationUtility.GetLocalizedString(
                         StringContent.StringContentTable, 
                         this.SelectedValue,
                         locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode))) : 
