@@ -82,10 +82,19 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours.GameplayManagemen
             // These values are safe to initialize without touching Addressables.
             this.CurrentLocale = Settings.SelectedLanguage.CultureCode;
             this.SelectedLanguage = Settings.SelectedLanguage.Name;
+
+#if UNITY_WEBGL && !UNITY_EDITOR
+            // WebGL uses a bundled English StringTable directly. Do not initialize the
+            // Addressables-backed Localization runtime on this platform.
+            this.IsReady = true;
+#endif
         }
 
         private IEnumerator Start()
         {
+#if UNITY_WEBGL && !UNITY_EDITOR
+            yield break;
+#else
             var initializationOperation = LocalizationSettings.InitializationOperation;
             yield return initializationOperation;
 
@@ -108,10 +117,14 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours.GameplayManagemen
             {
                 Debug.Log($"Localization initialized asynchronously for {this.CurrentLocale}.");
             }
+#endif
         }
 
         private void Update()
         {
+#if UNITY_WEBGL && !UNITY_EDITOR
+            return;
+#else
             if (!this.IsReady || this.isChangingLocale)
             {
                 return;
@@ -123,6 +136,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours.GameplayManagemen
             {
                 StartCoroutine(this.ApplyLocaleAsync(language));
             }
+#endif
         }
 
         private IEnumerator ApplyLocaleAsync(SupportedLanguage language)
