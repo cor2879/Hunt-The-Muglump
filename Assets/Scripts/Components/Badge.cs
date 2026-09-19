@@ -73,7 +73,7 @@
             get => LocalizationUtility.GetLocalizedString(
                     StringContent.StringContentTable, 
                     this.displayName,
-                    locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
+                    locale: null);
             set => this.displayName = value;
         }
 
@@ -82,7 +82,7 @@
             get => LocalizationUtility.GetLocalizedString(
                     StringContent.StringContentTable, 
                     this.description,
-                    locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode))); 
+                    locale: null);
             set => this.description = value; 
         }
 
@@ -96,25 +96,27 @@
         { 
             get
             {
+                string activeCulture = Settings.SelectedLanguage.CultureCode;
+
                 if ((this.BonusDescriptionParameters != null && this.BonusDescriptionParameters.Any()) && 
                     (string.IsNullOrEmpty(this.bonusDescription) || 
-                    !string.Equals(LocalizationSettings.SelectedLocale.LocaleName, this.currentCulture, StringComparison.InvariantCultureIgnoreCase)))
+                    !string.Equals(activeCulture, this.currentCulture, StringComparison.InvariantCultureIgnoreCase)))
                 {
                     var fallbackBehavior = FallbackBehavior.UseProjectSettings;
 
-                    this.currentCulture = LocalizationSettings.SelectedLocale.LocaleName;
+                    this.currentCulture = activeCulture;
                     var stringBuilder = new StringBuilder(
                         LocalizationUtility.GetLocalizedString(
                             StringContent.StringContentTable,
                             this.BonusDescriptionParameters.First().First,
-                            locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)),
+                            locale: null,
                             fallbackBehavior,
                             this.BonusDescriptionParameters.First().Second));
 
                     foreach (var pair in this.BonusDescriptionParameters.Skip(1))
                     {
                         stringBuilder.Append(
-                            $",{LocalizationUtility.GetLocalizedString(StringContent.StringContentTable, pair.First, locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)), fallbackBehavior, pair.Second)}");
+                            $",{LocalizationUtility.GetLocalizedString(StringContent.StringContentTable, pair.First, locale: null, fallbackBehavior, pair.Second)}");
                     }
 
                     this.bonusDescription = stringBuilder.ToString();
