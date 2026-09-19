@@ -9,14 +9,21 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
     using UnityEngine;
     using UnityEngine.Localization;
     using UnityEngine.Localization.Settings;
+    using UnityEngine.Localization.Tables;
     using UnityEngine.ResourceManagement.AsyncOperations;
 
     /// <summary>
-    /// Provides localized strings without invoking Addressables.WaitForCompletion in WebGL.
-    /// LocaleManager asynchronously preloads the tables before gameplay can begin.
+    /// Uses a directly bundled English table on WebGL and Unity Localization on
+    /// platforms where its Addressables lifecycle is supported by this project.
     /// </summary>
     public static class LocalizationUtility
     {
+#if UNITY_WEBGL && !UNITY_EDITOR
+        private const string WebGLEnglishTableResource = "LocalizedStringConstantsEnglish";
+
+        private static StringTable webGLEnglishTable;
+#endif
+
         public static string GetLocalizedString(
             string tableName,
             string entryKey,
@@ -25,25 +32,24 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
             params object[] arguments)
         {
 #if UNITY_WEBGL && !UNITY_EDITOR
-            if (!LocalizationSettings.InitializationOperation.IsDone)
+            if (tableName != StringContent.StringContentTable)
             {
-                Debug.LogError($"Localization was requested before initialization completed: {tableName}/{entryKey}.");
+                Debug.LogWarning($"No WebGL English table is registered for '{tableName}'. Using key '{entryKey}'.");
                 return entryKey;
             }
 
-            locale = locale ?? LocalizationSettings.SelectedLocaleAsync.Result;
-
-            var tableOperation = LocalizationSettings.StringDatabase.GetTableAsync(tableName, locale);
-
-            if (!tableOperation.IsDone ||
-                tableOperation.Status != AsyncOperationStatus.Succeeded ||
-                tableOperation.Result == null)
+            if (webGLEnglishTable == null)
             {
-                Debug.LogError($"Localization table is not ready: {tableName} ({locale?.Identifier.Code ?? "no locale"}).");
+                webGLEnglishTable = Resources.Load<StringTable>(WebGLEnglishTableResource);
+            }
+
+            if (webGLEnglishTable == null)
+            {
+                Debug.LogError($"WebGL English string table resource was not found. Using key '{entryKey}'.");
                 return entryKey;
             }
 
-            var entry = tableOperation.Result.GetEntry(entryKey);
+            var entry = webGLEnglishTable.GetEntry(entryKey);
 
             if (entry == null)
             {
