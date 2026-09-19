@@ -62,6 +62,26 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Platform
         /// </value>
         public static PlatformManager Instance { get; private set; }
 
+        /// <summary>
+        /// Gets whether this runtime should present the touch-first control experience.
+        /// Native iOS always uses touch controls. WebGL uses Unity's runtime input
+        /// devices so mobile browsers are not mistaken for desktop WebGL.
+        /// </summary>
+        public static bool UsesMobileTouchControls
+        {
+            get
+            {
+#if UNITY_IOS
+                return true;
+#elif UNITY_WEBGL && !UNITY_EDITOR
+                return Application.isMobilePlatform ||
+                    UnityEngine.InputSystem.Touchscreen.current != null;
+#else
+                return false;
+#endif
+            }
+        }
+
         public static string UserName
         {
             get
