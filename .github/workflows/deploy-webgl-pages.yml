@@ -1,12 +1,9 @@
 name: Deploy Hunt the Muglump WebGL
 
 on:
-  push:
-    branches:
-      - shopify-arcade-integration
-    paths:
-      - .github/workflows/deploy-webgl-pages.yml
-      - .github/webgl-template/**
+  release:
+    types:
+      - published
   workflow_dispatch:
 
 permissions:
@@ -31,10 +28,10 @@ jobs:
           GH_REPO: ${{ github.repository }}
         run: |
           mkdir -p release site
-          gh release download webgl-7.1.9 \
-            --pattern 'HuntTheMuglump.7.1.9-WebGL-ready.zip' \
+          gh release download webgl-7.1.13 \
+            --pattern 'HuntTheMuglump.7.1.13-WebGL-ready.zip' \
             --dir release
-          unzip -q release/HuntTheMuglump.7.1.9-WebGL-ready.zip -d site
+          unzip -q release/HuntTheMuglump.7.1.13-WebGL-ready.zip -d site
           cp .github/webgl-template/index.html site/index.html
           cp .github/webgl-template/style.css site/TemplateData/style.css
 
