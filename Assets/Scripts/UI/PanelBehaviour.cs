@@ -25,6 +25,24 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.UI
         private CanvasGroup canvasGroup;
         private Coroutine fadeRoutine;
 
+        private CanvasGroup CanvasGroup
+        {
+            get
+            {
+                if (this.canvasGroup == null)
+                {
+                    this.canvasGroup = this.GetComponent<CanvasGroup>();
+
+                    if (this.canvasGroup == null)
+                    {
+                        this.canvasGroup = this.gameObject.AddComponent<CanvasGroup>();
+                    }
+                }
+
+                return this.canvasGroup;
+            }
+        }
+
         [SerializeField]
         private float fadeDuration = 0.15f;
 
@@ -45,17 +63,12 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.UI
         {
             base.Awake();
 
-            canvasGroup = GetComponent<CanvasGroup>();
-
-            if (canvasGroup == null)
-            {
-                canvasGroup = gameObject.AddComponent<CanvasGroup>();
-            }
+            _ = this.CanvasGroup;
         }
 
         public virtual void Show(bool fadeIn = true)
         {
-            Debug.Log($"SHOW CALLED on {gameObject.name}, active={gameObject.activeInHierarchy}, alpha={canvasGroup.alpha}");
+            Debug.Log($"SHOW CALLED on {gameObject.name}, active={gameObject.activeInHierarchy}, alpha={this.CanvasGroup.alpha}");
             if (!gameObject.activeSelf)
             {
                 gameObject.SetActive(true);
@@ -63,9 +76,9 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.UI
 
             if (fadeIn)
             {
-                canvasGroup.alpha = 0f;
-                canvasGroup.interactable = true;
-                canvasGroup.blocksRaycasts = true;
+                this.CanvasGroup.alpha = 0f;
+                this.CanvasGroup.interactable = true;
+                this.CanvasGroup.blocksRaycasts = true;
 
                 if (fadeRoutine != null)
                 {
@@ -75,10 +88,15 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.UI
                 fadeRoutine = StartCoroutine(Fade(1f));
             }
 
-            if (ButtonsPanel != null)
+            if (this.ButtonsPanel != null)
             {
-                ButtonsPanel.Activate();
-                ButtonsPanel.DefaultButton.Select();
+                this.ButtonsPanel.Activate();
+
+                // Touch-only panels do not require a selected navigation button.
+                if (this.ButtonsPanel.DefaultButton != null)
+                {
+                    this.ButtonsPanel.DefaultButton.Select();
+                }
             }
         }
 
@@ -96,8 +114,8 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.UI
                     StopCoroutine(fadeRoutine);
                 }
 
-                canvasGroup.interactable = false;
-                canvasGroup.blocksRaycasts = false;
+                this.CanvasGroup.interactable = false;
+                this.CanvasGroup.blocksRaycasts = false;
 
                 fadeRoutine = StartCoroutine(FadeOutAndHide());
             }
@@ -119,7 +137,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.UI
 
         private IEnumerator Fade(float target)
         {
-            float start = canvasGroup.alpha;
+            float start = this.CanvasGroup.alpha;
             float time = 0f;
 
             while (time < fadeDuration)
@@ -127,11 +145,11 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.UI
                 time += Time.deltaTime;
                 float t = time / fadeDuration;
 
-                canvasGroup.alpha = Mathf.Lerp(start, target, t);
+                this.CanvasGroup.alpha = Mathf.Lerp(start, target, t);
                 yield return null;
             }
 
-            canvasGroup.alpha = target;
+            this.CanvasGroup.alpha = target;
         }
 
         private IEnumerator FadeOutAndHide()
