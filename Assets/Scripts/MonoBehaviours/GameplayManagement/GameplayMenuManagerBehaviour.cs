@@ -401,6 +401,11 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours.GameplayManagemen
 
         private void Start()
         {
+            GameplayMenuStateBase.ResetTransientState();
+            ActionStateBase.ResetTransientState();
+            InventoryStateBase.ResetTransientState();
+
+            this.LockInput = false;
             this.MenuState = GameplayMenuStateBase.Instance;
             this.CurrentControlState = ControlStateBase.Instance;
             this.MenuState.Start();
