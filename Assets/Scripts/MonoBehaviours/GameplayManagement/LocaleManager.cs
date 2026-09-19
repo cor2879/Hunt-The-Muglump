@@ -98,6 +98,12 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours.GameplayManagemen
             var initializationOperation = LocalizationSettings.InitializationOperation;
             yield return initializationOperation;
 
+            if (!initializationOperation.IsValid())
+            {
+                Debug.LogError("Localization initialization returned an invalid operation handle.");
+                yield break;
+            }
+
             if (initializationOperation.Status != AsyncOperationStatus.Succeeded)
             {
                 Debug.LogException(
@@ -155,7 +161,9 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours.GameplayManagemen
             }
 
             var selectedLocaleOperation = LocalizationSettings.SelectedLocaleAsync;
-            var currentLocale = selectedLocaleOperation.IsDone ? selectedLocaleOperation.Result : null;
+            var currentLocale = selectedLocaleOperation.IsValid() && selectedLocaleOperation.IsDone
+                ? selectedLocaleOperation.Result
+                : null;
 
             if (!ReferenceEquals(currentLocale, locale))
             {
@@ -168,6 +176,12 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours.GameplayManagemen
             {
                 var tableOperation = LocalizationSettings.StringDatabase.GetTableAsync(tableName, locale);
                 yield return tableOperation;
+
+                if (!tableOperation.IsValid())
+                {
+                    Debug.LogError($"Localization table '{tableName}' returned an invalid operation handle.");
+                    continue;
+                }
 
                 if (tableOperation.Status != AsyncOperationStatus.Succeeded)
                 {
