@@ -255,9 +255,26 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Components
         {
             get
             {
-                return SupportedLanguage.SupportedLanguages.TryGetValue(selectedLanguage.Get(), out var language) ? language :
-                    SupportedLanguage.SupportedLanguages.TryGetValue(LocalizationSettings.SelectedLocale.LocaleName, out var currentLanguage) ? currentLanguage :
-                        SupportedLanguage.SupportedLanguages["en"];
+                if (SupportedLanguage.SupportedLanguages.TryGetValue(selectedLanguage.Get(), out var language))
+                {
+                    return language;
+                }
+
+                // SelectedLocale forces Localization initialization to complete synchronously when
+                // accessed too early. WebGL cannot perform that synchronous Addressables wait, so
+                // only inspect it after the asynchronous initialization operation has completed.
+                var selectedLocaleOperation = LocalizationSettings.SelectedLocaleAsync;
+
+                if (selectedLocaleOperation.IsDone &&
+                    selectedLocaleOperation.Result != null &&
+                    SupportedLanguage.SupportedLanguages.TryGetValue(
+                        selectedLocaleOperation.Result.Identifier.Code,
+                        out var currentLanguage))
+                {
+                    return currentLanguage;
+                }
+
+                return SupportedLanguage.SupportedLanguages["en"];
             }
 
             set => selectedLanguage.Set(value.CultureCode);
