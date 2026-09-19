@@ -70,7 +70,7 @@
 
         public string DisplayName 
         {
-            get => LocalizationSettings.StringDatabase.GetLocalizedString(
+            get => LocalizationUtility.GetLocalizedString(
                     StringContent.StringContentTable, 
                     this.displayName,
                     locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
@@ -79,7 +79,7 @@
 
         public string Description 
         { 
-            get => LocalizationSettings.StringDatabase.GetLocalizedString(
+            get => LocalizationUtility.GetLocalizedString(
                     StringContent.StringContentTable, 
                     this.description,
                     locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode))); 
@@ -104,7 +104,7 @@
 
                     this.currentCulture = LocalizationSettings.SelectedLocale.LocaleName;
                     var stringBuilder = new StringBuilder(
-                        LocalizationSettings.StringDatabase.GetLocalizedString(
+                        LocalizationUtility.GetLocalizedString(
                             StringContent.StringContentTable,
                             this.BonusDescriptionParameters.First().First,
                             locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)),
@@ -114,7 +114,7 @@
                     foreach (var pair in this.BonusDescriptionParameters.Skip(1))
                     {
                         stringBuilder.Append(
-                            $",{LocalizationSettings.StringDatabase.GetLocalizedString(StringContent.StringContentTable, pair.First, locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)), fallbackBehavior, pair.Second)}");
+                            $",{LocalizationUtility.GetLocalizedString(StringContent.StringContentTable, pair.First, locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)), fallbackBehavior, pair.Second)}");
                     }
 
                     this.bonusDescription = stringBuilder.ToString();
