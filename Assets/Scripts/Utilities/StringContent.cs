@@ -25,19 +25,19 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
         public static Dictionary<ArrowType, Func<string>> ArrowEmpty = new Dictionary<ArrowType, Func<string>>()
         {
             { ArrowType.Arrow, () => 
-                LocalizationSettings.StringDatabase.GetLocalizedString(
+                LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     "ArrowsEmpty",
                     locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode))) },
             // "Thou reachest into thine quiver to draw an arrow, only to find it is empty.  Perhaps thou shouldest have brought more."
             { ArrowType.FlashArrow, () => 
-                LocalizationSettings.StringDatabase.GetLocalizedString(
+                LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     "FlashArrowsEmpty",
                     locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode))) },
             // "Thou dost not have any flash arrows!  A pity..."
             { ArrowType.NetArrow, () => 
-                LocalizationSettings.StringDatabase.GetLocalizedString(
+                LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     "NetArrowsEmpty",
                     locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)))  }
@@ -47,13 +47,13 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
         public static readonly Dictionary<ItemType, Func<string>> ItemEmpty = new Dictionary<ItemType, Func<string>>()
         {
             { ItemType.EauDuMuglump, () => 
-                LocalizationSettings.StringDatabase.GetLocalizedString(
+                LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     "EauDuMuglumpEmpty",
                     locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode))) },
             // "Thy desire to smell like a muglump goes unfulfilled.  There is no Eau du Muglump."
             { ItemType.BearTrap, () => 
-                LocalizationSettings.StringDatabase.GetLocalizedString(
+                LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     "BearTrapsEmpty",
                     locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode))) }
@@ -62,7 +62,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
 
         public static string AllMuglumpsHunted
         {
-            get => LocalizationSettings.StringDatabase.GetLocalizedString(
+            get => LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     "AllMuglumpsHunted",
                     locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
@@ -71,7 +71,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
 
         public static string BatWarning
         {
-            get => LocalizationSettings.StringDatabase.GetLocalizedString(
+            get => LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     "BatWarning",
                     locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
@@ -80,7 +80,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
 
         public static string BatCarry
         {
-            get => LocalizationSettings.StringDatabase.GetLocalizedString(
+            get => LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     "BatCarry",
                     locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
@@ -89,7 +89,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
 
         public static string BearTrapTrigger
         {
-            get => LocalizationSettings.StringDatabase.GetLocalizedString(
+            get => LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     nameof(BearTrapTrigger),
                     locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
@@ -98,7 +98,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
 
         public static string BlackMuglumpHit
         {
-            get => LocalizationSettings.StringDatabase.GetLocalizedString(
+            get => LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     nameof(BlackMuglumpHit),
                     locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
@@ -107,7 +107,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
 
         public static string BlackMuglumpClue
         {
-            get => LocalizationSettings.StringDatabase.GetLocalizedString(
+            get => LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     nameof(BlackMuglumpClue),
                     locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
@@ -116,7 +116,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
 
         public static string BlueMuglumpWarning
         {
-            get => LocalizationSettings.StringDatabase.GetLocalizedString(
+            get => LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     nameof(BlueMuglumpWarning),
                     locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
@@ -125,7 +125,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
 
         public static string SilverbackMuglumpWarning
         {
-            get => LocalizationSettings.StringDatabase.GetLocalizedString(
+            get => LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     nameof(SilverbackMuglumpWarning),
                     locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
@@ -134,7 +134,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
 
         public static string BlueMuglumpDireWarning
         {
-            get => LocalizationSettings.StringDatabase.GetLocalizedString(
+            get => LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     nameof(BlueMuglumpDireWarning),
                     locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
@@ -143,7 +143,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
 
         public static string SilverbackMuglumpDireWarning
         {
-            get => LocalizationSettings.StringDatabase.GetLocalizedString(
+            get => LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     nameof(SilverbackMuglumpDireWarning),
                     locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
@@ -152,7 +152,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
 
         public static string CoverScentExpired
         {
-            get => LocalizationSettings.StringDatabase.GetLocalizedString(
+            get => LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     nameof(CoverScentExpired),
                     locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
@@ -161,7 +161,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
 
         public static string ExitDungeonConfirmation
         {
-            get => LocalizationSettings.StringDatabase.GetLocalizedString(
+            get => LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     nameof(ExitDungeonConfirmation),
                     locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
@@ -170,7 +170,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
 
         public static string ForfeitDungeonConfirmation
         {
-            get => LocalizationSettings.StringDatabase.GetLocalizedString(
+            get => LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     nameof(ForfeitDungeonConfirmation),
                     locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
@@ -179,17 +179,17 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
 
         public static readonly Dictionary<ArrowType, Func<string>> FoundArrow = new Dictionary<ArrowType, Func<string>>()
         {
-            { ArrowType.Arrow, () => LocalizationSettings.StringDatabase.GetLocalizedString(
+            { ArrowType.Arrow, () => LocalizationUtility.GetLocalizedString(
                                         StringContentTable, 
                                         "FoundArrow",
                                         locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode))) },
             // "Thou hast found a useable arrow." 
-            { ArrowType.FlashArrow, () => LocalizationSettings.StringDatabase.GetLocalizedString(
+            { ArrowType.FlashArrow, () => LocalizationUtility.GetLocalizedString(
                                             StringContentTable, 
                                             "FoundFlashArrow",
                                             locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode))) },
             // "Such good fortune!  Thou hast acquired a flash arrow!"
-            { ArrowType.NetArrow, () => LocalizationSettings.StringDatabase.GetLocalizedString(
+            { ArrowType.NetArrow, () => LocalizationUtility.GetLocalizedString(
                                             StringContentTable, 
                                             "FoundNetArrow",
                                             locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode))) }
@@ -198,12 +198,12 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
 
         public static readonly Dictionary<ItemType, Func<string>> FoundItem = new Dictionary<ItemType, Func<string>>()
         {
-            { ItemType.EauDuMuglump, () => LocalizationSettings.StringDatabase.GetLocalizedString(
+            { ItemType.EauDuMuglump, () => LocalizationUtility.GetLocalizedString(
                                             StringContentTable, 
                                             "FoundEauDuMuglump",
                                             locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode))) },
             // "A bottle of Eau du Muglump.  It will make thee smell like a muglump for a few turns."
-            { ItemType.BearTrap, () => LocalizationSettings.StringDatabase.GetLocalizedString(
+            { ItemType.BearTrap, () => LocalizationUtility.GetLocalizedString(
                                         StringContentTable, 
                                         "FoundBearTrap",
                                         locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode))) }
@@ -212,7 +212,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
 
         public static string FoundCrown
         {
-            get => LocalizationSettings.StringDatabase.GetLocalizedString(
+            get => LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     nameof(FoundCrown),
                     locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
@@ -221,7 +221,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
 
         public static string GameOverVictoryText
         {
-            get => LocalizationSettings.StringDatabase.GetLocalizedString(
+            get => LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     nameof(GameOverVictoryText),
                     locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
@@ -230,7 +230,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
 
         public static string GameOverEatenText
         {
-            get => LocalizationSettings.StringDatabase.GetLocalizedString(
+            get => LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     nameof(GameOverEatenText),
                     locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
@@ -239,7 +239,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
 
         public static string GameOverFallenText
         {
-            get => LocalizationSettings.StringDatabase.GetLocalizedString(
+            get => LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     nameof(GameOverFallenText),
                     locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
@@ -248,7 +248,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
 
         public static string GameOverQuitText 
         {
-            get => LocalizationSettings.StringDatabase.GetLocalizedString(
+            get => LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     nameof(GameOverQuitText),
                     locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
@@ -257,7 +257,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
 
         public static string Gamepad
         {
-            get => LocalizationSettings.StringDatabase.GetLocalizedString(
+            get => LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     nameof(Gamepad),
                     locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
@@ -266,7 +266,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
 
         public static string Keyboard
         {
-            get => LocalizationSettings.StringDatabase.GetLocalizedString(
+            get => LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     nameof(Keyboard),
                     locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
@@ -275,37 +275,37 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
 
         public static readonly Func<string>[] LocalizedAmountOptions = new Func<string>[] 
         { 
-            () => LocalizationSettings.StringDatabase.GetLocalizedString(StringContentTable, Constants.None, locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode))),
-            () => LocalizationSettings.StringDatabase.GetLocalizedString(StringContentTable, Constants.One, locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode))), 
-            () => LocalizationSettings.StringDatabase.GetLocalizedString(StringContentTable, Constants.Few, locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode))),
-            () => LocalizationSettings.StringDatabase.GetLocalizedString(StringContentTable, Constants.Some, locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode))), 
-            () => LocalizationSettings.StringDatabase.GetLocalizedString(StringContentTable, Constants.Many, locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode))), 
-            () => LocalizationSettings.StringDatabase.GetLocalizedString(StringContentTable, Constants.Lots, locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)))  
+            () => LocalizationUtility.GetLocalizedString(StringContentTable, Constants.None, locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode))),
+            () => LocalizationUtility.GetLocalizedString(StringContentTable, Constants.One, locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode))),
+            () => LocalizationUtility.GetLocalizedString(StringContentTable, Constants.Few, locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode))),
+            () => LocalizationUtility.GetLocalizedString(StringContentTable, Constants.Some, locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode))),
+            () => LocalizationUtility.GetLocalizedString(StringContentTable, Constants.Many, locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode))),
+            () => LocalizationUtility.GetLocalizedString(StringContentTable, Constants.Lots, locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)))
         };
 
         public static readonly Dictionary<Type, Func<string>> MuglumpKill = new Dictionary<Type, Func<string>>()
         {
-            { typeof(MuglumpBehaviour), () => LocalizationSettings.StringDatabase.GetLocalizedString(
+            { typeof(MuglumpBehaviour), () => LocalizationUtility.GetLocalizedString(
                                                 StringContentTable, 
                                                 "MuglumpKill",
                                                 locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode))) },
             // "Thy courage and wit have served thee well, for thou hast slain a muglump."
-            { typeof(BlackMuglumpBehaviour), () => LocalizationSettings.StringDatabase.GetLocalizedString(
+            { typeof(BlackMuglumpBehaviour), () => LocalizationUtility.GetLocalizedString(
                                                     StringContentTable, 
                                                     "BlackMuglumpKill",
                                                     locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode))) },
             // "Congratulations, the Black Muglump was no match for thee."
-            { typeof(GoldMuglumpBehaviour), () => LocalizationSettings.StringDatabase.GetLocalizedString(
+            { typeof(GoldMuglumpBehaviour), () => LocalizationUtility.GetLocalizedString(
                                                     StringContentTable, 
                                                     "GoldMuglumpKill",
                                                     locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)))  },
             // "What's this!?  A Gold Muglump!?  Thou art truly a great Muglump Hunter!"
-            { typeof(BlueMuglumpBehaviour), () => LocalizationSettings.StringDatabase.GetLocalizedString(
+            { typeof(BlueMuglumpBehaviour), () => LocalizationUtility.GetLocalizedString(
                                                     StringContentTable, 
                                                     "BlueMuglumpKill",
                                                     locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode))) },
             // "The hunter who was hunted has now defeated the hunted hunter."
-            { typeof(SilverbackMuglumpBehaviour), () => LocalizationSettings.StringDatabase.GetLocalizedString(
+            { typeof(SilverbackMuglumpBehaviour), () => LocalizationUtility.GetLocalizedString(
                                                             StringContentTable, 
                                                             "SilverbackMuglumpKill",
                                                             locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode))) }
@@ -314,7 +314,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
 
         public static string MuglumpWarning
         {
-            get => LocalizationSettings.StringDatabase.GetLocalizedString(
+            get => LocalizationUtility.GetLocalizedString(
                 StringContentTable, 
                 nameof(MuglumpWarning),
                 locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
@@ -323,7 +323,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
 
         public static string MuglumpDeath
         {
-            get => LocalizationSettings.StringDatabase.GetLocalizedString(
+            get => LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     nameof(MuglumpDeath),
                     locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
@@ -332,7 +332,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
 
         public static string NewSilverbackMuglump
         {
-            get => LocalizationSettings.StringDatabase.GetLocalizedString(
+            get => LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     nameof(NewSilverbackMuglump),
                     locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
@@ -341,7 +341,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
 
         public static string No
         {
-            get => LocalizationSettings.StringDatabase.GetLocalizedString(
+            get => LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     nameof(No),
                     locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
@@ -350,7 +350,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
 
         public static string PitWarning
         {
-            get => LocalizationSettings.StringDatabase.GetLocalizedString(
+            get => LocalizationUtility.GetLocalizedString(
                 StringContentTable, 
                 nameof(PitWarning), 
                 locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
@@ -359,7 +359,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
 
         public static string PitDeath
         {
-            get => LocalizationSettings.StringDatabase.GetLocalizedString(
+            get => LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     nameof(PitDeath),
                     locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
@@ -368,7 +368,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
 
         public static string Yes
         {
-            get => LocalizationSettings.StringDatabase.GetLocalizedString(
+            get => LocalizationUtility.GetLocalizedString(
                     StringContentTable, 
                     nameof(Yes),
                     locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
