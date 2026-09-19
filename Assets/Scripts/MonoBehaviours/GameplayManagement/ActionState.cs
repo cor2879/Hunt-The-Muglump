@@ -135,6 +135,17 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours.GameplayManagemen
             }
         }
 
+        public static void ResetTransientState()
+        {
+            // These state objects are static and survive Unity scene reloads. A scene can
+            // stop a pending coroutine before it clears its lock, so clear every lock
+            // explicitly when a new gameplay scene starts.
+            WalkingState.Instance.lockInput = false;
+            ShootingState.Instance.lockInput = false;
+            LookingState.Instance.lockInput = false;
+            EverythingState.Instance.lockInput = false;
+        }
+
         protected IEnumerator WaitForDurationThenDoAction(WaitDuration waitDuration)
         {
             while (waitDuration.Duration >= float.Epsilon)
