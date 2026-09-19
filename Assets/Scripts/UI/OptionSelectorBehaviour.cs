@@ -256,7 +256,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.UI
             }
             catch (System.Exception ex) 
             {
-                Debug.Log(ex);
+                Debug.LogException(ex);
             }
         }
 
