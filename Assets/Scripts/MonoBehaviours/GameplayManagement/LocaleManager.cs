@@ -9,37 +9,18 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours.GameplayManagemen
 {
     using System;
     using System.Collections;
-    using System.Linq;
 
     using UnityEngine;
     using UnityEngine.Localization;
     using UnityEngine.Localization.Settings;
     using UnityEngine.ResourceManagement.AsyncOperations;
-    using UnityEngine.UI;
-    
+
     using OldSchoolGames.HuntTheMuglump.Scripts.Components;
-    using OldSchoolGames.HuntTheMuglump.Scripts.Exceptions;
-    using OldSchoolGames.HuntTheMuglump.Scripts.Interfaces;
-    using OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours;
-    using OldSchoolGames.HuntTheMuglump.Scripts.Platform;
-    using OldSchoolGames.HuntTheMuglump.Scripts.Rules;
-    using OldSchoolGames.HuntTheMuglump.Scripts.UI;
-    using OldSchoolGames.HuntTheMuglump.Scripts.UI.GameplayPrompts;
     using OldSchoolGames.HuntTheMuglump.Scripts.Utilities;
-    using UnityEngine.SocialPlatforms;
 
     public class LocaleManager : MonoBehaviour
     {
-        private static readonly string[] StringTables =
-        {
-            "GameOverLocalizationTable",
-            StringContent.StringContentTable,
-            "MenuPanelsLocalizationTable"
-        };
-
         private static LocaleManager instance;
-
-        private bool isChangingLocale;
 
         private string appliedCultureCode;
 
@@ -117,7 +98,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours.GameplayManagemen
             // can replace and release it.
             yield return null;
 
-            yield return this.ApplyLocaleAsync(Settings.SelectedLanguage);
+            this.ApplyLocale(Settings.SelectedLanguage);
 
             if (this.IsReady)
             {
@@ -131,7 +112,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours.GameplayManagemen
 #if UNITY_WEBGL && !UNITY_EDITOR
             return;
 #else
-            if (!this.IsReady || this.isChangingLocale)
+            if (!this.IsReady)
             {
                 return;
             }
@@ -140,14 +121,13 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours.GameplayManagemen
 
             if (!string.Equals(this.appliedCultureCode, language.CultureCode, StringComparison.OrdinalIgnoreCase))
             {
-                StartCoroutine(this.ApplyLocaleAsync(language));
+                this.ApplyLocale(language);
             }
 #endif
         }
 
-        private IEnumerator ApplyLocaleAsync(SupportedLanguage language)
+        private void ApplyLocale(SupportedLanguage language)
         {
-            this.isChangingLocale = true;
             this.IsReady = false;
 
             var locale = LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(language.CultureCode)) ??
@@ -156,8 +136,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours.GameplayManagemen
             if (locale == null)
             {
                 Debug.LogError($"No Localization locale is available for '{language.CultureCode}' or the English fallback.");
-                this.isChangingLocale = false;
-                yield break;
+                return;
             }
 
             var selectedLocaleOperation = LocalizationSettings.SelectedLocaleAsync;
@@ -170,31 +149,9 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours.GameplayManagemen
                 LocalizationSettings.SelectedLocale = locale;
             }
 
-            // Load each table asynchronously so WebGL-safe cached lookups are available before
-            // gameplay begins. WebGL cannot call Addressables.WaitForCompletion at any point.
-            foreach (string tableName in StringTables)
-            {
-                var tableOperation = LocalizationSettings.StringDatabase.GetTableAsync(tableName, locale);
-                yield return tableOperation;
-
-                if (!tableOperation.IsValid())
-                {
-                    Debug.LogError($"Localization table '{tableName}' returned an invalid operation handle.");
-                    continue;
-                }
-
-                if (tableOperation.Status != AsyncOperationStatus.Succeeded)
-                {
-                    Debug.LogException(
-                        tableOperation.OperationException ??
-                        new InvalidOperationException($"Failed to preload localization table '{tableName}'."));
-                }
-            }
-
             this.appliedCultureCode = language.CultureCode;
             this.CurrentLocale = locale.LocaleName;
             this.SelectedLanguage = language.Name;
-            this.isChangingLocale = false;
             this.IsReady = true;
         }
     }
