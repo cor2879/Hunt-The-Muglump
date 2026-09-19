@@ -13,6 +13,10 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Platform
     using UnityEngine;
     using Debug = UnityEngine.Debug;
 
+#if UNITY_WEBGL && !UNITY_EDITOR
+    using UnityEngine.U2D;
+#endif
+
 #if UNITY_STEAMWORKS
     using Steamworks;
 #endif
@@ -80,6 +84,19 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Platform
         /// </summary>
         private void Awake()
         {
+#if UNITY_WEBGL && !UNITY_EDITOR
+            // Pixel Perfect Camera's 1920x1080 upscale render texture does not fit
+            // the smaller WebGL canvas. It causes the world to render into only a
+            // portion of the browser canvas while screen-space UI scales normally.
+            // The pre-7.1 WebGL build did not use this component, so restore that
+            // rendering path in browser builds without changing desktop or iOS.
+            var pixelPerfectCamera = Camera.main?.GetComponent<PixelPerfectCamera>();
+            if (pixelPerfectCamera != null)
+            {
+                pixelPerfectCamera.enabled = false;
+            }
+#endif
+
             if (Instance != null && Instance != this)
             {
                 Destroy(this.gameObject);
