@@ -323,7 +323,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours
             }
             catch (System.Exception ex)
             {
-                Debug.Log(ex);
+                Debug.LogException(ex);
             }
 
             return null;
@@ -478,7 +478,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours
             }
             catch (System.Exception ex)
             {
-                Debug.Log(ex);
+                Debug.LogException(ex);
             }
 
             return null;
