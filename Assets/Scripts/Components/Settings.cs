@@ -8,8 +8,6 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Components
 {
     using System;
     using UnityEngine;
-    using UnityEngine.Localization.Settings;
-
     using OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours;
     using OldSchoolGames.HuntTheMuglump.Scripts.UI;
 
@@ -265,20 +263,9 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Components
                     return language;
                 }
 
-                // SelectedLocale forces Localization initialization to complete synchronously when
-                // accessed too early. WebGL cannot perform that synchronous Addressables wait, so
-                // only inspect it after the asynchronous initialization operation has completed.
-                var selectedLocaleOperation = LocalizationSettings.SelectedLocaleAsync;
-
-                if (selectedLocaleOperation.IsDone &&
-                    selectedLocaleOperation.Result != null &&
-                    SupportedLanguage.SupportedLanguages.TryGetValue(
-                        selectedLocaleOperation.Result.Identifier.Code,
-                        out var currentLanguage))
-                {
-                    return currentLanguage;
-                }
-
+                // Settings are read during Awake, before Localization has necessarily created a
+                // valid SelectedLocaleAsync handle. Keep this getter independent of Addressables;
+                // LocaleManager applies the persisted language after async initialization.
                 return SupportedLanguage.SupportedLanguages["en"];
 #endif
             }
