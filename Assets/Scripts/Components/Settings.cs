@@ -53,7 +53,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Components
 
         private static PlayerPrefsObjectProperty<ScoreRecordHistory> scoreRecordHistory = new PlayerPrefsObjectProperty<ScoreRecordHistory>("scoreRecordHistory", defaultValue: new ScoreRecordHistory());
 
-        private static PlayerPrefsStringProperty selectedLanguage = new PlayerPrefsStringProperty("selectedLanguage", defaultValue: string.Empty);
+        private static PlayerPrefsStringProperty selectedLanguage = new PlayerPrefsStringProperty("selectedLanguage", defaultValue: "en");
 
         private static PlayerPrefsIntProperty menuStyle = new PlayerPrefsIntProperty("menuStyle", defaultValue: 0);
 
@@ -265,8 +265,10 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Components
 
                 // Settings are read during Awake, before Localization has necessarily created a
                 // valid SelectedLocaleAsync handle. Keep this getter independent of Addressables;
-                // LocaleManager applies the persisted language after async initialization.
-                return SupportedLanguage.SupportedLanguages["en"];
+                // normalize an empty/legacy preference and let LocaleManager apply it later.
+                var defaultLanguage = SupportedLanguage.SupportedLanguages["en"];
+                selectedLanguage.Set(defaultLanguage.CultureCode);
+                return defaultLanguage;
 #endif
             }
 
