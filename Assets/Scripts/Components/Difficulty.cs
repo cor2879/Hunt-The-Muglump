@@ -343,7 +343,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Components
             get => LocalizationUtility.GetLocalizedString(
                     StringContent.StringContentTable, 
                     this.displayName,
-                    locale: LocalizationSettings.AvailableLocales.GetLocale(new LocaleIdentifier(Settings.SelectedLanguage.CultureCode)));
+                    locale: null);
         }
 
         public string DisplayName
