@@ -316,19 +316,11 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours.GameplayManagemen
             this.CurrentControlState.Update();
             this.isInputLocked = this.MenuState.LockInput;
 
-            if (InputExtension.IsCyleArrowsPressed() && !this.LockInput)
+            // Mobile input is owned by EverythingState and the touch UI. Running the
+            // desktop shortcut handlers as well would enqueue the same action twice.
+            if (Settings.MenuStyle != MenuStyle.DragonQuest)
             {
-                this.LockInput = true;
-
-                StartCoroutine(
-                    nameof(this.WaitForPredicateToBeFalseThenDoAction),
-                    new WaitAction(
-                        () => InputExtension.IsCyleArrowsPressed(),
-                        () =>
-                        {
-                            this.LockInput = false;
-                            CycleArrows();
-                        }));
+                return;
             }
 
             if (InputExtension.IsSelectArrowsPressed() && !this.LockInput)
@@ -376,22 +368,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours.GameplayManagemen
                         }));
             }
 
-            if (InputExtension.IsCycleItemsPressed() && !this.LockInput)
-            {
-                this.LockInput = true;
-
-                StartCoroutine(
-                    nameof(this.WaitForPredicateToBeFalseThenDoAction),
-                    new WaitAction(
-                        () => InputExtension.IsCycleItemsPressed(),
-                        () =>
-                        {
-                            this.LockInput = false;
-                            CycleItems();
-                        }));
-            }
-
-            if (InputExtension.IsUseEauDuMuglumpPressed())
+            if (InputExtension.IsUseEauDuMuglumpPressed() && !this.LockInput)
             {
                 this.LockInput = true;
 
@@ -406,7 +383,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours.GameplayManagemen
                         }));
             }
 
-            if (InputExtension.IsUseBearTrapPressed())
+            if (InputExtension.IsUseBearTrapPressed() && !this.LockInput)
             {
                 this.LockInput = true;
 
