@@ -43,7 +43,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours.GameplayManagemen
 
         private static ControlStateBase GetState()
         {
-            if (PlatformManager.Platform.Equals(SupportedPlatform.iOS))
+            if (PlatformManager.UsesMobileTouchControls)
             {
                 KeyboardControlState.Instance.DisableMenus();
 
