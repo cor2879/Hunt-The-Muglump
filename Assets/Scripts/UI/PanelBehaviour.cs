@@ -85,7 +85,18 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.UI
                     StopCoroutine(fadeRoutine);
                 }
 
-                fadeRoutine = StartCoroutine(Fade(1f));
+                if (this.isActiveAndEnabled)
+                {
+                    fadeRoutine = StartCoroutine(Fade(1f));
+                }
+                else
+                {
+                    // A panel can be requested while a containing UI group is still
+                    // inactive. Coroutines cannot run in that state, so complete the
+                    // visual transition immediately; the panel will be ready when its
+                    // hierarchy becomes active.
+                    this.CanvasGroup.alpha = 1f;
+                }
             }
 
             if (this.ButtonsPanel != null)
