@@ -316,6 +316,38 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours.GameplayManagemen
             this.CurrentControlState.Update();
             this.isInputLocked = this.MenuState.LockInput;
 
+            // Inventory cycling belongs to the gameplay manager rather than either
+            // inventory panel, so it remains available with the shared UI tray.
+            if (InputExtension.IsCyleArrowsPressed() && !this.LockInput)
+            {
+                this.LockInput = true;
+
+                StartCoroutine(
+                    nameof(this.WaitForPredicateToBeFalseThenDoAction),
+                    new WaitAction(
+                        () => InputExtension.IsCyleArrowsPressed(),
+                        () =>
+                        {
+                            this.LockInput = false;
+                            this.CycleArrows();
+                        }));
+            }
+
+            if (InputExtension.IsCycleItemsPressed() && !this.LockInput)
+            {
+                this.LockInput = true;
+
+                StartCoroutine(
+                    nameof(this.WaitForPredicateToBeFalseThenDoAction),
+                    new WaitAction(
+                        () => InputExtension.IsCycleItemsPressed(),
+                        () =>
+                        {
+                            this.LockInput = false;
+                            this.CycleItems();
+                        }));
+            }
+
             // Mobile input is owned by EverythingState and the touch UI. Running the
             // desktop shortcut handlers as well would enqueue the same action twice.
             if (PlatformManager.UsesMobileTouchControls || Settings.MenuStyle != MenuStyle.DragonQuest)
