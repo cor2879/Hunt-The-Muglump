@@ -1,6 +1,12 @@
 name: Deploy Hunt the Muglump WebGL
 
 on:
+  push:
+    branches:
+      - shopify-arcade-integration
+    paths:
+      - ".github/webgl-template/**"
+      - ".github/workflows/deploy-webgl-pages.yml"
   release:
     types:
       - published
