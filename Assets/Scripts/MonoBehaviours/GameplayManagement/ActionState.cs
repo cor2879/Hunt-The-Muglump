@@ -124,15 +124,13 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours.GameplayManagemen
         public static ActionStateBase GetInitialState()
         {
             Debug.Log(Settings.MenuStyle);
-            switch (Settings.MenuStyle)
+
+            if (PlatformManager.UsesMobileTouchControls || Settings.MenuStyle == MenuStyle.Mobile)
             {
-                case MenuStyle.DragonQuest:
-                    return WalkingState.Instance;
-                case MenuStyle.Mobile:
-                    return EverythingState.Instance;
-                default:
-                    return WalkingState.Instance;
+                return EverythingState.Instance;
             }
+
+            return WalkingState.Instance;
         }
 
         public static void ResetTransientState()

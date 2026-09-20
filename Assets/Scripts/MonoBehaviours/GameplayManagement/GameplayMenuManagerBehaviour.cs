@@ -318,7 +318,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours.GameplayManagemen
 
             // Mobile input is owned by EverythingState and the touch UI. Running the
             // desktop shortcut handlers as well would enqueue the same action twice.
-            if (Settings.MenuStyle != MenuStyle.DragonQuest)
+            if (PlatformManager.UsesMobileTouchControls || Settings.MenuStyle != MenuStyle.DragonQuest)
             {
                 return;
             }

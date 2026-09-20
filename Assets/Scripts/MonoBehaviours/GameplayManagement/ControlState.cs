@@ -45,14 +45,9 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours.GameplayManagemen
         {
             if (PlatformManager.UsesMobileTouchControls)
             {
+                // Unity's on-screen controls register as a virtual Gamepad. On mobile,
+                // touch must continue to own the UI even when that virtual device exists.
                 KeyboardControlState.Instance.DisableMenus();
-
-                if (InputExtension.IsGamepadPresent())
-                {
-                    MobileTouchControlState.Instance.DisableMenus();
-                    return GamepadControlState.Instance;
-                }
-
                 GamepadControlState.Instance.DisableMenus();
                 return MobileTouchControlState.Instance;
             }

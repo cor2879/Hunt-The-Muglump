@@ -13,6 +13,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours.GameplayManagemen
 
     using OldSchoolGames.HuntTheMuglump.Scripts.Components;
     using OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours;
+    using OldSchoolGames.HuntTheMuglump.Scripts.Platform;
     using OldSchoolGames.HuntTheMuglump.Scripts.Utilities;
     using System;
     using TMPro;
@@ -65,18 +66,15 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours.GameplayManagemen
 
         public virtual void Start()
         {
-            switch (Settings.MenuStyle)
+            // The browser may inherit a desktop menu preference from saved settings.
+            // A touch-only mobile session must always start in the all-actions state.
+            if (PlatformManager.UsesMobileTouchControls || Settings.MenuStyle == MenuStyle.Mobile)
             {
-                case MenuStyle.DragonQuest:
-                    this.ChangeToWalkingState(false);
-                    break;
-                case MenuStyle.Mobile:
-                    this.ChangeToEverythingState();
-                    break;
-                default:
-                    ChangeToWalkingState(false);
-                    break;
+                this.ChangeToEverythingState();
+                return;
             }
+
+            this.ChangeToWalkingState(false);
         }
 
         public abstract void HandleInput();
