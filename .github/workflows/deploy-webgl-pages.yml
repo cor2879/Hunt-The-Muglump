@@ -34,10 +34,10 @@ jobs:
           GH_REPO: ${{ github.repository }}
         run: |
           mkdir -p release site
-          gh release download webgl-7.1.15 \
-            --pattern 'HuntTheMuglump.7.1.15-WebGL-ready.zip' \
+          gh release download webgl-7.1.16 \
+            --pattern 'HuntTheMuglump.7.1.16-WebGL-ready.zip' \
             --dir release
-          unzip -q release/HuntTheMuglump.7.1.15-WebGL-ready.zip -d site
+          unzip -q release/HuntTheMuglump.7.1.16-WebGL-ready.zip -d site
           cp .github/webgl-template/index.html site/index.html
           cp .github/webgl-template/style.css site/TemplateData/style.css
 
