@@ -14,6 +14,7 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
 
     using OldSchoolGames.HuntTheMuglump.Scripts.Components;
     using OldSchoolGames.HuntTheMuglump.Scripts.MonoBehaviours.GameplayManagement;
+    using OldSchoolGames.HuntTheMuglump.Scripts.Platform;
 
     /// <summary>
     /// Static class used for handling game input
@@ -342,6 +343,13 @@ namespace OldSchoolGames.HuntTheMuglump.Scripts.Utilities
 
         public static void HideMouseIfGamepadIsPresent()
         {
+            // Unity's on-screen controls register as a virtual Gamepad. Mobile
+            // browsers do not support cursor locking and have no mouse cursor to manage.
+            if (PlatformManager.UsesMobileTouchControls)
+            {
+                return;
+            }
+
             if (IsGamepadPresent())
             {
                 InputExtension.UnlockMouse();
